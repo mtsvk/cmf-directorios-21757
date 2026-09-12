@@ -1,0 +1,4171 @@
+{
+  "schema":{
+    "fields":[
+      {
+        "name":"index",
+        "type":"integer"
+      },
+      {
+        "name":"empresa_a",
+        "type":"string"
+      },
+      {
+        "name":"empresa_b",
+        "type":"string"
+      },
+      {
+        "name":"directores_compartidos",
+        "type":"integer"
+      },
+      {
+        "name":"nombres_compartidos",
+        "type":"string"
+      },
+      {
+        "name":"empresa_a_nombre",
+        "type":"string"
+      },
+      {
+        "name":"empresa_b_nombre",
+        "type":"string"
+      }
+    ],
+    "primaryKey":[
+      "index"
+    ],
+    "pandas_version":"1.4.0"
+  },
+  "data":[
+    {
+      "index":0,
+      "empresa_a":"77198108",
+      "empresa_b":"96666140",
+      "directores_compartidos":10,
+      "nombres_compartidos":"ANDRES FERNANDO MERINO CANGAS; ARTURO CONCHA URETA; CESAR GEOVANY SOTO CAVIERES; CRISTIAN FERNANDO RODRIGUEZ ALLENDES; GUILLERMO ARTURO TAGLE QUIROZ; JUAN ANDRES CAMUS CAMUS; JUAN PABLO CORDOBA GARCES; MARCELO ANDRES MOSSO GOMEZ; MIGUEL MATA HUERTA; SERGIO AURELIO CONCHA MUNILLA",
+      "empresa_a_nombre":"DCV ASESORIAS Y SERVICIOS S.A.",
+      "empresa_b_nombre":"DEPOSITO CENTRAL DE VALORES S.A. DEPOSITO DE VALORES"
+    },
+    {
+      "index":1,
+      "empresa_a":"96579280",
+      "empresa_b":"99012000",
+      "directores_compartidos":9,
+      "nombres_compartidos":"ANA MARIA RIVERA TAVOLARA; BONIFACIO BILBAO DE RAADT; CRISTIAN ARNOLDS REYES; FELIPE SILVA MÉNDEZ; JOSÉ ANTONIO GARCES SILVA; JUAN CAROS HURTADO CRUZAT; MARÍA PAZ SABATÉ GARCÉS; PATRICIO DANIEL PARODI GIL; PEDRO HURTADO VICUÑA",
+      "empresa_a_nombre":"CN LIFE, COMPAÑIA DE SEGUROS DE VIDA S.A.",
+      "empresa_b_nombre":"COMPAÑIA DE SEGUROS DE VIDA CONSORCIO NACIONAL DE SEGUROS S.A."
+    },
+    {
+      "index":2,
+      "empresa_a":"96579280",
+      "empresa_b":"96654180",
+      "directores_compartidos":9,
+      "nombres_compartidos":"ANA MARIA RIVERA TAVOLARA; BONIFACIO BILBAO DE RAADT; CRISTIAN ARNOLDS REYES; FELIPE SILVA MÉNDEZ; JOSÉ ANTONIO GARCES SILVA; JUAN CAROS HURTADO CRUZAT; MARÍA PAZ SABATÉ GARCÉS; PATRICIO DANIEL PARODI GIL; PEDRO HURTADO VICUÑA",
+      "empresa_a_nombre":"CN LIFE, COMPAÑIA DE SEGUROS DE VIDA S.A.",
+      "empresa_b_nombre":"COMPAÑIA DE SEGUROS GENERALES CONSORCIO NACIONAL DE SEGUROS S.A."
+    },
+    {
+      "index":3,
+      "empresa_a":"96654180",
+      "empresa_b":"99012000",
+      "directores_compartidos":9,
+      "nombres_compartidos":"ANA MARIA RIVERA TAVOLARA; BONIFACIO BILBAO DE RAADT; CRISTIAN ARNOLDS REYES; FELIPE SILVA MÉNDEZ; JOSÉ ANTONIO GARCES SILVA; JUAN CAROS HURTADO CRUZAT; MARÍA PAZ SABATÉ GARCÉS; PATRICIO DANIEL PARODI GIL; PEDRO HURTADO VICUÑA",
+      "empresa_a_nombre":"COMPAÑIA DE SEGUROS GENERALES CONSORCIO NACIONAL DE SEGUROS S.A.",
+      "empresa_b_nombre":"COMPAÑIA DE SEGUROS DE VIDA CONSORCIO NACIONAL DE SEGUROS S.A."
+    },
+    {
+      "index":4,
+      "empresa_a":"85741000",
+      "empresa_b":"96656410",
+      "directores_compartidos":8,
+      "nombres_compartidos":"BONIFACIO BILBAO HORMAECHE; JENNIFER SOTO URRA; JORGE EDUARDO MARIN CORREA; JOSE IGNACIO GOLDSACK TREBILCOCK; JOSE MIGUEL IRARRAZAVAL ELIZALDE; JUAN CARLOS EYZAGUIRRE ECHENIQUE; LUIS FELIPE GAZITUA ACHONDO; RAMON ELUCHANS OLIVARES",
+      "empresa_a_nombre":"BICECORP S.A.",
+      "empresa_b_nombre":"BICE VIDA COMPAÑIA DE SEGUROS S.A."
+    },
+    {
+      "index":5,
+      "empresa_a":"96837630",
+      "empresa_b":"96837640",
+      "directores_compartidos":7,
+      "nombres_compartidos":"CAMILLE LOUIS .; CARLA VIRGINIA XIMENA BENEDETTI BUSTOS; FRANCISCO JAVIER VALENZUELA CORNEJO; MARCELLO DE CHIARO .; MARIE-AGATHE PORTE .; OLIVIER MICHEL LAMOUR .; RODRIGO JORDÁN FUCHS",
+      "empresa_a_nombre":"BNP PARIBAS CARDIF SEGUROS DE VIDA S.A.",
+      "empresa_b_nombre":"BNP PARIBAS CARDIF SEGUROS GENERALES S.A."
+    },
+    {
+      "index":6,
+      "empresa_a":"96513200",
+      "empresa_b":"96569460",
+      "directores_compartidos":7,
+      "nombres_compartidos":"ALVARO FLAÑO GARCIA; CLEMENTE CAMBARA MUÑIZ; GUILLERMO PASCUAL BELTRAN; MARTA PASCUAL BELTRAN; MIGUEL ALMONACID ORTIZ; PATRICIO GARCIA DOMINGUEZ; SILVIA BARRON ADRIAN",
+      "empresa_a_nombre":"INVERSIONES UNION ESPAÑOLA S.A.",
+      "empresa_b_nombre":"INVERSIONES COVADONGA S.A."
+    },
+    {
+      "index":7,
+      "empresa_a":"92411000",
+      "empresa_b":"93470000",
+      "directores_compartidos":6,
+      "nombres_compartidos":"CARLOS LONZA LAZO; HORACIO GONZALEZ MORALES; LJUBO RADNIC FRANULIC; RAUL GARDILCIC RIMASSA; ROSANDA MAGAS VRANIC; YOVAN TRKOVIC MORENO",
+      "empresa_a_nombre":"ESTADIO CROATA S.A.",
+      "empresa_b_nombre":"INMOBILIARIA YUGOSLAVA SOCIEDAD ANONIMA"
+    },
+    {
+      "index":8,
+      "empresa_a":"76000739",
+      "empresa_b":"76833300",
+      "directores_compartidos":6,
+      "nombres_compartidos":"ALEJANDRO FERREIRO YAZIGI; JORGE ADOLFO LESSER GARCIA-HUIDOBRO; JUAN IGNACIO PAROT BECKER; MARIA OLIVIA RECART HERRERA; MICHAEL ROBERT NIGGLI .; SUSANA JIMENEZ SCHUSTER",
+      "empresa_a_nombre":"ESVAL S.A.",
+      "empresa_b_nombre":"ESSBIO S.A."
+    },
+    {
+      "index":9,
+      "empresa_a":"96569460",
+      "empresa_b":"99010000",
+      "directores_compartidos":6,
+      "nombres_compartidos":"ALVARO FLAÑO GARCIA; CLEMENTE CAMBARA MUÑIZ; GUILLERMO PASCUAL BELTRAN; MARTA PASCUAL BELTRAN; MIGUEL ALMONACID ORTIZ; PATRICIO GARCIA DOMINGUEZ",
+      "empresa_a_nombre":"INVERSIONES COVADONGA S.A.",
+      "empresa_b_nombre":"INVERSIONES UNESPA S.A."
+    },
+    {
+      "index":10,
+      "empresa_a":"96513200",
+      "empresa_b":"99010000",
+      "directores_compartidos":6,
+      "nombres_compartidos":"ALVARO FLAÑO GARCIA; CLEMENTE CAMBARA MUÑIZ; GUILLERMO PASCUAL BELTRAN; MARTA PASCUAL BELTRAN; MIGUEL ALMONACID ORTIZ; PATRICIO GARCIA DOMINGUEZ",
+      "empresa_a_nombre":"INVERSIONES UNION ESPAÑOLA S.A.",
+      "empresa_b_nombre":"INVERSIONES UNESPA S.A."
+    },
+    {
+      "index":11,
+      "empresa_a":"96511530",
+      "empresa_b":"96529340",
+      "directores_compartidos":6,
+      "nombres_compartidos":"ALEJANDRO PONCE PINOCHET; ANDRES NIEME BALANDA; DANIELA PONCE PINOCHET; FRANCISCA PONCE PINOCHET; PATRICIO PHILLIPS SAENZ; RAFAEL GUILISASTI GANA",
+      "empresa_a_nombre":"SOCIEDAD DE INVERSIONES PAMPA CALICHERA S.A.",
+      "empresa_b_nombre":"NORTE GRANDE S.A."
+    },
+    {
+      "index":12,
+      "empresa_a":"76061223",
+      "empresa_b":"96573600",
+      "directores_compartidos":6,
+      "nombres_compartidos":"ANDRES IRARRAZABAL URETA; BRIAN BRENTA CARRERE; FERNANDO BALLESTEROS MARTINEZ; MARIO GAZITUA SWETT; ROBERTO BELLONI PECHINI; SANTIAGO FERNANDEZ FIGARES CASTELO",
+      "empresa_a_nombre":"ZENIT SEGUROS GENERALES S.A.",
+      "empresa_b_nombre":"BCI SEGUROS VIDA S.A."
+    },
+    {
+      "index":13,
+      "empresa_a":"96573600",
+      "empresa_b":"99147000",
+      "directores_compartidos":5,
+      "nombres_compartidos":"ANDRES IRARRAZABAL URETA; FERNANDO BALLESTEROS MARTINEZ; MARIO GAZITUA SWETT; ROBERTO BELLONI PECHINI; SANTIAGO FERNANDEZ FIGARES CASTELO",
+      "empresa_a_nombre":"BCI SEGUROS VIDA S.A.",
+      "empresa_b_nombre":"BCI SEGUROS GENERALES S.A."
+    },
+    {
+      "index":14,
+      "empresa_a":"90249000",
+      "empresa_b":"96572920",
+      "directores_compartidos":5,
+      "nombres_compartidos":"EDUARDO MUÑOZ VIVALDI; JUAN ANDRES CAMUS CAMUS; JUAN GUILLERMO AGUERO VERGARA; JUAN PABLO CORDOBA GARCES; RODRIGO MANUBENS MOLTEDO",
+      "empresa_a_nombre":"BOLSA DE COMERCIO DE SANTIAGO, BOLSA DE VALORES",
+      "empresa_b_nombre":"CCLV, CONTRAPARTE CENTRAL S.A."
+    },
+    {
+      "index":15,
+      "empresa_a":"96522900",
+      "empresa_b":"96874030",
+      "directores_compartidos":5,
+      "nombres_compartidos":"ANSELMO CYRIL PALMA PFOTZER; JAIME FERNANDO SANTA CRUZ NEGRI; JUAN PABLO SANTA CRUZ NEGRI; LEONIDAS VIAL ECHEVERRIA; MANUEL JOSE VIAL CLARO",
+      "empresa_a_nombre":"CRÉDITOS, ORGANIZACIÓN Y FINANZAS S.A.",
+      "empresa_b_nombre":"ABC S.A."
+    },
+    {
+      "index":16,
+      "empresa_a":"77470446",
+      "empresa_b":"91344000",
+      "directores_compartidos":5,
+      "nombres_compartidos":"CARLOS CORSSEN PEREIRA; CRISTIAN MARTINEZ VERGARA; LESLIE SEPULVEDA VERGARA; LIU YIN .; QINGZHONG ZOU .",
+      "empresa_a_nombre":"LITORAL TRANSMISION S.A.",
+      "empresa_b_nombre":"COMPAÑIA ELECTRICA DEL LITORAL S.A."
+    },
+    {
+      "index":17,
+      "empresa_a":"96508210",
+      "empresa_b":"96933030",
+      "directores_compartidos":5,
+      "nombres_compartidos":"ALEJANDRA LOYOLA SCHMIDT; CARLOS MOLINA ZALDÍVAR; JOSÉ MIGUEL SÁNCHEZ CALLEJAS; MAURICIO ROBLES PARADA; PAULA VALENZUELA PEÑA",
+      "empresa_a_nombre":"MAPFRE COMPA#IA DE SEGUROS GENERALES DE CHILE S.A.",
+      "empresa_b_nombre":"MAPFRE COMPA#IA DE SEGUROS DE VIDA DE CHILE S.A."
+    },
+    {
+      "index":18,
+      "empresa_a":"76328793",
+      "empresa_b":"99289000",
+      "directores_compartidos":5,
+      "nombres_compartidos":"GREGORIO ARTURO RUIZ-ESQUIDE SANDOVAL; IAN BONTA CORTHORN; JESSICA POWER ROCA; JOAQUIN VIAL RUIZ-TAGLE; KATHLEEN BARCLAY .",
+      "empresa_a_nombre":"METLIFE CHILE SEGUROS GENERALES S.A.",
+      "empresa_b_nombre":"METLIFE CHILE SEGUROS DE VIDA S.A."
+    },
+    {
+      "index":19,
+      "empresa_a":"90412000",
+      "empresa_b":"91553000",
+      "directores_compartidos":5,
+      "nombres_compartidos":"BERNARDO MATTE IZQUIERDO; JORGE BERNARDO LARRAIN MATTE; JORGE HERNAN RODRIGUEZ WILSON; LUIS FELIPE GAZITUA ACHONDO; SIMON SILVA LOZANO",
+      "empresa_a_nombre":"MINERA VALPARAISO S.A.",
+      "empresa_b_nombre":"FORESTAL CONSTRUCTORA Y COMERCIAL DEL PACIFICO SUR S.A."
+    },
+    {
+      "index":20,
+      "empresa_a":"96529340",
+      "empresa_b":"96532830",
+      "directores_compartidos":5,
+      "nombres_compartidos":"ALEJANDRO PONCE PINOCHET; ANDRES NIEME BALANDA; DANIELA PONCE PINOCHET; FRANCISCA PONCE PINOCHET; RAFAEL GUILISASTI GANA",
+      "empresa_a_nombre":"NORTE GRANDE S.A.",
+      "empresa_b_nombre":"SOCIEDAD DE INVERSIONES ORO BLANCO S.A."
+    },
+    {
+      "index":21,
+      "empresa_a":"96511530",
+      "empresa_b":"96532830",
+      "directores_compartidos":5,
+      "nombres_compartidos":"ALEJANDRO PONCE PINOCHET; ANDRES NIEME BALANDA; DANIELA PONCE PINOCHET; FRANCISCA PONCE PINOCHET; RAFAEL GUILISASTI GANA",
+      "empresa_a_nombre":"SOCIEDAD DE INVERSIONES PAMPA CALICHERA S.A.",
+      "empresa_b_nombre":"SOCIEDAD DE INVERSIONES ORO BLANCO S.A."
+    },
+    {
+      "index":22,
+      "empresa_a":"76061223",
+      "empresa_b":"99147000",
+      "directores_compartidos":5,
+      "nombres_compartidos":"ANDRES IRARRAZABAL URETA; FERNANDO BALLESTEROS MARTINEZ; MARIO GAZITUA SWETT; ROBERTO BELLONI PECHINI; SANTIAGO FERNANDEZ FIGARES CASTELO",
+      "empresa_a_nombre":"ZENIT SEGUROS GENERALES S.A.",
+      "empresa_b_nombre":"BCI SEGUROS GENERALES S.A."
+    },
+    {
+      "index":23,
+      "empresa_a":"93727000",
+      "empresa_b":"99040000",
+      "directores_compartidos":4,
+      "nombres_compartidos":"CARMEN GARCIA DOMINGUEZ; FERNANDO FRANKE GARCÍA; JORGE GARCIA SALAMANCA; MARIA VICTORIA GARCIA DOMINGUEZ",
+      "empresa_a_nombre":"COMPAÑIA DE INVERSIONES LA ESPAÑOLA S.A.",
+      "empresa_b_nombre":"INVERSIONES HISPANIA S.A."
+    },
+    {
+      "index":24,
+      "empresa_a":"91344000",
+      "empresa_b":"96766110",
+      "directores_compartidos":4,
+      "nombres_compartidos":"CRISTIAN MARTINEZ VERGARA; LESLIE SEPULVEDA VERGARA; LIU YIN .; QINGZHONG ZOU .",
+      "empresa_a_nombre":"COMPAÑIA ELECTRICA DEL LITORAL S.A.",
+      "empresa_b_nombre":"ENERGIA DE CASABLANCA S.A."
+    },
+    {
+      "index":25,
+      "empresa_a":"90690000",
+      "empresa_b":"96556310",
+      "directores_compartidos":4,
+      "nombres_compartidos":"JORGE ANDUEZA FOUQUE; JUAN EDGARDO GOLDENBERG PEÑAFIEL; MAURIZIO ANGELINI AMADORI; ROBERTO ANGELINI ROSSI",
+      "empresa_a_nombre":"EMPRESAS COPEC S.A.",
+      "empresa_b_nombre":"ANTARCHILE S.A."
+    },
+    {
+      "index":26,
+      "empresa_a":"90690000",
+      "empresa_b":"94082000",
+      "directores_compartidos":4,
+      "nombres_compartidos":"ANDRÉS LEHUEDE BROMLEY; JORGE ANDUEZA FOUQUE; JOSE TOMAS GUZMAN RENCORET; ROBERTO ANGELINI ROSSI",
+      "empresa_a_nombre":"EMPRESAS COPEC S.A.",
+      "empresa_b_nombre":"INVERSIONES SIEMEL S.A."
+    },
+    {
+      "index":27,
+      "empresa_a":"95134000",
+      "empresa_b":"96723320",
+      "directores_compartidos":4,
+      "nombres_compartidos":"BELTRAN FELIPE URENDA SALAMANCA; FRANCISCO GARDEWEG OSSA; FRANCO MONTALBETTI MOLTEDO; LUIS MANCILLA PEREZ",
+      "empresa_a_nombre":"GRUPO EMPRESAS NAVIERAS S.A.",
+      "empresa_b_nombre":"PORTUARIA CABO FROWARD S.A."
+    },
+    {
+      "index":28,
+      "empresa_a":"76800115",
+      "empresa_b":"96753330",
+      "directores_compartidos":4,
+      "nombres_compartidos":"FELIPE LARRAIN BASCUÑAN; FERNANDO SANCHEZ CHAIGNEAU; HERTA MARIA MONICA SCHMUTZER VON OLDERSHAUSEN; PABLO UNDURRAGA YOACHAM",
+      "empresa_a_nombre":"INDEPENDENCIA INTERNACIONAL ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresa_b_nombre":"INDEPENDENCIA ADMINISTRADORA GENERAL DE FONDOS S.A."
+    },
+    {
+      "index":29,
+      "empresa_a":"77470446",
+      "empresa_b":"96766110",
+      "directores_compartidos":4,
+      "nombres_compartidos":"CRISTIAN MARTINEZ VERGARA; LESLIE SEPULVEDA VERGARA; LIU YIN .; QINGZHONG ZOU .",
+      "empresa_a_nombre":"LITORAL TRANSMISION S.A.",
+      "empresa_b_nombre":"ENERGIA DE CASABLANCA S.A."
+    },
+    {
+      "index":30,
+      "empresa_a":"77244875",
+      "empresa_b":"77513781",
+      "directores_compartidos":4,
+      "nombres_compartidos":"DAVID URI KLABER ALALUF; FERNANDO LEFORT GORCHS; JUAN ANDRES ILHARREBORDE CASTRO; MAXIMO GUSTAVO LATORRE ERRAZURIZ",
+      "empresa_a_nombre":"PRUDENTIAL ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresa_b_nombre":"ADMINISTRADORA AMERICANA DE INVERSIONES S.A."
+    },
+    {
+      "index":31,
+      "empresa_a":"94510000",
+      "empresa_b":"94716000",
+      "directores_compartidos":4,
+      "nombres_compartidos":"CLAUDIO CORREA VIOLA; FRANCISCO JAVIER ERRAZURIZ OVALLE; JUAN ENRIQUE BUDINICH SANTANDER; SEBASTIAN EDWARDS FIGUEROA",
+      "empresa_a_nombre":"RENTA NACIONAL COMPA#IA DE SEGUROS GENERALES S.A.",
+      "empresa_b_nombre":"RENTA NACIONAL COMPA#IA DE SEGUROS DE VIDA S.A."
+    },
+    {
+      "index":32,
+      "empresa_a":"76573480",
+      "empresa_b":"93930000",
+      "directores_compartidos":4,
+      "nombres_compartidos":"CARLOS SCHNAPP SCHARF; CHRISTIAN TRAEGER GIMENO; FERNANDO MASSÚ TARÉ; JORGE SELUME ZARTOS",
+      "empresa_a_nombre":"SEGUROS CLC S.A.",
+      "empresa_b_nombre":"CLINICA LAS CONDES S.A."
+    },
+    {
+      "index":33,
+      "empresa_a":"76263414",
+      "empresa_b":"99017000",
+      "directores_compartidos":4,
+      "nombres_compartidos":"ALFREDO FERNANDEZ VEGA; MANUEL OLIVARES ROSSETTI; ROCIO FONSECA CHAMORRO; ÁNGEL SEGUNDO CABRERA VENEGAS",
+      "empresa_a_nombre":"SEGUROS DE VIDA SURAMERICANA S.A.",
+      "empresa_b_nombre":"SEGUROS GENERALES SURAMERICANA S.A."
+    },
+    {
+      "index":34,
+      "empresa_a":"86547900",
+      "empresa_b":"90320000",
+      "directores_compartidos":4,
+      "nombres_compartidos":"BALTAZAR SÁNCHEZ GUZMÁN; CRISTÓBAL EYZAGUIRRE BAEZA; JOSÉ IGNACIO FIGUEROA ELGUETA; SEBASTIAN SWETT OPAZO",
+      "empresa_a_nombre":"SOCIEDAD ANONIMA VIÑA SANTA RITA",
+      "empresa_b_nombre":"COMPAÑIA ELECTRO METALURGICA S.A."
+    },
+    {
+      "index":35,
+      "empresa_a":"76215637",
+      "empresa_b":"96703230",
+      "directores_compartidos":3,
+      "nombres_compartidos":"ALBERTO EGUIGUREN CORREA; HIKARU SANUKI .; VICENTE DOMINGUEZ VIAL",
+      "empresa_a_nombre":"AGUAS ARAUCANIA S.A.",
+      "empresa_b_nombre":"AGUAS DECIMA S.A."
+    },
+    {
+      "index":36,
+      "empresa_a":"76215637",
+      "empresa_b":"76850128",
+      "directores_compartidos":3,
+      "nombres_compartidos":"ALBERTO EGUIGUREN CORREA; HIKARU SANUKI .; VICENTE DOMINGUEZ VIAL",
+      "empresa_a_nombre":"AGUAS ARAUCANIA S.A.",
+      "empresa_b_nombre":"NUEVA ATACAMA S.A."
+    },
+    {
+      "index":37,
+      "empresa_a":"76215634",
+      "empresa_b":"76215637",
+      "directores_compartidos":3,
+      "nombres_compartidos":"ALBERTO EGUIGUREN CORREA; HIKARU SANUKI .; VICENTE DOMINGUEZ VIAL",
+      "empresa_a_nombre":"AGUAS DEL ALTIPLANO S.A.",
+      "empresa_b_nombre":"AGUAS ARAUCANIA S.A."
+    },
+    {
+      "index":38,
+      "empresa_a":"76215634",
+      "empresa_b":"96703230",
+      "directores_compartidos":3,
+      "nombres_compartidos":"ALBERTO EGUIGUREN CORREA; HIKARU SANUKI .; VICENTE DOMINGUEZ VIAL",
+      "empresa_a_nombre":"AGUAS DEL ALTIPLANO S.A.",
+      "empresa_b_nombre":"AGUAS DECIMA S.A."
+    },
+    {
+      "index":39,
+      "empresa_a":"76215634",
+      "empresa_b":"76850128",
+      "directores_compartidos":3,
+      "nombres_compartidos":"ALBERTO EGUIGUREN CORREA; HIKARU SANUKI .; VICENTE DOMINGUEZ VIAL",
+      "empresa_a_nombre":"AGUAS DEL ALTIPLANO S.A.",
+      "empresa_b_nombre":"NUEVA ATACAMA S.A."
+    },
+    {
+      "index":40,
+      "empresa_a":"76215628",
+      "empresa_b":"76215637",
+      "directores_compartidos":3,
+      "nombres_compartidos":"ALBERTO EGUIGUREN CORREA; HIKARU SANUKI .; VICENTE DOMINGUEZ VIAL",
+      "empresa_a_nombre":"AGUAS MAGALLANES S.A.",
+      "empresa_b_nombre":"AGUAS ARAUCANIA S.A."
+    },
+    {
+      "index":41,
+      "empresa_a":"76215628",
+      "empresa_b":"96703230",
+      "directores_compartidos":3,
+      "nombres_compartidos":"ALBERTO EGUIGUREN CORREA; HIKARU SANUKI .; VICENTE DOMINGUEZ VIAL",
+      "empresa_a_nombre":"AGUAS MAGALLANES S.A.",
+      "empresa_b_nombre":"AGUAS DECIMA S.A."
+    },
+    {
+      "index":42,
+      "empresa_a":"76215628",
+      "empresa_b":"76215634",
+      "directores_compartidos":3,
+      "nombres_compartidos":"ALBERTO EGUIGUREN CORREA; HIKARU SANUKI .; VICENTE DOMINGUEZ VIAL",
+      "empresa_a_nombre":"AGUAS MAGALLANES S.A.",
+      "empresa_b_nombre":"AGUAS DEL ALTIPLANO S.A."
+    },
+    {
+      "index":43,
+      "empresa_a":"76215628",
+      "empresa_b":"76850128",
+      "directores_compartidos":3,
+      "nombres_compartidos":"ALBERTO EGUIGUREN CORREA; HIKARU SANUKI .; VICENTE DOMINGUEZ VIAL",
+      "empresa_a_nombre":"AGUAS MAGALLANES S.A.",
+      "empresa_b_nombre":"NUEVA ATACAMA S.A."
+    },
+    {
+      "index":44,
+      "empresa_a":"91297000",
+      "empresa_b":"96708470",
+      "directores_compartidos":3,
+      "nombres_compartidos":"JORGE PATRICIO SALVATIERRA PACHECO; JUAN ENRIQUE RASSMUSS RAIER; ROBERTO DE ANDARACA ADRIASOLA",
+      "empresa_a_nombre":"CAP S.A.",
+      "empresa_b_nombre":"INVERCAP S.A."
+    },
+    {
+      "index":45,
+      "empresa_a":"90320000",
+      "empresa_b":"90331000",
+      "directores_compartidos":3,
+      "nombres_compartidos":"BALTAZAR SÁNCHEZ GUZMÁN; FERNANDO FRANKE GARCÍA; SEBASTIAN SWETT OPAZO",
+      "empresa_a_nombre":"COMPAÑIA ELECTRO METALURGICA S.A.",
+      "empresa_b_nombre":"CRISTALERIAS DE CHILE S.A."
+    },
+    {
+      "index":46,
+      "empresa_a":"90320000",
+      "empresa_b":"96640360",
+      "directores_compartidos":3,
+      "nombres_compartidos":"BALTAZAR SÁNCHEZ GUZMÁN; CRISTÓBAL EYZAGUIRRE BAEZA; JOSÉ IGNACIO FIGUEROA ELGUETA",
+      "empresa_a_nombre":"COMPAÑIA ELECTRO METALURGICA S.A.",
+      "empresa_b_nombre":"QUEMCHI S.A."
+    },
+    {
+      "index":47,
+      "empresa_a":"90222000",
+      "empresa_b":"91553000",
+      "directores_compartidos":3,
+      "nombres_compartidos":"BERNARDO MATTE IZQUIERDO; JORGE BERNARDO LARRAIN MATTE; JORGE HERNAN RODRIGUEZ WILSON",
+      "empresa_a_nombre":"EMPRESAS CMPC S.A.",
+      "empresa_b_nombre":"FORESTAL CONSTRUCTORA Y COMERCIAL DEL PACIFICO SUR S.A."
+    },
+    {
+      "index":48,
+      "empresa_a":"90222000",
+      "empresa_b":"90412000",
+      "directores_compartidos":3,
+      "nombres_compartidos":"BERNARDO MATTE IZQUIERDO; JORGE BERNARDO LARRAIN MATTE; JORGE HERNAN RODRIGUEZ WILSON",
+      "empresa_a_nombre":"EMPRESAS CMPC S.A.",
+      "empresa_b_nombre":"MINERA VALPARAISO S.A."
+    },
+    {
+      "index":49,
+      "empresa_a":"96512190",
+      "empresa_b":"96512200",
+      "directores_compartidos":3,
+      "nombres_compartidos":"FELIPE LARRAIN VIAL; JOSE ANTONIO MARIN JORDAN; RAFAEL GUILISASTI GANA",
+      "empresa_a_nombre":"FRUTICOLA VICONTO S.A.",
+      "empresa_b_nombre":"VIÑEDOS EMILIANA S.A."
+    },
+    {
+      "index":50,
+      "empresa_a":"77303281",
+      "empresa_b":"90310000",
+      "directores_compartidos":3,
+      "nombres_compartidos":"ANDRES PEREZ CRUZ; JOSE IGNACIO LASO BAMBACH; MATÍAS PÉREZ CRUZ",
+      "empresa_a_nombre":"GASCO INVERSIONES S.A.",
+      "empresa_b_nombre":"EMPRESAS GASCO S.A."
+    },
+    {
+      "index":51,
+      "empresa_a":"77726203",
+      "empresa_b":"90249000",
+      "directores_compartidos":3,
+      "nombres_compartidos":"JUAN ANDRES CAMUS CAMUS; JUAN GUILLERMO AGUERO VERGARA; RODRIGO MANUBENS MOLTEDO",
+      "empresa_a_nombre":"HOLDING BURSATIL REGIONAL S.A.",
+      "empresa_b_nombre":"BOLSA DE COMERCIO DE SANTIAGO, BOLSA DE VALORES"
+    },
+    {
+      "index":52,
+      "empresa_a":"77726203",
+      "empresa_b":"96572920",
+      "directores_compartidos":3,
+      "nombres_compartidos":"JUAN ANDRES CAMUS CAMUS; JUAN GUILLERMO AGUERO VERGARA; RODRIGO MANUBENS MOLTEDO",
+      "empresa_a_nombre":"HOLDING BURSATIL REGIONAL S.A.",
+      "empresa_b_nombre":"CCLV, CONTRAPARTE CENTRAL S.A."
+    },
+    {
+      "index":53,
+      "empresa_a":"94082000",
+      "empresa_b":"96556310",
+      "directores_compartidos":3,
+      "nombres_compartidos":"JORGE ANDUEZA FOUQUE; MANUEL ENRIQUE BEZANILLA URRUTIA; ROBERTO ANGELINI ROSSI",
+      "empresa_a_nombre":"INVERSIONES SIEMEL S.A.",
+      "empresa_b_nombre":"ANTARCHILE S.A."
+    },
+    {
+      "index":54,
+      "empresa_a":"94660000",
+      "empresa_b":"96566900",
+      "directores_compartidos":3,
+      "nombres_compartidos":"BALTAZAR SÁNCHEZ GUZMÁN; CIRILO JORGE ELTON GONZALEZ; LUIS RAFAEL GREZ JORDAN",
+      "empresa_a_nombre":"MARITIMA DE INVERSIONES S.A.",
+      "empresa_b_nombre":"NAVARINO S.A."
+    },
+    {
+      "index":55,
+      "empresa_a":"94660000",
+      "empresa_b":"96640360",
+      "directores_compartidos":3,
+      "nombres_compartidos":"BALTAZAR SÁNCHEZ GUZMÁN; JOSÉ IGNACIO FIGUEROA ELGUETA; LUIS RAFAEL GREZ JORDAN",
+      "empresa_a_nombre":"MARITIMA DE INVERSIONES S.A.",
+      "empresa_b_nombre":"QUEMCHI S.A."
+    },
+    {
+      "index":56,
+      "empresa_a":"76850128",
+      "empresa_b":"96703230",
+      "directores_compartidos":3,
+      "nombres_compartidos":"ALBERTO EGUIGUREN CORREA; HIKARU SANUKI .; VICENTE DOMINGUEZ VIAL",
+      "empresa_a_nombre":"NUEVA ATACAMA S.A.",
+      "empresa_b_nombre":"AGUAS DECIMA S.A."
+    },
+    {
+      "index":57,
+      "empresa_a":"76165311",
+      "empresa_b":"96529340",
+      "directores_compartidos":3,
+      "nombres_compartidos":"FRANCISCA PONCE PINOCHET; PATRICIO PHILLIPS SAENZ; RAFAEL GUILISASTI GANA",
+      "empresa_a_nombre":"POTASIOS DE CHILE S.A.",
+      "empresa_b_nombre":"NORTE GRANDE S.A."
+    },
+    {
+      "index":58,
+      "empresa_a":"76165311",
+      "empresa_b":"96511530",
+      "directores_compartidos":3,
+      "nombres_compartidos":"FRANCISCA PONCE PINOCHET; PATRICIO PHILLIPS SAENZ; RAFAEL GUILISASTI GANA",
+      "empresa_a_nombre":"POTASIOS DE CHILE S.A.",
+      "empresa_b_nombre":"SOCIEDAD DE INVERSIONES PAMPA CALICHERA S.A."
+    },
+    {
+      "index":59,
+      "empresa_a":"86547900",
+      "empresa_b":"90331000",
+      "directores_compartidos":3,
+      "nombres_compartidos":"ALFONSO MARQUEZ DE LA PLATA CORTES; BALTAZAR SÁNCHEZ GUZMÁN; SEBASTIAN SWETT OPAZO",
+      "empresa_a_nombre":"SOCIEDAD ANONIMA VIÑA SANTA RITA",
+      "empresa_b_nombre":"CRISTALERIAS DE CHILE S.A."
+    },
+    {
+      "index":60,
+      "empresa_a":"86547900",
+      "empresa_b":"96640360",
+      "directores_compartidos":3,
+      "nombres_compartidos":"BALTAZAR SÁNCHEZ GUZMÁN; CRISTÓBAL EYZAGUIRRE BAEZA; JOSÉ IGNACIO FIGUEROA ELGUETA",
+      "empresa_a_nombre":"SOCIEDAD ANONIMA VIÑA SANTA RITA",
+      "empresa_b_nombre":"QUEMCHI S.A."
+    },
+    {
+      "index":61,
+      "empresa_a":"76196718",
+      "empresa_b":"90413000",
+      "directores_compartidos":3,
+      "nombres_compartidos":"MACARIO VALDÉS RACZYNSKI; OSCAR EDUARDO HASBÚN MARTÍNEZ; PABLO JOSÉ GRANIFO LAVIN",
+      "empresa_a_nombre":"SOCIEDAD MATRIZ SAAM S.A.",
+      "empresa_b_nombre":"COMPAÑIA CERVECERIAS UNIDAS S.A."
+    },
+    {
+      "index":62,
+      "empresa_a":"76196718",
+      "empresa_b":"91705000",
+      "directores_compartidos":3,
+      "nombres_compartidos":"JEAN-PAUL LUKSIC FONTBONA; OSCAR EDUARDO HASBÚN MARTÍNEZ; PABLO JOSÉ GRANIFO LAVIN",
+      "empresa_a_nombre":"SOCIEDAD MATRIZ SAAM S.A.",
+      "empresa_b_nombre":"QUIÑENCO S.A."
+    },
+    {
+      "index":63,
+      "empresa_a":"76102955",
+      "empresa_b":"77729737",
+      "directores_compartidos":3,
+      "nombres_compartidos":"HUGO MAX JULIO COVARRUBIAS LALANNE; JUAN IGNACIO LANGLOIS MARGOZZINI; SUSANA JIMENEZ SCHUSTER",
+      "empresa_a_nombre":"SOPROLE INVERSIONES S.A.",
+      "empresa_b_nombre":"IGC S.A."
+    },
+    {
+      "index":64,
+      "empresa_a":"90227000",
+      "empresa_b":"96512190",
+      "directores_compartidos":3,
+      "nombres_compartidos":"FELIPE LARRAIN VIAL; PABLO GUILISASTI GANA; RAFAEL GUILISASTI GANA",
+      "empresa_a_nombre":"VIÑA CONCHA Y TORO S.A.",
+      "empresa_b_nombre":"FRUTICOLA VICONTO S.A."
+    },
+    {
+      "index":65,
+      "empresa_a":"90249000",
+      "empresa_b":"96666140",
+      "directores_compartidos":2,
+      "nombres_compartidos":"JUAN ANDRES CAMUS CAMUS; JUAN PABLO CORDOBA GARCES",
+      "empresa_a_nombre":"BOLSA DE COMERCIO DE SANTIAGO, BOLSA DE VALORES",
+      "empresa_b_nombre":"DEPOSITO CENTRAL DE VALORES S.A. DEPOSITO DE VALORES"
+    },
+    {
+      "index":66,
+      "empresa_a":"96551730",
+      "empresa_b":"99575550",
+      "directores_compartidos":2,
+      "nombres_compartidos":"FERNANDO ENRIQUE CAÑAS BERKOWITZ; HUGO HORTA MOYA",
+      "empresa_a_nombre":"BOLSA ELECTRONICA DE CHILE, BOLSA DE VALORES",
+      "empresa_b_nombre":"BOLSA DE PRODUC. DE CHILE, BOLSA DE PROD. AGROPECUARIOS S.A."
+    },
+    {
+      "index":67,
+      "empresa_a":"76143636",
+      "empresa_b":"90414000",
+      "directores_compartidos":2,
+      "nombres_compartidos":"CARLO ROSSI SOFFIA; GONZALO BOFILL VELARDE",
+      "empresa_a_nombre":"CAROZZI S.A.",
+      "empresa_b_nombre":"VALPARAISO SPORTING CLUB S.A."
+    },
+    {
+      "index":68,
+      "empresa_a":"96572920",
+      "empresa_b":"96666140",
+      "directores_compartidos":2,
+      "nombres_compartidos":"JUAN ANDRES CAMUS CAMUS; JUAN PABLO CORDOBA GARCES",
+      "empresa_a_nombre":"CCLV, CONTRAPARTE CENTRAL S.A.",
+      "empresa_b_nombre":"DEPOSITO CENTRAL DE VALORES S.A. DEPOSITO DE VALORES"
+    },
+    {
+      "index":69,
+      "empresa_a":"91337000",
+      "empresa_b":"96579280",
+      "directores_compartidos":2,
+      "nombres_compartidos":"FELIPE SILVA MENDEZ; JUAN CARLOS HURTADO CRUZAT",
+      "empresa_a_nombre":"CEMENTO POLPAICO S.A.",
+      "empresa_b_nombre":"CN LIFE, COMPAÑIA DE SEGUROS DE VIDA S.A."
+    },
+    {
+      "index":70,
+      "empresa_a":"91337000",
+      "empresa_b":"99012000",
+      "directores_compartidos":2,
+      "nombres_compartidos":"FELIPE SILVA MENDEZ; JUAN CARLOS HURTADO CRUZAT",
+      "empresa_a_nombre":"CEMENTO POLPAICO S.A.",
+      "empresa_b_nombre":"COMPAÑIA DE SEGUROS DE VIDA CONSORCIO NACIONAL DE SEGUROS S.A."
+    },
+    {
+      "index":71,
+      "empresa_a":"91337000",
+      "empresa_b":"96654180",
+      "directores_compartidos":2,
+      "nombres_compartidos":"FELIPE SILVA MENDEZ; JUAN CARLOS HURTADO CRUZAT",
+      "empresa_a_nombre":"CEMENTO POLPAICO S.A.",
+      "empresa_b_nombre":"COMPAÑIA DE SEGUROS GENERALES CONSORCIO NACIONAL DE SEGUROS S.A."
+    },
+    {
+      "index":72,
+      "empresa_a":"76433310",
+      "empresa_b":"93834000",
+      "directores_compartidos":2,
+      "nombres_compartidos":"MANFRED PAULMANN KOEPFER; PETER PAULMANN KOEPFER",
+      "empresa_a_nombre":"CENCOSUD SHOPPING S.A.",
+      "empresa_b_nombre":"CENCOSUD S.A."
+    },
+    {
+      "index":73,
+      "empresa_a":"99225000",
+      "empresa_b":"99588060",
+      "directores_compartidos":2,
+      "nombres_compartidos":"BARBARA SUIT JACOB; VIVIANNE IRENE SARNIGUET KUZMANIC",
+      "empresa_a_nombre":"CHUBB SEGUROS CHILE S.A.",
+      "empresa_b_nombre":"CHUBB SEGUROS DE VIDA CHILE S.A."
+    },
+    {
+      "index":74,
+      "empresa_a":"93930000",
+      "empresa_b":"97023000",
+      "directores_compartidos":2,
+      "nombres_compartidos":"FERNANDO MASSU TARE; JORGE SELUME ZAROR",
+      "empresa_a_nombre":"CLINICA LAS CONDES S.A.",
+      "empresa_b_nombre":"BANCO ITAÚ CHILE"
+    },
+    {
+      "index":75,
+      "empresa_a":"96579280",
+      "empresa_b":"96872980",
+      "directores_compartidos":2,
+      "nombres_compartidos":"FELIPE SILVA MÉNDEZ; PEDRO HURTADO VICUÑA",
+      "empresa_a_nombre":"CN LIFE, COMPAÑIA DE SEGUROS DE VIDA S.A.",
+      "empresa_b_nombre":"INVERNOVA S.A."
+    },
+    {
+      "index":76,
+      "empresa_a":"90413000",
+      "empresa_b":"96767630",
+      "directores_compartidos":2,
+      "nombres_compartidos":"PABLO JOSÉ GRANIFO LAVIN; PATRICIO JOTTAR NASRALLAH",
+      "empresa_a_nombre":"COMPAÑIA CERVECERIAS UNIDAS S.A.",
+      "empresa_b_nombre":"BANCHILE ADMINISTRADORA GENERAL DE FONDOS S.A."
+    },
+    {
+      "index":77,
+      "empresa_a":"90413000",
+      "empresa_b":"91705000",
+      "directores_compartidos":2,
+      "nombres_compartidos":"OSCAR EDUARDO HASBÚN MARTÍNEZ; PABLO JOSÉ GRANIFO LAVIN",
+      "empresa_a_nombre":"COMPAÑIA CERVECERIAS UNIDAS S.A.",
+      "empresa_b_nombre":"QUIÑENCO S.A."
+    },
+    {
+      "index":78,
+      "empresa_a":"90413000",
+      "empresa_b":"91041000",
+      "directores_compartidos":2,
+      "nombres_compartidos":"PABLO JOSÉ GRANIFO LAVIN; PATRICIO JOTTAR NASRALLAH",
+      "empresa_a_nombre":"COMPAÑIA CERVECERIAS UNIDAS S.A.",
+      "empresa_b_nombre":"VIÑA SAN PEDRO TARAPACA S.A."
+    },
+    {
+      "index":79,
+      "empresa_a":"96654180",
+      "empresa_b":"96872980",
+      "directores_compartidos":2,
+      "nombres_compartidos":"FELIPE SILVA MÉNDEZ; PEDRO HURTADO VICUÑA",
+      "empresa_a_nombre":"COMPAÑIA DE SEGUROS GENERALES CONSORCIO NACIONAL DE SEGUROS S.A.",
+      "empresa_b_nombre":"INVERNOVA S.A."
+    },
+    {
+      "index":80,
+      "empresa_a":"76039758",
+      "empresa_b":"96573590",
+      "directores_compartidos":2,
+      "nombres_compartidos":"ANDREA DIAZ TORREALBA; ENRIQUE ALFREDO ARAOS MARFIL",
+      "empresa_a_nombre":"COMPAÑIA DE SEGUROS GENERALES CONTINENTAL S.A.",
+      "empresa_b_nombre":"COMPAÑIA DE SEGUROS DE CREDITO CONTINENTAL S.A."
+    },
+    {
+      "index":81,
+      "empresa_a":"90320000",
+      "empresa_b":"94660000",
+      "directores_compartidos":2,
+      "nombres_compartidos":"BALTAZAR SÁNCHEZ GUZMÁN; JOSÉ IGNACIO FIGUEROA ELGUETA",
+      "empresa_a_nombre":"COMPAÑIA ELECTRO METALURGICA S.A.",
+      "empresa_b_nombre":"MARITIMA DE INVERSIONES S.A."
+    },
+    {
+      "index":82,
+      "empresa_a":"76411321",
+      "empresa_b":"77465741",
+      "directores_compartidos":2,
+      "nombres_compartidos":"NICOLÁS EYZAGUIRRE GUZMAN; YAN DAI .",
+      "empresa_a_nombre":"COMPAÑIA GENERAL DE ELECTRICIDAD S.A.",
+      "empresa_b_nombre":"CGE TRANSMISION S.A."
+    },
+    {
+      "index":83,
+      "empresa_a":"90160000",
+      "empresa_b":"90413000",
+      "directores_compartidos":2,
+      "nombres_compartidos":"OSCAR EDUARDO HASBÚN MARTÍNEZ; PABLO JOSÉ GRANIFO LAVIN",
+      "empresa_a_nombre":"COMPAÑIA SUD AMERICANA DE VAPORES S.A.",
+      "empresa_b_nombre":"COMPAÑIA CERVECERIAS UNIDAS S.A."
+    },
+    {
+      "index":84,
+      "empresa_a":"90160000",
+      "empresa_b":"91705000",
+      "directores_compartidos":2,
+      "nombres_compartidos":"OSCAR EDUARDO HASBÚN MARTÍNEZ; PABLO JOSÉ GRANIFO LAVIN",
+      "empresa_a_nombre":"COMPAÑIA SUD AMERICANA DE VAPORES S.A.",
+      "empresa_b_nombre":"QUIÑENCO S.A."
+    },
+    {
+      "index":85,
+      "empresa_a":"93830000",
+      "empresa_b":"96874030",
+      "directores_compartidos":2,
+      "nombres_compartidos":"LEONIDAS VIAL ECHEVERRIA; MANUEL JOSE VIAL CLARO",
+      "empresa_a_nombre":"COMPAÑIAS CIC S.A.",
+      "empresa_b_nombre":"ABC S.A."
+    },
+    {
+      "index":86,
+      "empresa_a":"93830000",
+      "empresa_b":"96522900",
+      "directores_compartidos":2,
+      "nombres_compartidos":"LEONIDAS VIAL ECHEVERRIA; MANUEL JOSE VIAL CLARO",
+      "empresa_a_nombre":"COMPAÑIAS CIC S.A.",
+      "empresa_b_nombre":"CRÉDITOS, ORGANIZACIÓN Y FINANZAS S.A."
+    },
+    {
+      "index":87,
+      "empresa_a":"90331000",
+      "empresa_b":"96566900",
+      "directores_compartidos":2,
+      "nombres_compartidos":"ALFONSO MARQUEZ DE LA PLATA CORTES; BALTAZAR SÁNCHEZ GUZMÁN",
+      "empresa_a_nombre":"CRISTALERIAS DE CHILE S.A.",
+      "empresa_b_nombre":"NAVARINO S.A."
+    },
+    {
+      "index":88,
+      "empresa_a":"90331000",
+      "empresa_b":"96852100",
+      "directores_compartidos":2,
+      "nombres_compartidos":"BALTAZAR SÁNCHEZ GUZMÁN; JOSÉ MIGUEL SÁNCHEZ ERLE",
+      "empresa_a_nombre":"CRISTALERIAS DE CHILE S.A.",
+      "empresa_b_nombre":"QUILICURA S.A."
+    },
+    {
+      "index":89,
+      "empresa_a":"77198108",
+      "empresa_b":"90249000",
+      "directores_compartidos":2,
+      "nombres_compartidos":"JUAN ANDRES CAMUS CAMUS; JUAN PABLO CORDOBA GARCES",
+      "empresa_a_nombre":"DCV ASESORIAS Y SERVICIOS S.A.",
+      "empresa_b_nombre":"BOLSA DE COMERCIO DE SANTIAGO, BOLSA DE VALORES"
+    },
+    {
+      "index":90,
+      "empresa_a":"77198108",
+      "empresa_b":"96572920",
+      "directores_compartidos":2,
+      "nombres_compartidos":"JUAN ANDRES CAMUS CAMUS; JUAN PABLO CORDOBA GARCES",
+      "empresa_a_nombre":"DCV ASESORIAS Y SERVICIOS S.A.",
+      "empresa_b_nombre":"CCLV, CONTRAPARTE CENTRAL S.A."
+    },
+    {
+      "index":91,
+      "empresa_a":"92580000",
+      "empresa_b":"96561560",
+      "directores_compartidos":2,
+      "nombres_compartidos":"CRISTIAN ARNOLDS REYES; RICHARD BÜCHI BUC",
+      "empresa_a_nombre":"EMPRESA NACIONAL DE TELECOMUNICACIONES S.A.",
+      "empresa_b_nombre":"SOCIEDAD PUNTA DEL COBRE S.A."
+    },
+    {
+      "index":92,
+      "empresa_a":"90222000",
+      "empresa_b":"96505760",
+      "directores_compartidos":2,
+      "nombres_compartidos":"JORGE BERNARDO LARRAIN MATTE; JORGE HERNAN RODRIGUEZ WILSON",
+      "empresa_a_nombre":"EMPRESAS CMPC S.A.",
+      "empresa_b_nombre":"COLBUN S.A."
+    },
+    {
+      "index":93,
+      "empresa_a":"90690000",
+      "empresa_b":"91643000",
+      "directores_compartidos":2,
+      "nombres_compartidos":"JORGE ANDUEZA FOUQUE; ROBERTO ANGELINI ROSSI",
+      "empresa_a_nombre":"EMPRESAS COPEC S.A.",
+      "empresa_b_nombre":"INVERSIONES NUTRAVALOR S.A."
+    },
+    {
+      "index":94,
+      "empresa_a":"90266000",
+      "empresa_b":"96602640",
+      "directores_compartidos":2,
+      "nombres_compartidos":"JUAN EDUARDO ERRAZURIZ OSSA; JUAN PABLO ABOITIZ DOMINGUEZ",
+      "empresa_a_nombre":"ENAEX S.A.",
+      "empresa_b_nombre":"PUERTO VENTANAS S.A."
+    },
+    {
+      "index":95,
+      "empresa_a":"90266000",
+      "empresa_b":"99598300",
+      "directores_compartidos":2,
+      "nombres_compartidos":"JUAN EDUARDO ERRAZURIZ OSSA; NAOSHI MATSUMOTO COURDURIER",
+      "empresa_a_nombre":"ENAEX S.A.",
+      "empresa_b_nombre":"SIGDO KOPPERS S.A."
+    },
+    {
+      "index":96,
+      "empresa_a":"76833300",
+      "empresa_b":"77611649",
+      "directores_compartidos":2,
+      "nombres_compartidos":"JORGE ADOLFO LESSER GARCIA-HUIDOBRO; JUAN IGNACIO PAROT BECKER",
+      "empresa_a_nombre":"ESSBIO S.A.",
+      "empresa_b_nombre":"SOCIEDAD TRANSMISORA METROPOLITANA S.A."
+    },
+    {
+      "index":97,
+      "empresa_a":"76000739",
+      "empresa_b":"77611649",
+      "directores_compartidos":2,
+      "nombres_compartidos":"JORGE ADOLFO LESSER GARCIA-HUIDOBRO; JUAN IGNACIO PAROT BECKER",
+      "empresa_a_nombre":"ESVAL S.A.",
+      "empresa_b_nombre":"SOCIEDAD TRANSMISORA METROPOLITANA S.A."
+    },
+    {
+      "index":98,
+      "empresa_a":"91553000",
+      "empresa_b":"96505760",
+      "directores_compartidos":2,
+      "nombres_compartidos":"JORGE BERNARDO LARRAIN MATTE; JORGE HERNAN RODRIGUEZ WILSON",
+      "empresa_a_nombre":"FORESTAL CONSTRUCTORA Y COMERCIAL DEL PACIFICO SUR S.A.",
+      "empresa_b_nombre":"COLBUN S.A."
+    },
+    {
+      "index":99,
+      "empresa_a":"86963200",
+      "empresa_b":"90320000",
+      "directores_compartidos":2,
+      "nombres_compartidos":"ALFONSO OMAR SWETT SAAVEDRA; SEBASTIAN SWETT OPAZO",
+      "empresa_a_nombre":"FORUS S.A.",
+      "empresa_b_nombre":"COMPAÑIA ELECTRO METALURGICA S.A."
+    },
+    {
+      "index":100,
+      "empresa_a":"86963200",
+      "empresa_b":"90331000",
+      "directores_compartidos":2,
+      "nombres_compartidos":"MACARENA SWETT OPAZO; SEBASTIAN SWETT OPAZO",
+      "empresa_a_nombre":"FORUS S.A.",
+      "empresa_b_nombre":"CRISTALERIAS DE CHILE S.A."
+    },
+    {
+      "index":101,
+      "empresa_a":"96872980",
+      "empresa_b":"99012000",
+      "directores_compartidos":2,
+      "nombres_compartidos":"FELIPE SILVA MENDEZ; PEDRO JOSÉ HURTADO VICUÑA",
+      "empresa_a_nombre":"INVERNOVA S.A.",
+      "empresa_b_nombre":"COMPAÑIA DE SEGUROS DE VIDA CONSORCIO NACIONAL DE SEGUROS S.A."
+    },
+    {
+      "index":102,
+      "empresa_a":"91643000",
+      "empresa_b":"96556310",
+      "directores_compartidos":2,
+      "nombres_compartidos":"JORGE ANDUEZA FOUQUE; ROBERTO ANGELINI ROSSI",
+      "empresa_a_nombre":"INVERSIONES NUTRAVALOR S.A.",
+      "empresa_b_nombre":"ANTARCHILE S.A."
+    },
+    {
+      "index":103,
+      "empresa_a":"91643000",
+      "empresa_b":"94082000",
+      "directores_compartidos":2,
+      "nombres_compartidos":"JORGE ANDUEZA FOUQUE; ROBERTO ANGELINI ROSSI",
+      "empresa_a_nombre":"INVERSIONES NUTRAVALOR S.A.",
+      "empresa_b_nombre":"INVERSIONES SIEMEL S.A."
+    },
+    {
+      "index":104,
+      "empresa_a":"89862200",
+      "empresa_b":"99598300",
+      "directores_compartidos":2,
+      "nombres_compartidos":"LUIS FELIPE CERON CERON; MARCOS BÜCHI BUC",
+      "empresa_a_nombre":"LATAM AIRLINES GROUP S.A.",
+      "empresa_b_nombre":"SIGDO KOPPERS S.A."
+    },
+    {
+      "index":105,
+      "empresa_a":"90412000",
+      "empresa_b":"96505760",
+      "directores_compartidos":2,
+      "nombres_compartidos":"JORGE BERNARDO LARRAIN MATTE; JORGE HERNAN RODRIGUEZ WILSON",
+      "empresa_a_nombre":"MINERA VALPARAISO S.A.",
+      "empresa_b_nombre":"COLBUN S.A."
+    },
+    {
+      "index":106,
+      "empresa_a":"96566900",
+      "empresa_b":"96640360",
+      "directores_compartidos":2,
+      "nombres_compartidos":"BALTAZAR SÁNCHEZ GUZMÁN; LUIS RAFAEL GREZ JORDAN",
+      "empresa_a_nombre":"NAVARINO S.A.",
+      "empresa_b_nombre":"QUEMCHI S.A."
+    },
+    {
+      "index":107,
+      "empresa_a":"76165311",
+      "empresa_b":"96532830",
+      "directores_compartidos":2,
+      "nombres_compartidos":"FRANCISCA PONCE PINOCHET; RAFAEL GUILISASTI GANA",
+      "empresa_a_nombre":"POTASIOS DE CHILE S.A.",
+      "empresa_b_nombre":"SOCIEDAD DE INVERSIONES ORO BLANCO S.A."
+    },
+    {
+      "index":108,
+      "empresa_a":"96602640",
+      "empresa_b":"96684580",
+      "directores_compartidos":2,
+      "nombres_compartidos":"CLAUDIO HOHMANN BARRIENTOS; JUAN PABLO ABOITIZ DOMINGUEZ",
+      "empresa_a_nombre":"PUERTO VENTANAS S.A.",
+      "empresa_b_nombre":"FERROCARRIL DEL PACIFICO S.A."
+    },
+    {
+      "index":109,
+      "empresa_a":"96602640",
+      "empresa_b":"99598300",
+      "directores_compartidos":2,
+      "nombres_compartidos":"JUAN EDUARDO ERRAZURIZ OSSA; VICTORIA VASQUEZ GARCIA",
+      "empresa_a_nombre":"PUERTO VENTANAS S.A.",
+      "empresa_b_nombre":"SIGDO KOPPERS S.A."
+    },
+    {
+      "index":110,
+      "empresa_a":"76065596",
+      "empresa_b":"93711000",
+      "directores_compartidos":2,
+      "nombres_compartidos":"CLAUDIO INGLESI NIETO; JORGE ANDRÉS FERNÁNDEZ GARCÍA",
+      "empresa_a_nombre":"SALMONES CAMANCHACA S.A.",
+      "empresa_b_nombre":"CAMANCHACA S.A."
+    },
+    {
+      "index":111,
+      "empresa_a":"76065596",
+      "empresa_b":"96885880",
+      "directores_compartidos":2,
+      "nombres_compartidos":"FERNANDO EMILIO RIOSECO ZORN; JOAQUIN VILLARINO HERRERA",
+      "empresa_a_nombre":"SALMONES CAMANCHACA S.A.",
+      "empresa_b_nombre":"SALFACORP S.A."
+    },
+    {
+      "index":112,
+      "empresa_a":"76573480",
+      "empresa_b":"97023000",
+      "directores_compartidos":2,
+      "nombres_compartidos":"FERNANDO MASSÚ TARÉ; JORGE SELUME ZARTOS",
+      "empresa_a_nombre":"SEGUROS CLC S.A.",
+      "empresa_b_nombre":"BANCO ITAÚ CHILE"
+    },
+    {
+      "index":113,
+      "empresa_a":"86547900",
+      "empresa_b":"94660000",
+      "directores_compartidos":2,
+      "nombres_compartidos":"BALTAZAR SÁNCHEZ GUZMÁN; JOSÉ IGNACIO FIGUEROA ELGUETA",
+      "empresa_a_nombre":"SOCIEDAD ANONIMA VIÑA SANTA RITA",
+      "empresa_b_nombre":"MARITIMA DE INVERSIONES S.A."
+    },
+    {
+      "index":114,
+      "empresa_a":"86547900",
+      "empresa_b":"96566900",
+      "directores_compartidos":2,
+      "nombres_compartidos":"ALFONSO MARQUEZ DE LA PLATA CORTES; BALTAZAR SÁNCHEZ GUZMÁN",
+      "empresa_a_nombre":"SOCIEDAD ANONIMA VIÑA SANTA RITA",
+      "empresa_b_nombre":"NAVARINO S.A."
+    },
+    {
+      "index":115,
+      "empresa_a":"76196718",
+      "empresa_b":"90160000",
+      "directores_compartidos":2,
+      "nombres_compartidos":"OSCAR EDUARDO HASBÚN MARTÍNEZ; PABLO JOSÉ GRANIFO LAVIN",
+      "empresa_a_nombre":"SOCIEDAD MATRIZ SAAM S.A.",
+      "empresa_b_nombre":"COMPAÑIA SUD AMERICANA DE VAPORES S.A."
+    },
+    {
+      "index":116,
+      "empresa_a":"96561560",
+      "empresa_b":"96579280",
+      "directores_compartidos":2,
+      "nombres_compartidos":"CRISTIAN ARNOLDS REYES; PEDRO JOSÉ HURTADO VICUÑA",
+      "empresa_a_nombre":"SOCIEDAD PUNTA DEL COBRE S.A.",
+      "empresa_b_nombre":"CN LIFE, COMPAÑIA DE SEGUROS DE VIDA S.A."
+    },
+    {
+      "index":117,
+      "empresa_a":"96561560",
+      "empresa_b":"99012000",
+      "directores_compartidos":2,
+      "nombres_compartidos":"CRISTIAN ARNOLDS REYES; PEDRO JOSÉ HURTADO VICUÑA",
+      "empresa_a_nombre":"SOCIEDAD PUNTA DEL COBRE S.A.",
+      "empresa_b_nombre":"COMPAÑIA DE SEGUROS DE VIDA CONSORCIO NACIONAL DE SEGUROS S.A."
+    },
+    {
+      "index":118,
+      "empresa_a":"96561560",
+      "empresa_b":"96654180",
+      "directores_compartidos":2,
+      "nombres_compartidos":"CRISTIAN ARNOLDS REYES; PEDRO JOSÉ HURTADO VICUÑA",
+      "empresa_a_nombre":"SOCIEDAD PUNTA DEL COBRE S.A.",
+      "empresa_b_nombre":"COMPAÑIA DE SEGUROS GENERALES CONSORCIO NACIONAL DE SEGUROS S.A."
+    },
+    {
+      "index":119,
+      "empresa_a":"96765170",
+      "empresa_b":"96972780",
+      "directores_compartidos":2,
+      "nombres_compartidos":"RODRIGO MARIN LARRAIN; SEBASTIAN GARDEWEG RIED",
+      "empresa_a_nombre":"TRANSA SECURITIZADORA S.A.",
+      "empresa_b_nombre":"SECURITIZADORA SUDAMERICANA S.A."
+    },
+    {
+      "index":120,
+      "empresa_a":"90227000",
+      "empresa_b":"96512200",
+      "directores_compartidos":2,
+      "nombres_compartidos":"FELIPE LARRAIN VIAL; RAFAEL GUILISASTI GANA",
+      "empresa_a_nombre":"VIÑA CONCHA Y TORO S.A.",
+      "empresa_b_nombre":"VIÑEDOS EMILIANA S.A."
+    },
+    {
+      "index":121,
+      "empresa_a":"89150900",
+      "empresa_b":"94660000",
+      "directores_compartidos":2,
+      "nombres_compartidos":"CIRILO JORGE ELTON GONZALEZ; LUIS RAFAEL GREZ JORDAN",
+      "empresa_a_nombre":"VIÑA LOS VASCOS S.A.",
+      "empresa_b_nombre":"MARITIMA DE INVERSIONES S.A."
+    },
+    {
+      "index":122,
+      "empresa_a":"89150900",
+      "empresa_b":"96566900",
+      "directores_compartidos":2,
+      "nombres_compartidos":"CIRILO JORGE ELTON GONZALEZ; LUIS RAFAEL GREZ JORDAN",
+      "empresa_a_nombre":"VIÑA LOS VASCOS S.A.",
+      "empresa_b_nombre":"NAVARINO S.A."
+    },
+    {
+      "index":123,
+      "empresa_a":"91041000",
+      "empresa_b":"96767630",
+      "directores_compartidos":2,
+      "nombres_compartidos":"PABLO JOSÉ GRANIFO LAVIN; PATRICIO JOTTAR NASRALLAH",
+      "empresa_a_nombre":"VIÑA SAN PEDRO TARAPACA S.A.",
+      "empresa_b_nombre":"BANCHILE ADMINISTRADORA GENERAL DE FONDOS S.A."
+    },
+    {
+      "index":124,
+      "empresa_a":"77750920",
+      "empresa_b":"99185000",
+      "directores_compartidos":2,
+      "nombres_compartidos":"ALEJANDRA MEHECH CASTELLON; ANDRÉS RICARDO CASTRO GONZÁLEZ",
+      "empresa_a_nombre":"ZURICH CHILE ASSET MANAGEMENT ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresa_b_nombre":"ZURICH CHILE SEGUROS DE VIDA S.A."
+    },
+    {
+      "index":125,
+      "empresa_a":"77750920",
+      "empresa_b":"99037000",
+      "directores_compartidos":2,
+      "nombres_compartidos":"ALEJANDRA MEHECH CASTELLON; ANDRÉS RICARDO CASTRO GONZÁLEZ",
+      "empresa_a_nombre":"ZURICH CHILE ASSET MANAGEMENT ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresa_b_nombre":"ZURICH CHILE SEGUROS GENERALES S.A."
+    },
+    {
+      "index":126,
+      "empresa_a":"99037000",
+      "empresa_b":"99185000",
+      "directores_compartidos":2,
+      "nombres_compartidos":"ALEJANDRA MEHECH CASTELLÓN; ANDRÉS CASTRO GONZALEZ",
+      "empresa_a_nombre":"ZURICH CHILE SEGUROS GENERALES S.A.",
+      "empresa_b_nombre":"ZURICH CHILE SEGUROS DE VIDA S.A."
+    },
+    {
+      "index":127,
+      "empresa_a":"76418751",
+      "empresa_b":"90743000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"EDMUNDO HERMOSILLA HERMOSILLA",
+      "empresa_a_nombre":"4 LIFE SEGUROS DE VIDA S.A.",
+      "empresa_b_nombre":"PROMOTORA CMR FALABELLA S.A."
+    },
+    {
+      "index":128,
+      "empresa_a":"96874030",
+      "empresa_b":"96928510",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JAIME FERNANDO SANTA CRUZ NEGRI",
+      "empresa_a_nombre":"ABC S.A.",
+      "empresa_b_nombre":"EMPRESAS LIPIGAS S.A."
+    },
+    {
+      "index":129,
+      "empresa_a":"77513781",
+      "empresa_b":"96666140",
+      "directores_compartidos":1,
+      "nombres_compartidos":"CRISTIAN FERNANDO RODRIGUEZ ALLENDES",
+      "empresa_a_nombre":"ADMINISTRADORA AMERICANA DE INVERSIONES S.A.",
+      "empresa_b_nombre":"DEPOSITO CENTRAL DE VALORES S.A. DEPOSITO DE VALORES"
+    },
+    {
+      "index":130,
+      "empresa_a":"76265736",
+      "empresa_b":"77198108",
+      "directores_compartidos":1,
+      "nombres_compartidos":"ANDRES FERNANDO MERINO CANGAS",
+      "empresa_a_nombre":"ADMINISTRADORA DE FONDOS DE PENSIONES PROVIDA S.A.",
+      "empresa_b_nombre":"DCV ASESORIAS Y SERVICIOS S.A."
+    },
+    {
+      "index":131,
+      "empresa_a":"76265736",
+      "empresa_b":"96666140",
+      "directores_compartidos":1,
+      "nombres_compartidos":"ANDRES FERNANDO MERINO CANGAS",
+      "empresa_a_nombre":"ADMINISTRADORA DE FONDOS DE PENSIONES PROVIDA S.A.",
+      "empresa_b_nombre":"DEPOSITO CENTRAL DE VALORES S.A. DEPOSITO DE VALORES"
+    },
+    {
+      "index":132,
+      "empresa_a":"76265736",
+      "empresa_b":"96512190",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JORGE ANTONIO MARSHALL RIVERA",
+      "empresa_a_nombre":"ADMINISTRADORA DE FONDOS DE PENSIONES PROVIDA S.A.",
+      "empresa_b_nombre":"FRUTICOLA VICONTO S.A."
+    },
+    {
+      "index":133,
+      "empresa_a":"76036521",
+      "empresa_b":"96549050",
+      "directores_compartidos":1,
+      "nombres_compartidos":"SEBASTIAN REY LIZZANO",
+      "empresa_a_nombre":"ADMINISTRADORA GENERAL DE FONDOS SURA S.A.",
+      "empresa_b_nombre":"SEGUROS DE VIDA SURA S.A."
+    },
+    {
+      "index":134,
+      "empresa_a":"61808000",
+      "empresa_b":"90249000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"RODRIGO MANUBENS MOLTEDO",
+      "empresa_a_nombre":"AGUAS ANDINAS S.A.",
+      "empresa_b_nombre":"BOLSA DE COMERCIO DE SANTIAGO, BOLSA DE VALORES"
+    },
+    {
+      "index":135,
+      "empresa_a":"61808000",
+      "empresa_b":"96572920",
+      "directores_compartidos":1,
+      "nombres_compartidos":"RODRIGO MANUBENS MOLTEDO",
+      "empresa_a_nombre":"AGUAS ANDINAS S.A.",
+      "empresa_b_nombre":"CCLV, CONTRAPARTE CENTRAL S.A."
+    },
+    {
+      "index":136,
+      "empresa_a":"61808000",
+      "empresa_b":"96505760",
+      "directores_compartidos":1,
+      "nombres_compartidos":"VIVIANNE BLANLOT SOZA",
+      "empresa_a_nombre":"AGUAS ANDINAS S.A.",
+      "empresa_b_nombre":"COLBUN S.A."
+    },
+    {
+      "index":137,
+      "empresa_a":"61808000",
+      "empresa_b":"77726203",
+      "directores_compartidos":1,
+      "nombres_compartidos":"RODRIGO MANUBENS MOLTEDO",
+      "empresa_a_nombre":"AGUAS ANDINAS S.A.",
+      "empresa_b_nombre":"HOLDING BURSATIL REGIONAL S.A."
+    },
+    {
+      "index":138,
+      "empresa_a":"61808000",
+      "empresa_b":"77274820",
+      "directores_compartidos":1,
+      "nombres_compartidos":"FELIPE LARRAIN ASPILLAGA",
+      "empresa_a_nombre":"AGUAS ANDINAS S.A.",
+      "empresa_b_nombre":"INVERSIONES AGUAS METROPOLITANAS S.A."
+    },
+    {
+      "index":139,
+      "empresa_a":"76215637",
+      "empresa_b":"96885880",
+      "directores_compartidos":1,
+      "nombres_compartidos":"VICENTE DOMINGUEZ VIAL",
+      "empresa_a_nombre":"AGUAS ARAUCANIA S.A.",
+      "empresa_b_nombre":"SALFACORP S.A."
+    },
+    {
+      "index":140,
+      "empresa_a":"76215637",
+      "empresa_b":"83628100",
+      "directores_compartidos":1,
+      "nombres_compartidos":"ALBERTO EGUIGUREN CORREA",
+      "empresa_a_nombre":"AGUAS ARAUCANIA S.A.",
+      "empresa_b_nombre":"SONDA S.A."
+    },
+    {
+      "index":141,
+      "empresa_a":"96703230",
+      "empresa_b":"96885880",
+      "directores_compartidos":1,
+      "nombres_compartidos":"VICENTE DOMINGUEZ VIAL",
+      "empresa_a_nombre":"AGUAS DECIMA S.A.",
+      "empresa_b_nombre":"SALFACORP S.A."
+    },
+    {
+      "index":142,
+      "empresa_a":"76215634",
+      "empresa_b":"96885880",
+      "directores_compartidos":1,
+      "nombres_compartidos":"VICENTE DOMINGUEZ VIAL",
+      "empresa_a_nombre":"AGUAS DEL ALTIPLANO S.A.",
+      "empresa_b_nombre":"SALFACORP S.A."
+    },
+    {
+      "index":143,
+      "empresa_a":"76215634",
+      "empresa_b":"83628100",
+      "directores_compartidos":1,
+      "nombres_compartidos":"ALBERTO EGUIGUREN CORREA",
+      "empresa_a_nombre":"AGUAS DEL ALTIPLANO S.A.",
+      "empresa_b_nombre":"SONDA S.A."
+    },
+    {
+      "index":144,
+      "empresa_a":"76215628",
+      "empresa_b":"96885880",
+      "directores_compartidos":1,
+      "nombres_compartidos":"VICENTE DOMINGUEZ VIAL",
+      "empresa_a_nombre":"AGUAS MAGALLANES S.A.",
+      "empresa_b_nombre":"SALFACORP S.A."
+    },
+    {
+      "index":145,
+      "empresa_a":"76215628",
+      "empresa_b":"83628100",
+      "directores_compartidos":1,
+      "nombres_compartidos":"ALBERTO EGUIGUREN CORREA",
+      "empresa_a_nombre":"AGUAS MAGALLANES S.A.",
+      "empresa_b_nombre":"SONDA S.A."
+    },
+    {
+      "index":146,
+      "empresa_a":"76511423",
+      "empresa_b":"91387000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"CLAUDIA FEHLANDT EGGERS",
+      "empresa_a_nombre":"ALEMANA SEGUROS S.A.",
+      "empresa_b_nombre":"SOCIEDAD ANONIMA DE DEPORTES MANQUEHUE"
+    },
+    {
+      "index":147,
+      "empresa_a":"94270000",
+      "empresa_b":"96874030",
+      "directores_compartidos":1,
+      "nombres_compartidos":"SERGIO GUZMAN LAGOS",
+      "empresa_a_nombre":"ALMENDRAL S.A.",
+      "empresa_b_nombre":"ABC S.A."
+    },
+    {
+      "index":148,
+      "empresa_a":"94270000",
+      "empresa_b":"96882560",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JOSE ANTONIO GARCÉS SILVA",
+      "empresa_a_nombre":"ALMENDRAL S.A.",
+      "empresa_b_nombre":"BANVIDA S.A."
+    },
+    {
+      "index":149,
+      "empresa_a":"94270000",
+      "empresa_b":"96656410",
+      "directores_compartidos":1,
+      "nombres_compartidos":"LUIS FELIPE GAZITUA ACHONDO",
+      "empresa_a_nombre":"ALMENDRAL S.A.",
+      "empresa_b_nombre":"BICE VIDA COMPAÑIA DE SEGUROS S.A."
+    },
+    {
+      "index":150,
+      "empresa_a":"94270000",
+      "empresa_b":"96579280",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JOSE ANTONIO GARCÉS SILVA",
+      "empresa_a_nombre":"ALMENDRAL S.A.",
+      "empresa_b_nombre":"CN LIFE, COMPAÑIA DE SEGUROS DE VIDA S.A."
+    },
+    {
+      "index":151,
+      "empresa_a":"94270000",
+      "empresa_b":"99012000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JOSE ANTONIO GARCÉS SILVA",
+      "empresa_a_nombre":"ALMENDRAL S.A.",
+      "empresa_b_nombre":"COMPAÑIA DE SEGUROS DE VIDA CONSORCIO NACIONAL DE SEGUROS S.A."
+    },
+    {
+      "index":152,
+      "empresa_a":"94270000",
+      "empresa_b":"96654180",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JOSE ANTONIO GARCÉS SILVA",
+      "empresa_a_nombre":"ALMENDRAL S.A.",
+      "empresa_b_nombre":"COMPAÑIA DE SEGUROS GENERALES CONSORCIO NACIONAL DE SEGUROS S.A."
+    },
+    {
+      "index":153,
+      "empresa_a":"94270000",
+      "empresa_b":"96872980",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JOSE IGNACIO HURTADO VICUÑA",
+      "empresa_a_nombre":"ALMENDRAL S.A.",
+      "empresa_b_nombre":"INVERNOVA S.A."
+    },
+    {
+      "index":154,
+      "empresa_a":"94270000",
+      "empresa_b":"99598300",
+      "directores_compartidos":1,
+      "nombres_compartidos":"MARCOS BÜCHI BUC",
+      "empresa_a_nombre":"ALMENDRAL S.A.",
+      "empresa_b_nombre":"SIGDO KOPPERS S.A."
+    },
+    {
+      "index":155,
+      "empresa_a":"76503273",
+      "empresa_b":"81290800",
+      "directores_compartidos":1,
+      "nombres_compartidos":"PABLO ANDRES ARMAS VIGNEAUX",
+      "empresa_a_nombre":"AMERIS CAPITAL ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresa_b_nombre":"COMPAÑIA AGROPECUARIA COPEVAL S.A."
+    },
+    {
+      "index":156,
+      "empresa_a":"76598625",
+      "empresa_b":"97011000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"ALFONSO PERO COSTABAL",
+      "empresa_a_nombre":"ASEGURADORA PORVENIR S.A.",
+      "empresa_b_nombre":"BANCO INTERNACIONAL"
+    },
+    {
+      "index":157,
+      "empresa_a":"76172904",
+      "empresa_b":"91144000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"GEORGES ANTOINE DE BOURGUIGNON ARNDT",
+      "empresa_a_nombre":"ASSET ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresa_b_nombre":"EMBOTELLADORA ANDINA S.A."
+    },
+    {
+      "index":158,
+      "empresa_a":"76172904",
+      "empresa_b":"96684580",
+      "directores_compartidos":1,
+      "nombres_compartidos":"GEORGES ANTOINE DE BOURGUIGNON ARNDT",
+      "empresa_a_nombre":"ASSET ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresa_b_nombre":"FERROCARRIL DEL PACIFICO S.A."
+    },
+    {
+      "index":159,
+      "empresa_a":"76172904",
+      "empresa_b":"93007000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"GEORGES ANTOINE DE BOURGUIGNON ARNDT",
+      "empresa_a_nombre":"ASSET ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresa_b_nombre":"SOCIEDAD QUIMICA Y MINERA DE CHILE S.A."
+    },
+    {
+      "index":160,
+      "empresa_a":"76632384",
+      "empresa_b":"96530900",
+      "directores_compartidos":1,
+      "nombres_compartidos":"PEDRO ATRIA ALONSO",
+      "empresa_a_nombre":"AUGUSTAR SEGUROS DE VIDA S.A.",
+      "empresa_b_nombre":"BCI ASSET MANAGEMENT ADMINISTRADORA GENERAL DE FONDOS S.A."
+    },
+    {
+      "index":161,
+      "empresa_a":"76632384",
+      "empresa_b":"93711000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"TINA CRISTA ROSENFELD -",
+      "empresa_a_nombre":"AUGUSTAR SEGUROS DE VIDA S.A.",
+      "empresa_b_nombre":"CAMANCHACA S.A."
+    },
+    {
+      "index":162,
+      "empresa_a":"76632384",
+      "empresa_b":"96802690",
+      "directores_compartidos":1,
+      "nombres_compartidos":"TINA CRISTA ROSENFELD -",
+      "empresa_a_nombre":"AUGUSTAR SEGUROS DE VIDA S.A.",
+      "empresa_b_nombre":"MASISA S.A."
+    },
+    {
+      "index":163,
+      "empresa_a":"96767630",
+      "empresa_b":"97004000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"PABLO JOSÉ GRANIFO LAVIN",
+      "empresa_a_nombre":"BANCHILE ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresa_b_nombre":"BANCO DE CHILE"
+    },
+    {
+      "index":164,
+      "empresa_a":"97023000",
+      "empresa_b":"99569020",
+      "directores_compartidos":1,
+      "nombres_compartidos":"FERNANDO AGUAD DAGACH",
+      "empresa_a_nombre":"BANCO ITAÚ CHILE",
+      "empresa_b_nombre":"CLUB DEPORTIVO PALESTINO SADP"
+    },
+    {
+      "index":165,
+      "empresa_a":"96882560",
+      "empresa_b":"99012000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JOSE ANTONIO GARCÉS SILVA",
+      "empresa_a_nombre":"BANVIDA S.A.",
+      "empresa_b_nombre":"COMPAÑIA DE SEGUROS DE VIDA CONSORCIO NACIONAL DE SEGUROS S.A."
+    },
+    {
+      "index":166,
+      "empresa_a":"92434000",
+      "empresa_b":"96551730",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JOSE MIGUEL ALCALDE PRADO",
+      "empresa_a_nombre":"BESALCO S.A.",
+      "empresa_b_nombre":"BOLSA ELECTRONICA DE CHILE, BOLSA DE VALORES"
+    },
+    {
+      "index":167,
+      "empresa_a":"92434000",
+      "empresa_b":"95134000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"CATALINA CABELLO RODRIGUEZ",
+      "empresa_a_nombre":"BESALCO S.A.",
+      "empresa_b_nombre":"GRUPO EMPRESAS NAVIERAS S.A."
+    },
+    {
+      "index":168,
+      "empresa_a":"85741000",
+      "empresa_b":"94270000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"LUIS FELIPE GAZITUA ACHONDO",
+      "empresa_a_nombre":"BICECORP S.A.",
+      "empresa_b_nombre":"ALMENDRAL S.A."
+    },
+    {
+      "index":169,
+      "empresa_a":"85741000",
+      "empresa_b":"92580000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"LUIS FELIPE GAZITUA ACHONDO",
+      "empresa_a_nombre":"BICECORP S.A.",
+      "empresa_b_nombre":"EMPRESA NACIONAL DE TELECOMUNICACIONES S.A."
+    },
+    {
+      "index":170,
+      "empresa_a":"85741000",
+      "empresa_b":"90222000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JORGE EDUARDO MARIN CORREA",
+      "empresa_a_nombre":"BICECORP S.A.",
+      "empresa_b_nombre":"EMPRESAS CMPC S.A."
+    },
+    {
+      "index":171,
+      "empresa_a":"85741000",
+      "empresa_b":"91553000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"LUIS FELIPE GAZITUA ACHONDO",
+      "empresa_a_nombre":"BICECORP S.A.",
+      "empresa_b_nombre":"FORESTAL CONSTRUCTORA Y COMERCIAL DEL PACIFICO SUR S.A."
+    },
+    {
+      "index":172,
+      "empresa_a":"85741000",
+      "empresa_b":"90412000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"LUIS FELIPE GAZITUA ACHONDO",
+      "empresa_a_nombre":"BICECORP S.A.",
+      "empresa_b_nombre":"MINERA VALPARAISO S.A."
+    },
+    {
+      "index":173,
+      "empresa_a":"85741000",
+      "empresa_b":"90831000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JUAN CARLOS EYZAGUIRRE ECHENIQUE",
+      "empresa_a_nombre":"BICECORP S.A.",
+      "empresa_b_nombre":"SOCIEDAD AGRICOLA LA ROSA SOFRUCO S.A."
+    },
+    {
+      "index":174,
+      "empresa_a":"80860400",
+      "empresa_b":"96928510",
+      "directores_compartidos":1,
+      "nombres_compartidos":"PATRICIO ROJAS RAMOS",
+      "empresa_a_nombre":"BLUMAR S.A.",
+      "empresa_b_nombre":"EMPRESAS LIPIGAS S.A."
+    },
+    {
+      "index":175,
+      "empresa_a":"80860400",
+      "empresa_b":"96574040",
+      "directores_compartidos":1,
+      "nombres_compartidos":"ANDRES SANTA CRUZ LOPEZ",
+      "empresa_a_nombre":"BLUMAR S.A.",
+      "empresa_b_nombre":"SOCIEDAD DE INVERSIONES NORTE SUR S.A."
+    },
+    {
+      "index":176,
+      "empresa_a":"80860400",
+      "empresa_b":"89150900",
+      "directores_compartidos":1,
+      "nombres_compartidos":"ANDRES SANTA CRUZ LOPEZ",
+      "empresa_a_nombre":"BLUMAR S.A.",
+      "empresa_b_nombre":"VIÑA LOS VASCOS S.A."
+    },
+    {
+      "index":177,
+      "empresa_a":"90249000",
+      "empresa_b":"96966250",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JUAN GUILLERMO AGUERO VERGARA",
+      "empresa_a_nombre":"BOLSA DE COMERCIO DE SANTIAGO, BOLSA DE VALORES",
+      "empresa_b_nombre":"BTG PACTUAL CHILE S.A. ADMINISTRADORA GENERAL DE FONDOS"
+    },
+    {
+      "index":178,
+      "empresa_a":"96551730",
+      "empresa_b":"96666140",
+      "directores_compartidos":1,
+      "nombres_compartidos":"ARTURO CONCHA URETA",
+      "empresa_a_nombre":"BOLSA ELECTRONICA DE CHILE, BOLSA DE VALORES",
+      "empresa_b_nombre":"DEPOSITO CENTRAL DE VALORES S.A. DEPOSITO DE VALORES"
+    },
+    {
+      "index":179,
+      "empresa_a":"96966250",
+      "empresa_b":"97023000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"FERNANDO MASSU TARE",
+      "empresa_a_nombre":"BTG PACTUAL CHILE S.A. ADMINISTRADORA GENERAL DE FONDOS",
+      "empresa_b_nombre":"BANCO ITAÚ CHILE"
+    },
+    {
+      "index":180,
+      "empresa_a":"93711000",
+      "empresa_b":"93834000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JOSEFINA TERESITA MONTENEGRO ARANEDA",
+      "empresa_a_nombre":"CAMANCHACA S.A.",
+      "empresa_b_nombre":"CENCOSUD S.A."
+    },
+    {
+      "index":181,
+      "empresa_a":"93711000",
+      "empresa_b":"96708470",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JOSEFINA TERESITA MONTENEGRO ARANEDA",
+      "empresa_a_nombre":"CAMANCHACA S.A.",
+      "empresa_b_nombre":"INVERCAP S.A."
+    },
+    {
+      "index":182,
+      "empresa_a":"93711000",
+      "empresa_b":"96802690",
+      "directores_compartidos":1,
+      "nombres_compartidos":"TINA ROSENFELD KREISSELMEYER",
+      "empresa_a_nombre":"CAMANCHACA S.A.",
+      "empresa_b_nombre":"MASISA S.A."
+    },
+    {
+      "index":183,
+      "empresa_a":"91297000",
+      "empresa_b":"92544000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"ROBERTO DE ANDARACA ADRIASOLA",
+      "empresa_a_nombre":"CAP S.A.",
+      "empresa_b_nombre":"CINTAC S.A."
+    },
+    {
+      "index":184,
+      "empresa_a":"91297000",
+      "empresa_b":"96885880",
+      "directores_compartidos":1,
+      "nombres_compartidos":"PATRICIA NÚÑEZ FIGUEROA",
+      "empresa_a_nombre":"CAP S.A.",
+      "empresa_b_nombre":"SALFACORP S.A."
+    },
+    {
+      "index":185,
+      "empresa_a":"76435792",
+      "empresa_b":"76598625",
+      "directores_compartidos":1,
+      "nombres_compartidos":"ALFONSO PERÓ COSTABAL",
+      "empresa_a_nombre":"CAPITAL ADVISORS ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresa_b_nombre":"ASEGURADORA PORVENIR S.A."
+    },
+    {
+      "index":186,
+      "empresa_a":"76435792",
+      "empresa_b":"97011000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"ALFONSO PERÓ COSTABAL",
+      "empresa_a_nombre":"CAPITAL ADVISORS ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresa_b_nombre":"BANCO INTERNACIONAL"
+    },
+    {
+      "index":187,
+      "empresa_a":"76143636",
+      "empresa_b":"98000100",
+      "directores_compartidos":1,
+      "nombres_compartidos":"NATALIA GONZALEZ BAÑADOS",
+      "empresa_a_nombre":"CAROZZI S.A.",
+      "empresa_b_nombre":"ADMINISTRADORA DE FONDOS DE PENSIONES HABITAT S.A."
+    },
+    {
+      "index":188,
+      "empresa_a":"96572920",
+      "empresa_b":"96966250",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JUAN GUILLERMO AGUERO VERGARA",
+      "empresa_a_nombre":"CCLV, CONTRAPARTE CENTRAL S.A.",
+      "empresa_b_nombre":"BTG PACTUAL CHILE S.A. ADMINISTRADORA GENERAL DE FONDOS"
+    },
+    {
+      "index":189,
+      "empresa_a":"91337000",
+      "empresa_b":"96872980",
+      "directores_compartidos":1,
+      "nombres_compartidos":"FELIPE SILVA MENDEZ",
+      "empresa_a_nombre":"CEMENTO POLPAICO S.A.",
+      "empresa_b_nombre":"INVERNOVA S.A."
+    },
+    {
+      "index":190,
+      "empresa_a":"93834000",
+      "empresa_b":"96970380",
+      "directores_compartidos":1,
+      "nombres_compartidos":"IGNACIO PEREZ ALARCON",
+      "empresa_a_nombre":"CENCOSUD S.A.",
+      "empresa_b_nombre":"ENJOY S.A."
+    },
+    {
+      "index":191,
+      "empresa_a":"93834000",
+      "empresa_b":"96753330",
+      "directores_compartidos":1,
+      "nombres_compartidos":"FELIPE LARRAIN BASCUÑAN",
+      "empresa_a_nombre":"CENCOSUD S.A.",
+      "empresa_b_nombre":"INDEPENDENCIA ADMINISTRADORA GENERAL DE FONDOS S.A."
+    },
+    {
+      "index":192,
+      "empresa_a":"93834000",
+      "empresa_b":"96708470",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JOSEFINA TERESITA MONTENEGRO ARANEDA",
+      "empresa_a_nombre":"CENCOSUD S.A.",
+      "empresa_b_nombre":"INVERCAP S.A."
+    },
+    {
+      "index":193,
+      "empresa_a":"93834000",
+      "empresa_b":"96802690",
+      "directores_compartidos":1,
+      "nombres_compartidos":"IGNACIO PEREZ ALARCON",
+      "empresa_a_nombre":"CENCOSUD S.A.",
+      "empresa_b_nombre":"MASISA S.A."
+    },
+    {
+      "index":194,
+      "empresa_a":"76433310",
+      "empresa_b":"89150900",
+      "directores_compartidos":1,
+      "nombres_compartidos":"MARÍA SUSANA CAREY CLARO",
+      "empresa_a_nombre":"CENCOSUD SHOPPING S.A.",
+      "empresa_b_nombre":"VIÑA LOS VASCOS S.A."
+    },
+    {
+      "index":195,
+      "empresa_a":"76477116",
+      "empresa_b":"90743000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JUAN FERNÁNDEZ FERNÁNDEZ",
+      "empresa_a_nombre":"CF SEGUROS DE VIDA S.A.",
+      "empresa_b_nombre":"PROMOTORA CMR FALABELLA S.A."
+    },
+    {
+      "index":196,
+      "empresa_a":"96601710",
+      "empresa_b":"96882560",
+      "directores_compartidos":1,
+      "nombres_compartidos":"TOMÁS FERNÁNDEZ MAC-AULIFFE",
+      "empresa_a_nombre":"CIMENTA S.A. ADMINISTRADORA GENERAL DE FONDOS",
+      "empresa_b_nombre":"BANVIDA S.A."
+    },
+    {
+      "index":197,
+      "empresa_a":"92544000",
+      "empresa_b":"96708470",
+      "directores_compartidos":1,
+      "nombres_compartidos":"ROBERTO DE ANDARACA ADRIASOLA",
+      "empresa_a_nombre":"CINTAC S.A.",
+      "empresa_b_nombre":"INVERCAP S.A."
+    },
+    {
+      "index":198,
+      "empresa_a":"92544000",
+      "empresa_b":"96885880",
+      "directores_compartidos":1,
+      "nombres_compartidos":"FERNANDO EMILIO RIOSECO ZORN",
+      "empresa_a_nombre":"CINTAC S.A.",
+      "empresa_b_nombre":"SALFACORP S.A."
+    },
+    {
+      "index":199,
+      "empresa_a":"93930000",
+      "empresa_b":"96966250",
+      "directores_compartidos":1,
+      "nombres_compartidos":"FERNANDO MASSU TARE",
+      "empresa_a_nombre":"CLINICA LAS CONDES S.A.",
+      "empresa_b_nombre":"BTG PACTUAL CHILE S.A. ADMINISTRADORA GENERAL DE FONDOS"
+    },
+    {
+      "index":200,
+      "empresa_a":"93930000",
+      "empresa_b":"96947020",
+      "directores_compartidos":1,
+      "nombres_compartidos":"FERNANDO MASSU TARE",
+      "empresa_a_nombre":"CLINICA LAS CONDES S.A.",
+      "empresa_b_nombre":"EMPRESAS HITES S.A."
+    },
+    {
+      "index":201,
+      "empresa_a":"93930000",
+      "empresa_b":"94627000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"FERNANDO MASSU TARE",
+      "empresa_a_nombre":"CLINICA LAS CONDES S.A.",
+      "empresa_b_nombre":"PARQUE ARAUCO S.A."
+    },
+    {
+      "index":202,
+      "empresa_a":"82912300",
+      "empresa_b":"88221200",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JORGE JORDAN FRANULIC",
+      "empresa_a_nombre":"CLUB HIPICO DE PUNTA ARENAS S.A.",
+      "empresa_b_nombre":"EMPRESA ELECTRICA DE MAGALLANES S.A."
+    },
+    {
+      "index":203,
+      "empresa_a":"96579280",
+      "empresa_b":"96882560",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JOSÉ ANTONIO GARCES SILVA",
+      "empresa_a_nombre":"CN LIFE, COMPAÑIA DE SEGUROS DE VIDA S.A.",
+      "empresa_b_nombre":"BANVIDA S.A."
+    },
+    {
+      "index":204,
+      "empresa_a":"93281000",
+      "empresa_b":"96874030",
+      "directores_compartidos":1,
+      "nombres_compartidos":"LEONIDAS VIAL ECHEVERRIA",
+      "empresa_a_nombre":"COCA COLA EMBONOR S.A.",
+      "empresa_b_nombre":"ABC S.A."
+    },
+    {
+      "index":205,
+      "empresa_a":"93281000",
+      "empresa_b":"93830000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"LEONIDAS VIAL ECHEVERRIA",
+      "empresa_a_nombre":"COCA COLA EMBONOR S.A.",
+      "empresa_b_nombre":"COMPAÑIAS CIC S.A."
+    },
+    {
+      "index":206,
+      "empresa_a":"93281000",
+      "empresa_b":"96522900",
+      "directores_compartidos":1,
+      "nombres_compartidos":"LEONIDAS VIAL ECHEVERRIA",
+      "empresa_a_nombre":"COCA COLA EMBONOR S.A.",
+      "empresa_b_nombre":"CRÉDITOS, ORGANIZACIÓN Y FINANZAS S.A."
+    },
+    {
+      "index":207,
+      "empresa_a":"93281000",
+      "empresa_b":"99279000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JORGE ADOLFO LESSER GARCIA-HUIDOBRO",
+      "empresa_a_nombre":"COCA COLA EMBONOR S.A.",
+      "empresa_b_nombre":"EUROAMERICA SEGUROS DE VIDA S.A."
+    },
+    {
+      "index":208,
+      "empresa_a":"96505760",
+      "empresa_b":"99301000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"FRANCISCO MATTE IZQUIERDO",
+      "empresa_a_nombre":"COLBUN S.A.",
+      "empresa_b_nombre":"SEGUROS VIDA SECURITY PREVISION S.A."
+    },
+    {
+      "index":209,
+      "empresa_a":"96505760",
+      "empresa_b":"96579800",
+      "directores_compartidos":1,
+      "nombres_compartidos":"MARCELA ANGULO GONZÁLEZ",
+      "empresa_a_nombre":"COLBUN S.A.",
+      "empresa_b_nombre":"SURALIS S.A."
+    },
+    {
+      "index":210,
+      "empresa_a":"76408757",
+      "empresa_b":"76503272",
+      "directores_compartidos":1,
+      "nombres_compartidos":"BERNARDO SIMIAN SOZA",
+      "empresa_a_nombre":"COLMENA COMPAÑIA DE SEGUROS DE VIDA S.A.",
+      "empresa_b_nombre":"LAB CAPITAL ADMINISTRADORA GENERAL DE FONDOS S.A."
+    },
+    {
+      "index":211,
+      "empresa_a":"76408757",
+      "empresa_b":"90256000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"PABLO TRUCCO BRITO",
+      "empresa_a_nombre":"COLMENA COMPAÑIA DE SEGUROS DE VIDA S.A.",
+      "empresa_b_nombre":"SOCIEDAD HIPODROMO CHILE S.A."
+    },
+    {
+      "index":212,
+      "empresa_a":"76317889",
+      "empresa_b":"96551730",
+      "directores_compartidos":1,
+      "nombres_compartidos":"ARTURO CONCHA URETA",
+      "empresa_a_nombre":"COMDER, CONTRAPARTE CENTRAL S.A.",
+      "empresa_b_nombre":"BOLSA ELECTRONICA DE CHILE, BOLSA DE VALORES"
+    },
+    {
+      "index":213,
+      "empresa_a":"76317889",
+      "empresa_b":"77198108",
+      "directores_compartidos":1,
+      "nombres_compartidos":"ARTURO CONCHA URETA",
+      "empresa_a_nombre":"COMDER, CONTRAPARTE CENTRAL S.A.",
+      "empresa_b_nombre":"DCV ASESORIAS Y SERVICIOS S.A."
+    },
+    {
+      "index":214,
+      "empresa_a":"76317889",
+      "empresa_b":"96666140",
+      "directores_compartidos":1,
+      "nombres_compartidos":"ARTURO CONCHA URETA",
+      "empresa_a_nombre":"COMDER, CONTRAPARTE CENTRAL S.A.",
+      "empresa_b_nombre":"DEPOSITO CENTRAL DE VALORES S.A. DEPOSITO DE VALORES"
+    },
+    {
+      "index":215,
+      "empresa_a":"90413000",
+      "empresa_b":"97004000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"PABLO JOSÉ GRANIFO LAVIN",
+      "empresa_a_nombre":"COMPAÑIA CERVECERIAS UNIDAS S.A.",
+      "empresa_b_nombre":"BANCO DE CHILE"
+    },
+    {
+      "index":216,
+      "empresa_a":"90413000",
+      "empresa_b":"96837630",
+      "directores_compartidos":1,
+      "nombres_compartidos":"MARIE AGATHE LEMOINE PORTE",
+      "empresa_a_nombre":"COMPAÑIA CERVECERIAS UNIDAS S.A.",
+      "empresa_b_nombre":"BNP PARIBAS CARDIF SEGUROS DE VIDA S.A."
+    },
+    {
+      "index":217,
+      "empresa_a":"90413000",
+      "empresa_b":"96837640",
+      "directores_compartidos":1,
+      "nombres_compartidos":"MARIE AGATHE LEMOINE PORTE",
+      "empresa_a_nombre":"COMPAÑIA CERVECERIAS UNIDAS S.A.",
+      "empresa_b_nombre":"BNP PARIBAS CARDIF SEGUROS GENERALES S.A."
+    },
+    {
+      "index":218,
+      "empresa_a":"90081000",
+      "empresa_b":"95134000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"FRANCISCO GARDEWEG OSSA",
+      "empresa_a_nombre":"COMPAÑIA CHILENA DE FOSFOROS S.A.",
+      "empresa_b_nombre":"GRUPO EMPRESAS NAVIERAS S.A."
+    },
+    {
+      "index":219,
+      "empresa_a":"90081000",
+      "empresa_b":"96723320",
+      "directores_compartidos":1,
+      "nombres_compartidos":"FRANCISCO GARDEWEG OSSA",
+      "empresa_a_nombre":"COMPAÑIA CHILENA DE FOSFOROS S.A.",
+      "empresa_b_nombre":"PORTUARIA CABO FROWARD S.A."
+    },
+    {
+      "index":220,
+      "empresa_a":"96654180",
+      "empresa_b":"96882560",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JOSÉ ANTONIO GARCES SILVA",
+      "empresa_a_nombre":"COMPAÑIA DE SEGUROS GENERALES CONSORCIO NACIONAL DE SEGUROS S.A.",
+      "empresa_b_nombre":"BANVIDA S.A."
+    },
+    {
+      "index":221,
+      "empresa_a":"90320000",
+      "empresa_b":"93727000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"FERNANDO FRANKE GARCÍA",
+      "empresa_a_nombre":"COMPAÑIA ELECTRO METALURGICA S.A.",
+      "empresa_b_nombre":"COMPAÑIA DE INVERSIONES LA ESPAÑOLA S.A."
+    },
+    {
+      "index":222,
+      "empresa_a":"90320000",
+      "empresa_b":"99040000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"FERNANDO FRANKE GARCÍA",
+      "empresa_a_nombre":"COMPAÑIA ELECTRO METALURGICA S.A.",
+      "empresa_b_nombre":"INVERSIONES HISPANIA S.A."
+    },
+    {
+      "index":223,
+      "empresa_a":"90320000",
+      "empresa_b":"94082000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"BALTAZAR SÁNCHEZ GUZMÁN",
+      "empresa_a_nombre":"COMPAÑIA ELECTRO METALURGICA S.A.",
+      "empresa_b_nombre":"INVERSIONES SIEMEL S.A."
+    },
+    {
+      "index":224,
+      "empresa_a":"90320000",
+      "empresa_b":"96566900",
+      "directores_compartidos":1,
+      "nombres_compartidos":"BALTAZAR SÁNCHEZ GUZMÁN",
+      "empresa_a_nombre":"COMPAÑIA ELECTRO METALURGICA S.A.",
+      "empresa_b_nombre":"NAVARINO S.A."
+    },
+    {
+      "index":225,
+      "empresa_a":"90320000",
+      "empresa_b":"96852100",
+      "directores_compartidos":1,
+      "nombres_compartidos":"BALTAZAR SÁNCHEZ GUZMÁN",
+      "empresa_a_nombre":"COMPAÑIA ELECTRO METALURGICA S.A.",
+      "empresa_b_nombre":"QUILICURA S.A."
+    },
+    {
+      "index":226,
+      "empresa_a":"90209000",
+      "empresa_b":"93711000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"CLAUDIO INGLESI NIETO",
+      "empresa_a_nombre":"COMPAÑIA INDUSTRIAL EL VOLCAN S.A.",
+      "empresa_b_nombre":"CAMANCHACA S.A."
+    },
+    {
+      "index":227,
+      "empresa_a":"90209000",
+      "empresa_b":"96505760",
+      "directores_compartidos":1,
+      "nombres_compartidos":"RODRIGO DONOSO MUNITA",
+      "empresa_a_nombre":"COMPAÑIA INDUSTRIAL EL VOLCAN S.A.",
+      "empresa_b_nombre":"COLBUN S.A."
+    },
+    {
+      "index":228,
+      "empresa_a":"90209000",
+      "empresa_b":"92580000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"BERNARDO MATTE LARRAIN",
+      "empresa_a_nombre":"COMPAÑIA INDUSTRIAL EL VOLCAN S.A.",
+      "empresa_b_nombre":"EMPRESA NACIONAL DE TELECOMUNICACIONES S.A."
+    },
+    {
+      "index":229,
+      "empresa_a":"90160000",
+      "empresa_b":"96767630",
+      "directores_compartidos":1,
+      "nombres_compartidos":"PABLO JOSÉ GRANIFO LAVIN",
+      "empresa_a_nombre":"COMPAÑIA SUD AMERICANA DE VAPORES S.A.",
+      "empresa_b_nombre":"BANCHILE ADMINISTRADORA GENERAL DE FONDOS S.A."
+    },
+    {
+      "index":230,
+      "empresa_a":"90160000",
+      "empresa_b":"97004000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"PABLO JOSÉ GRANIFO LAVIN",
+      "empresa_a_nombre":"COMPAÑIA SUD AMERICANA DE VAPORES S.A.",
+      "empresa_b_nombre":"BANCO DE CHILE"
+    },
+    {
+      "index":231,
+      "empresa_a":"90160000",
+      "empresa_b":"90320000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"CRISTÓBAL EYZAGUIRRE BAEZA",
+      "empresa_a_nombre":"COMPAÑIA SUD AMERICANA DE VAPORES S.A.",
+      "empresa_b_nombre":"COMPAÑIA ELECTRO METALURGICA S.A."
+    },
+    {
+      "index":232,
+      "empresa_a":"90160000",
+      "empresa_b":"99279000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JOSÉ FERNANDO DE GREGORIO REBECO",
+      "empresa_a_nombre":"COMPAÑIA SUD AMERICANA DE VAPORES S.A.",
+      "empresa_b_nombre":"EUROAMERICA SEGUROS DE VIDA S.A."
+    },
+    {
+      "index":233,
+      "empresa_a":"90160000",
+      "empresa_b":"96640360",
+      "directores_compartidos":1,
+      "nombres_compartidos":"CRISTÓBAL EYZAGUIRRE BAEZA",
+      "empresa_a_nombre":"COMPAÑIA SUD AMERICANA DE VAPORES S.A.",
+      "empresa_b_nombre":"QUEMCHI S.A."
+    },
+    {
+      "index":234,
+      "empresa_a":"90160000",
+      "empresa_b":"93007000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"HERNAN ALBERTO BÜCHI BUC",
+      "empresa_a_nombre":"COMPAÑIA SUD AMERICANA DE VAPORES S.A.",
+      "empresa_b_nombre":"SOCIEDAD QUIMICA Y MINERA DE CHILE S.A."
+    },
+    {
+      "index":235,
+      "empresa_a":"90160000",
+      "empresa_b":"91041000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"PABLO JOSÉ GRANIFO LAVIN",
+      "empresa_a_nombre":"COMPAÑIA SUD AMERICANA DE VAPORES S.A.",
+      "empresa_b_nombre":"VIÑA SAN PEDRO TARAPACA S.A."
+    },
+    {
+      "index":236,
+      "empresa_a":"76981875",
+      "empresa_b":"81290800",
+      "directores_compartidos":1,
+      "nombres_compartidos":"GONZALO MARTINO GONZÁLEZ",
+      "empresa_a_nombre":"CONTEMPORA COMPAÑIA DE SEGUROS GENERALES S.A.",
+      "empresa_b_nombre":"COMPAÑIA AGROPECUARIA COPEVAL S.A."
+    },
+    {
+      "index":237,
+      "empresa_a":"76981875",
+      "empresa_b":"90310000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"VICENTE MONGE ALCALDE",
+      "empresa_a_nombre":"CONTEMPORA COMPAÑIA DE SEGUROS GENERALES S.A.",
+      "empresa_b_nombre":"EMPRESAS GASCO S.A."
+    },
+    {
+      "index":238,
+      "empresa_a":"90331000",
+      "empresa_b":"94270000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"FELIPE JOANNON VERGARA",
+      "empresa_a_nombre":"CRISTALERIAS DE CHILE S.A.",
+      "empresa_b_nombre":"ALMENDRAL S.A."
+    },
+    {
+      "index":239,
+      "empresa_a":"90331000",
+      "empresa_b":"93727000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"FERNANDO FRANKE GARCÍA",
+      "empresa_a_nombre":"CRISTALERIAS DE CHILE S.A.",
+      "empresa_b_nombre":"COMPAÑIA DE INVERSIONES LA ESPAÑOLA S.A."
+    },
+    {
+      "index":240,
+      "empresa_a":"90331000",
+      "empresa_b":"99040000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"FERNANDO FRANKE GARCÍA",
+      "empresa_a_nombre":"CRISTALERIAS DE CHILE S.A.",
+      "empresa_b_nombre":"INVERSIONES HISPANIA S.A."
+    },
+    {
+      "index":241,
+      "empresa_a":"90331000",
+      "empresa_b":"94082000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"BALTAZAR SÁNCHEZ GUZMÁN",
+      "empresa_a_nombre":"CRISTALERIAS DE CHILE S.A.",
+      "empresa_b_nombre":"INVERSIONES SIEMEL S.A."
+    },
+    {
+      "index":242,
+      "empresa_a":"90331000",
+      "empresa_b":"94660000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"BALTAZAR SÁNCHEZ GUZMÁN",
+      "empresa_a_nombre":"CRISTALERIAS DE CHILE S.A.",
+      "empresa_b_nombre":"MARITIMA DE INVERSIONES S.A."
+    },
+    {
+      "index":243,
+      "empresa_a":"90331000",
+      "empresa_b":"96640360",
+      "directores_compartidos":1,
+      "nombres_compartidos":"BALTAZAR SÁNCHEZ GUZMÁN",
+      "empresa_a_nombre":"CRISTALERIAS DE CHILE S.A.",
+      "empresa_b_nombre":"QUEMCHI S.A."
+    },
+    {
+      "index":244,
+      "empresa_a":"90331000",
+      "empresa_b":"96766600",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JOSÉ MIGUEL SÁNCHEZ ERLE",
+      "empresa_a_nombre":"CRISTALERIAS DE CHILE S.A.",
+      "empresa_b_nombre":"SCHWAGER S.A."
+    },
+    {
+      "index":245,
+      "empresa_a":"76072469",
+      "empresa_b":"90222000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"PABLO HERNÁN TURNER GONZÁLEZ",
+      "empresa_a_nombre":"CRUZADOS S.A.D.P.",
+      "empresa_b_nombre":"EMPRESAS CMPC S.A."
+    },
+    {
+      "index":246,
+      "empresa_a":"76072469",
+      "empresa_b":"96684990",
+      "directores_compartidos":1,
+      "nombres_compartidos":"PABLO HERNÁN TURNER GONZÁLEZ",
+      "empresa_a_nombre":"CRUZADOS S.A.D.P.",
+      "empresa_b_nombre":"MONEDA S.A. ADMINISTRADORA GENERAL DE FONDOS"
+    },
+    {
+      "index":247,
+      "empresa_a":"76072469",
+      "empresa_b":"96812960",
+      "directores_compartidos":1,
+      "nombres_compartidos":"FRANCISCO LAVIN CHADWICK",
+      "empresa_a_nombre":"CRUZADOS S.A.D.P.",
+      "empresa_b_nombre":"PENTA VIDA COMPA#IA DE SEGUROS DE VIDA S.A."
+    },
+    {
+      "index":248,
+      "empresa_a":"76072469",
+      "empresa_b":"76455830",
+      "directores_compartidos":1,
+      "nombres_compartidos":"PABLO HERNÁN TURNER GONZÁLEZ",
+      "empresa_a_nombre":"CRUZADOS S.A.D.P.",
+      "empresa_b_nombre":"WATT´S S.A."
+    },
+    {
+      "index":249,
+      "empresa_a":"96522900",
+      "empresa_b":"96928510",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JAIME FERNANDO SANTA CRUZ NEGRI",
+      "empresa_a_nombre":"CRÉDITOS, ORGANIZACIÓN Y FINANZAS S.A.",
+      "empresa_b_nombre":"EMPRESAS LIPIGAS S.A."
+    },
+    {
+      "index":250,
+      "empresa_a":"77198108",
+      "empresa_b":"77513781",
+      "directores_compartidos":1,
+      "nombres_compartidos":"CRISTIAN FERNANDO RODRIGUEZ ALLENDES",
+      "empresa_a_nombre":"DCV ASESORIAS Y SERVICIOS S.A.",
+      "empresa_b_nombre":"ADMINISTRADORA AMERICANA DE INVERSIONES S.A."
+    },
+    {
+      "index":251,
+      "empresa_a":"77198108",
+      "empresa_b":"96551730",
+      "directores_compartidos":1,
+      "nombres_compartidos":"ARTURO CONCHA URETA",
+      "empresa_a_nombre":"DCV ASESORIAS Y SERVICIOS S.A.",
+      "empresa_b_nombre":"BOLSA ELECTRONICA DE CHILE, BOLSA DE VALORES"
+    },
+    {
+      "index":252,
+      "empresa_a":"77198108",
+      "empresa_b":"77726203",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JUAN ANDRES CAMUS CAMUS",
+      "empresa_a_nombre":"DCV ASESORIAS Y SERVICIOS S.A.",
+      "empresa_b_nombre":"HOLDING BURSATIL REGIONAL S.A."
+    },
+    {
+      "index":253,
+      "empresa_a":"76005049",
+      "empresa_b":"86963200",
+      "directores_compartidos":1,
+      "nombres_compartidos":"FRANCISCO RAMON GUTIERREZ PHILIPPI",
+      "empresa_a_nombre":"ECHEVERRIA, IZQUIERDO S.A.",
+      "empresa_b_nombre":"FORUS S.A."
+    },
+    {
+      "index":254,
+      "empresa_a":"76005049",
+      "empresa_b":"93628000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JUAN BENAVIDES FELIU",
+      "empresa_a_nombre":"ECHEVERRIA, IZQUIERDO S.A.",
+      "empresa_b_nombre":"MOLIBDENOS Y METALES S. A."
+    },
+    {
+      "index":255,
+      "empresa_a":"76005049",
+      "empresa_b":"76196718",
+      "directores_compartidos":1,
+      "nombres_compartidos":"FRANCISCO RAMON GUTIERREZ PHILIPPI",
+      "empresa_a_nombre":"ECHEVERRIA, IZQUIERDO S.A.",
+      "empresa_b_nombre":"SOCIEDAD MATRIZ SAAM S.A."
+    },
+    {
+      "index":256,
+      "empresa_a":"96817230",
+      "empresa_b":"96933030",
+      "directores_compartidos":1,
+      "nombres_compartidos":"PAULA ANDREA VALENZUELA PEÑA",
+      "empresa_a_nombre":"ELECTRICA PUNTILLA S.A.",
+      "empresa_b_nombre":"MAPFRE COMPA#IA DE SEGUROS DE VIDA DE CHILE S.A."
+    },
+    {
+      "index":257,
+      "empresa_a":"91144000",
+      "empresa_b":"94270000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JOSE ANTONIO GARCÉS SILVA",
+      "empresa_a_nombre":"EMBOTELLADORA ANDINA S.A.",
+      "empresa_b_nombre":"ALMENDRAL S.A."
+    },
+    {
+      "index":258,
+      "empresa_a":"91144000",
+      "empresa_b":"96882560",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JOSE ANTONIO GARCÉS SILVA",
+      "empresa_a_nombre":"EMBOTELLADORA ANDINA S.A.",
+      "empresa_b_nombre":"BANVIDA S.A."
+    },
+    {
+      "index":259,
+      "empresa_a":"91144000",
+      "empresa_b":"92544000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JACQUELINE ALEJANDRA SAQUEL MEDIANO",
+      "empresa_a_nombre":"EMBOTELLADORA ANDINA S.A.",
+      "empresa_b_nombre":"CINTAC S.A."
+    },
+    {
+      "index":260,
+      "empresa_a":"91144000",
+      "empresa_b":"96579280",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JOSE ANTONIO GARCÉS SILVA",
+      "empresa_a_nombre":"EMBOTELLADORA ANDINA S.A.",
+      "empresa_b_nombre":"CN LIFE, COMPAÑIA DE SEGUROS DE VIDA S.A."
+    },
+    {
+      "index":261,
+      "empresa_a":"91144000",
+      "empresa_b":"99012000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JOSE ANTONIO GARCÉS SILVA",
+      "empresa_a_nombre":"EMBOTELLADORA ANDINA S.A.",
+      "empresa_b_nombre":"COMPAÑIA DE SEGUROS DE VIDA CONSORCIO NACIONAL DE SEGUROS S.A."
+    },
+    {
+      "index":262,
+      "empresa_a":"91144000",
+      "empresa_b":"96654180",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JOSE ANTONIO GARCÉS SILVA",
+      "empresa_a_nombre":"EMBOTELLADORA ANDINA S.A.",
+      "empresa_b_nombre":"COMPAÑIA DE SEGUROS GENERALES CONSORCIO NACIONAL DE SEGUROS S.A."
+    },
+    {
+      "index":263,
+      "empresa_a":"91144000",
+      "empresa_b":"96684580",
+      "directores_compartidos":1,
+      "nombres_compartidos":"GEORGES ANTOINE DE BOURGUIGNON ARNDT",
+      "empresa_a_nombre":"EMBOTELLADORA ANDINA S.A.",
+      "empresa_b_nombre":"FERROCARRIL DEL PACIFICO S.A."
+    },
+    {
+      "index":264,
+      "empresa_a":"91144000",
+      "empresa_b":"94627000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"SALVADOR SAID SOMAVÍA",
+      "empresa_a_nombre":"EMBOTELLADORA ANDINA S.A.",
+      "empresa_b_nombre":"PARQUE ARAUCO S.A."
+    },
+    {
+      "index":265,
+      "empresa_a":"91144000",
+      "empresa_b":"93007000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"GEORGES ANTOINE DE BOURGUIGNON ARNDT",
+      "empresa_a_nombre":"EMBOTELLADORA ANDINA S.A.",
+      "empresa_b_nombre":"SOCIEDAD QUIMICA Y MINERA DE CHILE S.A."
+    },
+    {
+      "index":266,
+      "empresa_a":"91144000",
+      "empresa_b":"94840000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"MARIA FRANCISCA DE LOURDES YAÑEZ CASTILLO",
+      "empresa_a_nombre":"EMBOTELLADORA ANDINA S.A.",
+      "empresa_b_nombre":"SOCOVESA S.A."
+    },
+    {
+      "index":267,
+      "empresa_a":"92770000",
+      "empresa_b":"97023000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JORGE SELUME ZAROR",
+      "empresa_a_nombre":"EMPRESA CONSTRUCTORA MOLLER Y PEREZ-COTAPOS S.A.",
+      "empresa_b_nombre":"BANCO ITAÚ CHILE"
+    },
+    {
+      "index":268,
+      "empresa_a":"92770000",
+      "empresa_b":"93930000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JORGE SELUME ZAROR",
+      "empresa_a_nombre":"EMPRESA CONSTRUCTORA MOLLER Y PEREZ-COTAPOS S.A.",
+      "empresa_b_nombre":"CLINICA LAS CONDES S.A."
+    },
+    {
+      "index":269,
+      "empresa_a":"92580000",
+      "empresa_b":"94270000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"LUIS FELIPE GAZITUA ACHONDO",
+      "empresa_a_nombre":"EMPRESA NACIONAL DE TELECOMUNICACIONES S.A.",
+      "empresa_b_nombre":"ALMENDRAL S.A."
+    },
+    {
+      "index":270,
+      "empresa_a":"92580000",
+      "empresa_b":"96656410",
+      "directores_compartidos":1,
+      "nombres_compartidos":"LUIS FELIPE GAZITUA ACHONDO",
+      "empresa_a_nombre":"EMPRESA NACIONAL DE TELECOMUNICACIONES S.A.",
+      "empresa_b_nombre":"BICE VIDA COMPAÑIA DE SEGUROS S.A."
+    },
+    {
+      "index":271,
+      "empresa_a":"92580000",
+      "empresa_b":"96579280",
+      "directores_compartidos":1,
+      "nombres_compartidos":"CRISTIAN ARNOLDS REYES",
+      "empresa_a_nombre":"EMPRESA NACIONAL DE TELECOMUNICACIONES S.A.",
+      "empresa_b_nombre":"CN LIFE, COMPAÑIA DE SEGUROS DE VIDA S.A."
+    },
+    {
+      "index":272,
+      "empresa_a":"92580000",
+      "empresa_b":"99012000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"CRISTIAN ARNOLDS REYES",
+      "empresa_a_nombre":"EMPRESA NACIONAL DE TELECOMUNICACIONES S.A.",
+      "empresa_b_nombre":"COMPAÑIA DE SEGUROS DE VIDA CONSORCIO NACIONAL DE SEGUROS S.A."
+    },
+    {
+      "index":273,
+      "empresa_a":"92580000",
+      "empresa_b":"96654180",
+      "directores_compartidos":1,
+      "nombres_compartidos":"CRISTIAN ARNOLDS REYES",
+      "empresa_a_nombre":"EMPRESA NACIONAL DE TELECOMUNICACIONES S.A.",
+      "empresa_b_nombre":"COMPAÑIA DE SEGUROS GENERALES CONSORCIO NACIONAL DE SEGUROS S.A."
+    },
+    {
+      "index":274,
+      "empresa_a":"92580000",
+      "empresa_b":"95134000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"CARLOS HURTADO ROURKE",
+      "empresa_a_nombre":"EMPRESA NACIONAL DE TELECOMUNICACIONES S.A.",
+      "empresa_b_nombre":"GRUPO EMPRESAS NAVIERAS S.A."
+    },
+    {
+      "index":275,
+      "empresa_a":"86247400",
+      "empresa_b":"91144000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JUAN CLARO GONZALEZ",
+      "empresa_a_nombre":"EMPRESAS AQUACHILE S.A.",
+      "empresa_b_nombre":"EMBOTELLADORA ANDINA S.A."
+    },
+    {
+      "index":276,
+      "empresa_a":"86247400",
+      "empresa_b":"88745400",
+      "directores_compartidos":1,
+      "nombres_compartidos":"CANIO CORBO LIOI",
+      "empresa_a_nombre":"EMPRESAS AQUACHILE S.A.",
+      "empresa_b_nombre":"INMOBILIARIA MANQUEHUE S.A."
+    },
+    {
+      "index":277,
+      "empresa_a":"86247400",
+      "empresa_b":"99579730",
+      "directores_compartidos":1,
+      "nombres_compartidos":"VERÓNICA EDWARDS GUZMÁN",
+      "empresa_a_nombre":"EMPRESAS AQUACHILE S.A.",
+      "empresa_b_nombre":"RIPLEY CORP S.A."
+    },
+    {
+      "index":278,
+      "empresa_a":"90222000",
+      "empresa_b":"96656410",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JORGE EDUARDO MARIN CORREA",
+      "empresa_a_nombre":"EMPRESAS CMPC S.A.",
+      "empresa_b_nombre":"BICE VIDA COMPAÑIA DE SEGUROS S.A."
+    },
+    {
+      "index":279,
+      "empresa_a":"90222000",
+      "empresa_b":"93737000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JORGE HERNAN RODRIGUEZ WILSON",
+      "empresa_a_nombre":"EMPRESAS CMPC S.A.",
+      "empresa_b_nombre":"GTD MANQUEHUE S.A."
+    },
+    {
+      "index":280,
+      "empresa_a":"90222000",
+      "empresa_b":"96684990",
+      "directores_compartidos":1,
+      "nombres_compartidos":"PABLO HERNÁN TURNER GONZÁLEZ",
+      "empresa_a_nombre":"EMPRESAS CMPC S.A.",
+      "empresa_b_nombre":"MONEDA S.A. ADMINISTRADORA GENERAL DE FONDOS"
+    },
+    {
+      "index":281,
+      "empresa_a":"90310000",
+      "empresa_b":"91297000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"ANDRÉ SOUGARRET LARROQUETE",
+      "empresa_a_nombre":"EMPRESAS GASCO S.A.",
+      "empresa_b_nombre":"CAP S.A."
+    },
+    {
+      "index":282,
+      "empresa_a":"90310000",
+      "empresa_b":"94139000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"MICHÈLE ALIDA LABBÉ CID",
+      "empresa_a_nombre":"EMPRESAS GASCO S.A.",
+      "empresa_b_nombre":"INVERSIONES LA CONSTRUCCION S.A."
+    },
+    {
+      "index":283,
+      "empresa_a":"96947020",
+      "empresa_b":"97023000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"FERNANDO MASSU TARE",
+      "empresa_a_nombre":"EMPRESAS HITES S.A.",
+      "empresa_b_nombre":"BANCO ITAÚ CHILE"
+    },
+    {
+      "index":284,
+      "empresa_a":"96947020",
+      "empresa_b":"96966250",
+      "directores_compartidos":1,
+      "nombres_compartidos":"FERNANDO MASSU TARE",
+      "empresa_a_nombre":"EMPRESAS HITES S.A.",
+      "empresa_b_nombre":"BTG PACTUAL CHILE S.A. ADMINISTRADORA GENERAL DE FONDOS"
+    },
+    {
+      "index":285,
+      "empresa_a":"91550000",
+      "empresa_b":"96971830",
+      "directores_compartidos":1,
+      "nombres_compartidos":"GONZALO SANHUEZA DUEÑAS",
+      "empresa_a_nombre":"EMPRESAS IANSA S.A.",
+      "empresa_b_nombre":"EF SECURITIZADORA S.A."
+    },
+    {
+      "index":286,
+      "empresa_a":"91550000",
+      "empresa_b":"96538080",
+      "directores_compartidos":1,
+      "nombres_compartidos":"GONZALO SANHUEZA DUEÑAS",
+      "empresa_a_nombre":"EMPRESAS IANSA S.A.",
+      "empresa_b_nombre":"SOCIEDAD DE INVERSIONES CAMPOS CHILENOS S.A."
+    },
+    {
+      "index":287,
+      "empresa_a":"90266000",
+      "empresa_b":"96684580",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JUAN PABLO ABOITIZ DOMINGUEZ",
+      "empresa_a_nombre":"ENAEX S.A.",
+      "empresa_b_nombre":"FERROCARRIL DEL PACIFICO S.A."
+    },
+    {
+      "index":288,
+      "empresa_a":"94271000",
+      "empresa_b":"97023000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"HERNAN GUILLERMO SOMERVILLE SENN",
+      "empresa_a_nombre":"ENEL AMERICAS S.A.",
+      "empresa_b_nombre":"BANCO ITAÚ CHILE"
+    },
+    {
+      "index":289,
+      "empresa_a":"76536353",
+      "empresa_b":"93007000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"GINA OCQUETEAU TACCHINI",
+      "empresa_a_nombre":"ENEL CHILE S.A.",
+      "empresa_b_nombre":"SOCIEDAD QUIMICA Y MINERA DE CHILE S.A."
+    },
+    {
+      "index":290,
+      "empresa_a":"76309510",
+      "empresa_b":"96970380",
+      "directores_compartidos":1,
+      "nombres_compartidos":"ANA MARIA YURI CASTELLON",
+      "empresa_a_nombre":"ENERGIA LATINA S.A.",
+      "empresa_b_nombre":"ENJOY S.A."
+    },
+    {
+      "index":291,
+      "empresa_a":"76309510",
+      "empresa_b":"99598300",
+      "directores_compartidos":1,
+      "nombres_compartidos":"GONZALO ANDRES PAVEZ ARO",
+      "empresa_a_nombre":"ENERGIA LATINA S.A.",
+      "empresa_b_nombre":"SIGDO KOPPERS S.A."
+    },
+    {
+      "index":292,
+      "empresa_a":"88006900",
+      "empresa_b":"91297000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"MARIA CAROLINA SCHMIDT ZALDIVAR",
+      "empresa_a_nombre":"ENGIE ENERGIA CHILE S.A.",
+      "empresa_b_nombre":"CAP S.A."
+    },
+    {
+      "index":293,
+      "empresa_a":"88006900",
+      "empresa_b":"90749000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"MARIA CAROLINA SCHMIDT ZALDIVAR",
+      "empresa_a_nombre":"ENGIE ENERGIA CHILE S.A.",
+      "empresa_b_nombre":"FALABELLA S.A."
+    },
+    {
+      "index":294,
+      "empresa_a":"88006900",
+      "empresa_b":"93737000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"CRISTIAN EYZAGUIRRE JOHNSTON",
+      "empresa_a_nombre":"ENGIE ENERGIA CHILE S.A.",
+      "empresa_b_nombre":"GTD MANQUEHUE S.A."
+    },
+    {
+      "index":295,
+      "empresa_a":"88006900",
+      "empresa_b":"91643000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JOANNA DAVIDOVICH GLEISER",
+      "empresa_a_nombre":"ENGIE ENERGIA CHILE S.A.",
+      "empresa_b_nombre":"INVERSIONES NUTRAVALOR S.A."
+    },
+    {
+      "index":296,
+      "empresa_a":"76833300",
+      "empresa_b":"93281000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JORGE ADOLFO LESSER GARCIA-HUIDOBRO",
+      "empresa_a_nombre":"ESSBIO S.A.",
+      "empresa_b_nombre":"COCA COLA EMBONOR S.A."
+    },
+    {
+      "index":297,
+      "empresa_a":"76833300",
+      "empresa_b":"96571890",
+      "directores_compartidos":1,
+      "nombres_compartidos":"ALEJANDRO FERREIRO YAZIGI",
+      "empresa_a_nombre":"ESSBIO S.A.",
+      "empresa_b_nombre":"COMPAÑIA DE SEGUROS CONFUTURO S.A."
+    },
+    {
+      "index":298,
+      "empresa_a":"76833300",
+      "empresa_b":"99279000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JORGE ADOLFO LESSER GARCIA-HUIDOBRO",
+      "empresa_a_nombre":"ESSBIO S.A.",
+      "empresa_b_nombre":"EUROAMERICA SEGUROS DE VIDA S.A."
+    },
+    {
+      "index":299,
+      "empresa_a":"76833300",
+      "empresa_b":"77729737",
+      "directores_compartidos":1,
+      "nombres_compartidos":"SUSANA JIMENEZ SCHUSTER",
+      "empresa_a_nombre":"ESSBIO S.A.",
+      "empresa_b_nombre":"IGC S.A."
+    },
+    {
+      "index":300,
+      "empresa_a":"76000739",
+      "empresa_b":"93281000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JORGE ADOLFO LESSER GARCIA-HUIDOBRO",
+      "empresa_a_nombre":"ESVAL S.A.",
+      "empresa_b_nombre":"COCA COLA EMBONOR S.A."
+    },
+    {
+      "index":301,
+      "empresa_a":"76000739",
+      "empresa_b":"96571890",
+      "directores_compartidos":1,
+      "nombres_compartidos":"ALEJANDRO FERREIRO YAZIGI",
+      "empresa_a_nombre":"ESVAL S.A.",
+      "empresa_b_nombre":"COMPAÑIA DE SEGUROS CONFUTURO S.A."
+    },
+    {
+      "index":302,
+      "empresa_a":"76000739",
+      "empresa_b":"99279000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JORGE ADOLFO LESSER GARCIA-HUIDOBRO",
+      "empresa_a_nombre":"ESVAL S.A.",
+      "empresa_b_nombre":"EUROAMERICA SEGUROS DE VIDA S.A."
+    },
+    {
+      "index":303,
+      "empresa_a":"76000739",
+      "empresa_b":"77729737",
+      "directores_compartidos":1,
+      "nombres_compartidos":"SUSANA JIMENEZ SCHUSTER",
+      "empresa_a_nombre":"ESVAL S.A.",
+      "empresa_b_nombre":"IGC S.A."
+    },
+    {
+      "index":304,
+      "empresa_a":"76000739",
+      "empresa_b":"76102955",
+      "directores_compartidos":1,
+      "nombres_compartidos":"SUSANA JIMENEZ SCHUSTER",
+      "empresa_a_nombre":"ESVAL S.A.",
+      "empresa_b_nombre":"SOPROLE INVERSIONES S.A."
+    },
+    {
+      "index":305,
+      "empresa_a":"90749000",
+      "empresa_b":"91297000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"MARIA CAROLINA SCHMIDT ZALDIVAR",
+      "empresa_a_nombre":"FALABELLA S.A.",
+      "empresa_b_nombre":"CAP S.A."
+    },
+    {
+      "index":306,
+      "empresa_a":"76507811",
+      "empresa_b":"92434000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JOSE MIGUEL ALCALDE PRADO",
+      "empresa_a_nombre":"FALCOM ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresa_b_nombre":"BESALCO S.A."
+    },
+    {
+      "index":307,
+      "empresa_a":"76507811",
+      "empresa_b":"96551730",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JOSE MIGUEL ALCALDE PRADO",
+      "empresa_a_nombre":"FALCOM ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresa_b_nombre":"BOLSA ELECTRONICA DE CHILE, BOLSA DE VALORES"
+    },
+    {
+      "index":308,
+      "empresa_a":"91553000",
+      "empresa_b":"94270000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"LUIS FELIPE GAZITUA ACHONDO",
+      "empresa_a_nombre":"FORESTAL CONSTRUCTORA Y COMERCIAL DEL PACIFICO SUR S.A.",
+      "empresa_b_nombre":"ALMENDRAL S.A."
+    },
+    {
+      "index":309,
+      "empresa_a":"91553000",
+      "empresa_b":"96656410",
+      "directores_compartidos":1,
+      "nombres_compartidos":"LUIS FELIPE GAZITUA ACHONDO",
+      "empresa_a_nombre":"FORESTAL CONSTRUCTORA Y COMERCIAL DEL PACIFICO SUR S.A.",
+      "empresa_b_nombre":"BICE VIDA COMPAÑIA DE SEGUROS S.A."
+    },
+    {
+      "index":310,
+      "empresa_a":"91553000",
+      "empresa_b":"92580000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"LUIS FELIPE GAZITUA ACHONDO",
+      "empresa_a_nombre":"FORESTAL CONSTRUCTORA Y COMERCIAL DEL PACIFICO SUR S.A.",
+      "empresa_b_nombre":"EMPRESA NACIONAL DE TELECOMUNICACIONES S.A."
+    },
+    {
+      "index":311,
+      "empresa_a":"91553000",
+      "empresa_b":"93737000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JORGE HERNAN RODRIGUEZ WILSON",
+      "empresa_a_nombre":"FORESTAL CONSTRUCTORA Y COMERCIAL DEL PACIFICO SUR S.A.",
+      "empresa_b_nombre":"GTD MANQUEHUE S.A."
+    },
+    {
+      "index":312,
+      "empresa_a":"91553000",
+      "empresa_b":"99301000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"SIMON SILVA LOZANO",
+      "empresa_a_nombre":"FORESTAL CONSTRUCTORA Y COMERCIAL DEL PACIFICO SUR S.A.",
+      "empresa_b_nombre":"SEGUROS VIDA SECURITY PREVISION S.A."
+    },
+    {
+      "index":313,
+      "empresa_a":"96512190",
+      "empresa_b":"96529340",
+      "directores_compartidos":1,
+      "nombres_compartidos":"RAFAEL GUILISASTI GANA",
+      "empresa_a_nombre":"FRUTICOLA VICONTO S.A.",
+      "empresa_b_nombre":"NORTE GRANDE S.A."
+    },
+    {
+      "index":314,
+      "empresa_a":"96512190",
+      "empresa_b":"96532830",
+      "directores_compartidos":1,
+      "nombres_compartidos":"RAFAEL GUILISASTI GANA",
+      "empresa_a_nombre":"FRUTICOLA VICONTO S.A.",
+      "empresa_b_nombre":"SOCIEDAD DE INVERSIONES ORO BLANCO S.A."
+    },
+    {
+      "index":315,
+      "empresa_a":"95134000",
+      "empresa_b":"96766600",
+      "directores_compartidos":1,
+      "nombres_compartidos":"BELTRAN FELIPE URENDA SALAMANCA",
+      "empresa_a_nombre":"GRUPO EMPRESAS NAVIERAS S.A.",
+      "empresa_b_nombre":"SCHWAGER S.A."
+    },
+    {
+      "index":316,
+      "empresa_a":"93737000",
+      "empresa_b":"96505760",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JORGE HERNAN RODRIGUEZ WILSON",
+      "empresa_a_nombre":"GTD MANQUEHUE S.A.",
+      "empresa_b_nombre":"COLBUN S.A."
+    },
+    {
+      "index":317,
+      "empresa_a":"77726203",
+      "empresa_b":"96966250",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JUAN GUILLERMO AGUERO VERGARA",
+      "empresa_a_nombre":"HOLDING BURSATIL REGIONAL S.A.",
+      "empresa_b_nombre":"BTG PACTUAL CHILE S.A. ADMINISTRADORA GENERAL DE FONDOS"
+    },
+    {
+      "index":318,
+      "empresa_a":"77726203",
+      "empresa_b":"96666140",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JUAN ANDRES CAMUS CAMUS",
+      "empresa_a_nombre":"HOLDING BURSATIL REGIONAL S.A.",
+      "empresa_b_nombre":"DEPOSITO CENTRAL DE VALORES S.A. DEPOSITO DE VALORES"
+    },
+    {
+      "index":319,
+      "empresa_a":"76800115",
+      "empresa_b":"93834000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"FELIPE LARRAIN BASCUÑAN",
+      "empresa_a_nombre":"INDEPENDENCIA INTERNACIONAL ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresa_b_nombre":"CENCOSUD S.A."
+    },
+    {
+      "index":320,
+      "empresa_a":"91694000",
+      "empresa_b":"99589230",
+      "directores_compartidos":1,
+      "nombres_compartidos":"AZIZ MOSA YOUSEF",
+      "empresa_a_nombre":"INMOBILIARIA ESTADIO COLO COLO S.A.",
+      "empresa_b_nombre":"BLANCO Y NEGRO S.A."
+    },
+    {
+      "index":321,
+      "empresa_a":"77274820",
+      "empresa_b":"93628000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"HERNAN CHEYRE VALENZUELA",
+      "empresa_a_nombre":"INVERSIONES AGUAS METROPOLITANAS S.A.",
+      "empresa_b_nombre":"MOLIBDENOS Y METALES S. A."
+    },
+    {
+      "index":322,
+      "empresa_a":"77274820",
+      "empresa_b":"91705000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"MIGUEL IGNACIO GUERRERO GUTIERREZ",
+      "empresa_a_nombre":"INVERSIONES AGUAS METROPOLITANAS S.A.",
+      "empresa_b_nombre":"QUIÑENCO S.A."
+    },
+    {
+      "index":323,
+      "empresa_a":"77274820",
+      "empresa_b":"96885880",
+      "directores_compartidos":1,
+      "nombres_compartidos":"HERNAN CHEYRE VALENZUELA",
+      "empresa_a_nombre":"INVERSIONES AGUAS METROPOLITANAS S.A.",
+      "empresa_b_nombre":"SALFACORP S.A."
+    },
+    {
+      "index":324,
+      "empresa_a":"77274820",
+      "empresa_b":"96790570",
+      "directores_compartidos":1,
+      "nombres_compartidos":"HERMAN CHADWICK PIÑERA",
+      "empresa_a_nombre":"INVERSIONES AGUAS METROPOLITANAS S.A.",
+      "empresa_b_nombre":"UNION EL GOLF S.A."
+    },
+    {
+      "index":325,
+      "empresa_a":"96569460",
+      "empresa_b":"99040000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"PATRICIO GARCIA DOMINGUEZ",
+      "empresa_a_nombre":"INVERSIONES COVADONGA S.A.",
+      "empresa_b_nombre":"INVERSIONES HISPANIA S.A."
+    },
+    {
+      "index":326,
+      "empresa_a":"91643000",
+      "empresa_b":"92051000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"ANDRES ANTONIO SERRA CAMBIASO",
+      "empresa_a_nombre":"INVERSIONES NUTRAVALOR S.A.",
+      "empresa_b_nombre":"INSTITUTO DE DIAGNOSTICO S.A."
+    },
+    {
+      "index":327,
+      "empresa_a":"94082000",
+      "empresa_b":"94660000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"BALTAZAR SÁNCHEZ GUZMÁN",
+      "empresa_a_nombre":"INVERSIONES SIEMEL S.A.",
+      "empresa_b_nombre":"MARITIMA DE INVERSIONES S.A."
+    },
+    {
+      "index":328,
+      "empresa_a":"94082000",
+      "empresa_b":"96566900",
+      "directores_compartidos":1,
+      "nombres_compartidos":"BALTAZAR SÁNCHEZ GUZMÁN",
+      "empresa_a_nombre":"INVERSIONES SIEMEL S.A.",
+      "empresa_b_nombre":"NAVARINO S.A."
+    },
+    {
+      "index":329,
+      "empresa_a":"94082000",
+      "empresa_b":"96640360",
+      "directores_compartidos":1,
+      "nombres_compartidos":"BALTAZAR SÁNCHEZ GUZMÁN",
+      "empresa_a_nombre":"INVERSIONES SIEMEL S.A.",
+      "empresa_b_nombre":"QUEMCHI S.A."
+    },
+    {
+      "index":330,
+      "empresa_a":"94082000",
+      "empresa_b":"96852100",
+      "directores_compartidos":1,
+      "nombres_compartidos":"BALTAZAR SÁNCHEZ GUZMÁN",
+      "empresa_a_nombre":"INVERSIONES SIEMEL S.A.",
+      "empresa_b_nombre":"QUILICURA S.A."
+    },
+    {
+      "index":331,
+      "empresa_a":"96542300",
+      "empresa_b":"96690790",
+      "directores_compartidos":1,
+      "nombres_compartidos":"FERNANDO PERRAMONT SANCHEZ",
+      "empresa_a_nombre":"INVERSIONES TRICAHUE S.A.",
+      "empresa_b_nombre":"CMB-PRIME ADMINISTRADORA GENERAL DE FONDOS S.A."
+    },
+    {
+      "index":332,
+      "empresa_a":"96542300",
+      "empresa_b":"96563820",
+      "directores_compartidos":1,
+      "nombres_compartidos":"FERNANDO PERRAMONT SANCHEZ",
+      "empresa_a_nombre":"INVERSIONES TRICAHUE S.A.",
+      "empresa_b_nombre":"REBRISA S.A."
+    },
+    {
+      "index":333,
+      "empresa_a":"99010000",
+      "empresa_b":"99040000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"PATRICIO GARCIA DOMINGUEZ",
+      "empresa_a_nombre":"INVERSIONES UNESPA S.A.",
+      "empresa_b_nombre":"INVERSIONES HISPANIA S.A."
+    },
+    {
+      "index":334,
+      "empresa_a":"96513200",
+      "empresa_b":"99040000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"PATRICIO GARCIA DOMINGUEZ",
+      "empresa_a_nombre":"INVERSIONES UNION ESPAÑOLA S.A.",
+      "empresa_b_nombre":"INVERSIONES HISPANIA S.A."
+    },
+    {
+      "index":335,
+      "empresa_a":"96513200",
+      "empresa_b":"96566900",
+      "directores_compartidos":1,
+      "nombres_compartidos":"PATRICIO GARCIA DOMINGUEZ",
+      "empresa_a_nombre":"INVERSIONES UNION ESPAÑOLA S.A.",
+      "empresa_b_nombre":"NAVARINO S.A."
+    },
+    {
+      "index":336,
+      "empresa_a":"89862200",
+      "empresa_b":"94270000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"MARCOS BÜCHI BUC",
+      "empresa_a_nombre":"LATAM AIRLINES GROUP S.A.",
+      "empresa_b_nombre":"ALMENDRAL S.A."
+    },
+    {
+      "index":337,
+      "empresa_a":"89862200",
+      "empresa_b":"93628000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"LUIS FELIPE CERON CERON",
+      "empresa_a_nombre":"LATAM AIRLINES GROUP S.A.",
+      "empresa_b_nombre":"MOLIBDENOS Y METALES S. A."
+    },
+    {
+      "index":338,
+      "empresa_a":"96508210",
+      "empresa_b":"96817230",
+      "directores_compartidos":1,
+      "nombres_compartidos":"PAULA VALENZUELA PEÑA",
+      "empresa_a_nombre":"MAPFRE COMPA#IA DE SEGUROS GENERALES DE CHILE S.A.",
+      "empresa_b_nombre":"ELECTRICA PUNTILLA S.A."
+    },
+    {
+      "index":339,
+      "empresa_a":"94660000",
+      "empresa_b":"96852100",
+      "directores_compartidos":1,
+      "nombres_compartidos":"BALTAZAR SÁNCHEZ GUZMÁN",
+      "empresa_a_nombre":"MARITIMA DE INVERSIONES S.A.",
+      "empresa_b_nombre":"QUILICURA S.A."
+    },
+    {
+      "index":340,
+      "empresa_a":"96802690",
+      "empresa_b":"96970380",
+      "directores_compartidos":1,
+      "nombres_compartidos":"IGNACIO PEREZ ALARCON",
+      "empresa_a_nombre":"MASISA S.A.",
+      "empresa_b_nombre":"ENJOY S.A."
+    },
+    {
+      "index":341,
+      "empresa_a":"76109779",
+      "empresa_b":"76265736",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JORGE MAX CAREY TAGLE",
+      "empresa_a_nombre":"MELON S.A.",
+      "empresa_b_nombre":"ADMINISTRADORA DE FONDOS DE PENSIONES PROVIDA S.A."
+    },
+    {
+      "index":342,
+      "empresa_a":"76109779",
+      "empresa_b":"91144000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JUAN CLARO GONZALEZ",
+      "empresa_a_nombre":"MELON S.A.",
+      "empresa_b_nombre":"EMBOTELLADORA ANDINA S.A."
+    },
+    {
+      "index":343,
+      "empresa_a":"76109779",
+      "empresa_b":"86247400",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JUAN CLARO GONZALEZ",
+      "empresa_a_nombre":"MELON S.A.",
+      "empresa_b_nombre":"EMPRESAS AQUACHILE S.A."
+    },
+    {
+      "index":344,
+      "empresa_a":"76109779",
+      "empresa_b":"90222000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"PATRICIO DE SOLMINIHAC TAMPIER",
+      "empresa_a_nombre":"MELON S.A.",
+      "empresa_b_nombre":"EMPRESAS CMPC S.A."
+    },
+    {
+      "index":345,
+      "empresa_a":"90412000",
+      "empresa_b":"94270000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"LUIS FELIPE GAZITUA ACHONDO",
+      "empresa_a_nombre":"MINERA VALPARAISO S.A.",
+      "empresa_b_nombre":"ALMENDRAL S.A."
+    },
+    {
+      "index":346,
+      "empresa_a":"90412000",
+      "empresa_b":"96656410",
+      "directores_compartidos":1,
+      "nombres_compartidos":"LUIS FELIPE GAZITUA ACHONDO",
+      "empresa_a_nombre":"MINERA VALPARAISO S.A.",
+      "empresa_b_nombre":"BICE VIDA COMPAÑIA DE SEGUROS S.A."
+    },
+    {
+      "index":347,
+      "empresa_a":"90412000",
+      "empresa_b":"92580000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"LUIS FELIPE GAZITUA ACHONDO",
+      "empresa_a_nombre":"MINERA VALPARAISO S.A.",
+      "empresa_b_nombre":"EMPRESA NACIONAL DE TELECOMUNICACIONES S.A."
+    },
+    {
+      "index":348,
+      "empresa_a":"90412000",
+      "empresa_b":"93737000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JORGE HERNAN RODRIGUEZ WILSON",
+      "empresa_a_nombre":"MINERA VALPARAISO S.A.",
+      "empresa_b_nombre":"GTD MANQUEHUE S.A."
+    },
+    {
+      "index":349,
+      "empresa_a":"90412000",
+      "empresa_b":"99301000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"SIMON SILVA LOZANO",
+      "empresa_a_nombre":"MINERA VALPARAISO S.A.",
+      "empresa_b_nombre":"SEGUROS VIDA SECURITY PREVISION S.A."
+    },
+    {
+      "index":350,
+      "empresa_a":"93628000",
+      "empresa_b":"96885880",
+      "directores_compartidos":1,
+      "nombres_compartidos":"HERNAN CHEYRE VALENZUELA",
+      "empresa_a_nombre":"MOLIBDENOS Y METALES S. A.",
+      "empresa_b_nombre":"SALFACORP S.A."
+    },
+    {
+      "index":351,
+      "empresa_a":"93628000",
+      "empresa_b":"99598300",
+      "directores_compartidos":1,
+      "nombres_compartidos":"LUIS FELIPE CERON CERON",
+      "empresa_a_nombre":"MOLIBDENOS Y METALES S. A.",
+      "empresa_b_nombre":"SIGDO KOPPERS S.A."
+    },
+    {
+      "index":352,
+      "empresa_a":"76672100",
+      "empresa_b":"91041000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JOSÉ MIGUEL BARROS VAN HOVELL TOT WESTERFLIER",
+      "empresa_a_nombre":"MULTIEXPORT FOODS S.A.",
+      "empresa_b_nombre":"VIÑA SAN PEDRO TARAPACA S.A."
+    },
+    {
+      "index":353,
+      "empresa_a":"70015730",
+      "empresa_b":"96602640",
+      "directores_compartidos":1,
+      "nombres_compartidos":"CRISTIAN ENRIQUE ARAYA ESCOBAR",
+      "empresa_a_nombre":"MUTUAL DE SEGUROS DE CHILE",
+      "empresa_b_nombre":"PUERTO VENTANAS S.A."
+    },
+    {
+      "index":354,
+      "empresa_a":"96566900",
+      "empresa_b":"96569460",
+      "directores_compartidos":1,
+      "nombres_compartidos":"PATRICIO GARCIA DOMINGUEZ",
+      "empresa_a_nombre":"NAVARINO S.A.",
+      "empresa_b_nombre":"INVERSIONES COVADONGA S.A."
+    },
+    {
+      "index":355,
+      "empresa_a":"96566900",
+      "empresa_b":"99040000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"PATRICIO GARCIA DOMINGUEZ",
+      "empresa_a_nombre":"NAVARINO S.A.",
+      "empresa_b_nombre":"INVERSIONES HISPANIA S.A."
+    },
+    {
+      "index":356,
+      "empresa_a":"96566900",
+      "empresa_b":"99010000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"PATRICIO GARCIA DOMINGUEZ",
+      "empresa_a_nombre":"NAVARINO S.A.",
+      "empresa_b_nombre":"INVERSIONES UNESPA S.A."
+    },
+    {
+      "index":357,
+      "empresa_a":"96566900",
+      "empresa_b":"96852100",
+      "directores_compartidos":1,
+      "nombres_compartidos":"BALTAZAR SÁNCHEZ GUZMÁN",
+      "empresa_a_nombre":"NAVARINO S.A.",
+      "empresa_b_nombre":"QUILICURA S.A."
+    },
+    {
+      "index":358,
+      "empresa_a":"76850128",
+      "empresa_b":"96885880",
+      "directores_compartidos":1,
+      "nombres_compartidos":"VICENTE DOMINGUEZ VIAL",
+      "empresa_a_nombre":"NUEVA ATACAMA S.A.",
+      "empresa_b_nombre":"SALFACORP S.A."
+    },
+    {
+      "index":359,
+      "empresa_a":"76850128",
+      "empresa_b":"83628100",
+      "directores_compartidos":1,
+      "nombres_compartidos":"ALBERTO EGUIGUREN CORREA",
+      "empresa_a_nombre":"NUEVA ATACAMA S.A.",
+      "empresa_b_nombre":"SONDA S.A."
+    },
+    {
+      "index":360,
+      "empresa_a":"76042965",
+      "empresa_b":"77274820",
+      "directores_compartidos":1,
+      "nombres_compartidos":"LUIS ENRIQUE ÁLAMOS OLIVOS",
+      "empresa_a_nombre":"ORION SEGUROS GENERALES S.A.",
+      "empresa_b_nombre":"INVERSIONES AGUAS METROPOLITANAS S.A."
+    },
+    {
+      "index":361,
+      "empresa_a":"94627000",
+      "empresa_b":"97023000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"FERNANDO MASSU TARE",
+      "empresa_a_nombre":"PARQUE ARAUCO S.A.",
+      "empresa_b_nombre":"BANCO ITAÚ CHILE"
+    },
+    {
+      "index":362,
+      "empresa_a":"94627000",
+      "empresa_b":"96966250",
+      "directores_compartidos":1,
+      "nombres_compartidos":"FERNANDO MASSU TARE",
+      "empresa_a_nombre":"PARQUE ARAUCO S.A.",
+      "empresa_b_nombre":"BTG PACTUAL CHILE S.A. ADMINISTRADORA GENERAL DE FONDOS"
+    },
+    {
+      "index":363,
+      "empresa_a":"94627000",
+      "empresa_b":"96947020",
+      "directores_compartidos":1,
+      "nombres_compartidos":"FERNANDO MASSU TARE",
+      "empresa_a_nombre":"PARQUE ARAUCO S.A.",
+      "empresa_b_nombre":"EMPRESAS HITES S.A."
+    },
+    {
+      "index":364,
+      "empresa_a":"94627000",
+      "empresa_b":"96928510",
+      "directores_compartidos":1,
+      "nombres_compartidos":"MARIA DEL PILAR LAMANA GAETE",
+      "empresa_a_nombre":"PARQUE ARAUCO S.A.",
+      "empresa_b_nombre":"EMPRESAS LIPIGAS S.A."
+    },
+    {
+      "index":365,
+      "empresa_a":"94627000",
+      "empresa_b":"99598300",
+      "directores_compartidos":1,
+      "nombres_compartidos":"SILVIO ROSTAGNO HAYES",
+      "empresa_a_nombre":"PARQUE ARAUCO S.A.",
+      "empresa_b_nombre":"SIGDO KOPPERS S.A."
+    },
+    {
+      "index":366,
+      "empresa_a":"76488180",
+      "empresa_b":"90690000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"FRANCISCO LEON DELANO",
+      "empresa_a_nombre":"PAZ CORP S.A.",
+      "empresa_b_nombre":"EMPRESAS COPEC S.A."
+    },
+    {
+      "index":367,
+      "empresa_a":"76488180",
+      "empresa_b":"96947020",
+      "directores_compartidos":1,
+      "nombres_compartidos":"ENRIQUE BONE SOTO",
+      "empresa_a_nombre":"PAZ CORP S.A.",
+      "empresa_b_nombre":"EMPRESAS HITES S.A."
+    },
+    {
+      "index":368,
+      "empresa_a":"76488180",
+      "empresa_b":"83628100",
+      "directores_compartidos":1,
+      "nombres_compartidos":"ENRIQUE BONE SOTO",
+      "empresa_a_nombre":"PAZ CORP S.A.",
+      "empresa_b_nombre":"SONDA S.A."
+    },
+    {
+      "index":369,
+      "empresa_a":"76488180",
+      "empresa_b":"96804330",
+      "directores_compartidos":1,
+      "nombres_compartidos":"MARIA TERESITA DEL NIÑO JESUS GONZALEZ LARRAIN",
+      "empresa_a_nombre":"PAZ CORP S.A.",
+      "empresa_b_nombre":"VINCI COMPASS S.A. ADMINISTRADORA GENERAL DE FONDOS"
+    },
+    {
+      "index":370,
+      "empresa_a":"96632170",
+      "empresa_b":"96989050",
+      "directores_compartidos":1,
+      "nombres_compartidos":"HORACIO PEÑA NOVOA",
+      "empresa_a_nombre":"PENTA LAS AMERICAS ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresa_b_nombre":"SOCIEDAD CONCESIONARIA AUTOPISTA INTERPORTUARIA S.A."
+    },
+    {
+      "index":371,
+      "empresa_a":"76202136",
+      "empresa_b":"76320186",
+      "directores_compartidos":1,
+      "nombres_compartidos":"RODRIGO OCHAGAVIA RUIZ-TAGLE",
+      "empresa_a_nombre":"PICTON ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresa_b_nombre":"TECNO FAST S.A."
+    },
+    {
+      "index":372,
+      "empresa_a":"76017019",
+      "empresa_b":"90749000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"CARLO SOLARI DONAGGIO",
+      "empresa_a_nombre":"PLAZA S.A.",
+      "empresa_b_nombre":"FALABELLA S.A."
+    },
+    {
+      "index":373,
+      "empresa_a":"96723320",
+      "empresa_b":"96766600",
+      "directores_compartidos":1,
+      "nombres_compartidos":"BELTRAN FELIPE URENDA SALAMANCA",
+      "empresa_a_nombre":"PORTUARIA CABO FROWARD S.A.",
+      "empresa_b_nombre":"SCHWAGER S.A."
+    },
+    {
+      "index":374,
+      "empresa_a":"76165311",
+      "empresa_b":"96512190",
+      "directores_compartidos":1,
+      "nombres_compartidos":"RAFAEL GUILISASTI GANA",
+      "empresa_a_nombre":"POTASIOS DE CHILE S.A.",
+      "empresa_b_nombre":"FRUTICOLA VICONTO S.A."
+    },
+    {
+      "index":375,
+      "empresa_a":"76165311",
+      "empresa_b":"90227000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"RAFAEL GUILISASTI GANA",
+      "empresa_a_nombre":"POTASIOS DE CHILE S.A.",
+      "empresa_b_nombre":"VIÑA CONCHA Y TORO S.A."
+    },
+    {
+      "index":376,
+      "empresa_a":"76165311",
+      "empresa_b":"96512200",
+      "directores_compartidos":1,
+      "nombres_compartidos":"RAFAEL GUILISASTI GANA",
+      "empresa_a_nombre":"POTASIOS DE CHILE S.A.",
+      "empresa_b_nombre":"VIÑEDOS EMILIANA S.A."
+    },
+    {
+      "index":377,
+      "empresa_a":"91999000",
+      "empresa_b":"96532830",
+      "directores_compartidos":1,
+      "nombres_compartidos":"RODRIGO ÁLVAREZ ZENTENO",
+      "empresa_a_nombre":"PRINCIPAL ASSET MANAGEMENT ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresa_b_nombre":"SOCIEDAD DE INVERSIONES ORO BLANCO S.A."
+    },
+    {
+      "index":378,
+      "empresa_a":"96588080",
+      "empresa_b":"96667040",
+      "directores_compartidos":1,
+      "nombres_compartidos":"PATRICIA PEREZ PALLACAN",
+      "empresa_a_nombre":"PRINCIPAL COMPAÑIA DE SEGUROS DE VIDA CHILE S.A.",
+      "empresa_b_nombre":"SANTANDER ASSET MANAGEMENT S.A. ADMINISTRADORA GENERAL DE FONDOS"
+    },
+    {
+      "index":379,
+      "empresa_a":"90743000",
+      "empresa_b":"90831000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"VARSOVIA ELENA VALENZUELA ARANGUIZ",
+      "empresa_a_nombre":"PROMOTORA CMR FALABELLA S.A.",
+      "empresa_b_nombre":"SOCIEDAD AGRICOLA LA ROSA SOFRUCO S.A."
+    },
+    {
+      "index":380,
+      "empresa_a":"96640360",
+      "empresa_b":"96852100",
+      "directores_compartidos":1,
+      "nombres_compartidos":"BALTAZAR SÁNCHEZ GUZMÁN",
+      "empresa_a_nombre":"QUEMCHI S.A.",
+      "empresa_b_nombre":"QUILICURA S.A."
+    },
+    {
+      "index":381,
+      "empresa_a":"91705000",
+      "empresa_b":"96767630",
+      "directores_compartidos":1,
+      "nombres_compartidos":"PABLO JOSÉ GRANIFO LAVIN",
+      "empresa_a_nombre":"QUIÑENCO S.A.",
+      "empresa_b_nombre":"BANCHILE ADMINISTRADORA GENERAL DE FONDOS S.A."
+    },
+    {
+      "index":382,
+      "empresa_a":"91705000",
+      "empresa_b":"97004000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"PABLO JOSÉ GRANIFO LAVIN",
+      "empresa_a_nombre":"QUIÑENCO S.A.",
+      "empresa_b_nombre":"BANCO DE CHILE"
+    },
+    {
+      "index":383,
+      "empresa_a":"96563820",
+      "empresa_b":"96690790",
+      "directores_compartidos":1,
+      "nombres_compartidos":"FERNANDO PERRAMONT SANCHEZ",
+      "empresa_a_nombre":"REBRISA S.A.",
+      "empresa_b_nombre":"CMB-PRIME ADMINISTRADORA GENERAL DE FONDOS S.A."
+    },
+    {
+      "index":384,
+      "empresa_a":"94716000",
+      "empresa_b":"96621750",
+      "directores_compartidos":1,
+      "nombres_compartidos":"FRANCISCO JAVIER ERRAZURIZ OVALLE",
+      "empresa_a_nombre":"RENTA NACIONAL COMPA#IA DE SEGUROS DE VIDA S.A.",
+      "empresa_b_nombre":"HIPERMARC S.A."
+    },
+    {
+      "index":385,
+      "empresa_a":"94716000",
+      "empresa_b":"96684990",
+      "directores_compartidos":1,
+      "nombres_compartidos":"SEBASTIAN EDWARDS FIGUEROA",
+      "empresa_a_nombre":"RENTA NACIONAL COMPA#IA DE SEGUROS DE VIDA S.A.",
+      "empresa_b_nombre":"MONEDA S.A. ADMINISTRADORA GENERAL DE FONDOS"
+    },
+    {
+      "index":386,
+      "empresa_a":"94510000",
+      "empresa_b":"96621750",
+      "directores_compartidos":1,
+      "nombres_compartidos":"FRANCISCO JAVIER ERRAZURIZ OVALLE",
+      "empresa_a_nombre":"RENTA NACIONAL COMPA#IA DE SEGUROS GENERALES S.A.",
+      "empresa_b_nombre":"HIPERMARC S.A."
+    },
+    {
+      "index":387,
+      "empresa_a":"94510000",
+      "empresa_b":"96684990",
+      "directores_compartidos":1,
+      "nombres_compartidos":"SEBASTIAN EDWARDS FIGUEROA",
+      "empresa_a_nombre":"RENTA NACIONAL COMPA#IA DE SEGUROS GENERALES S.A.",
+      "empresa_b_nombre":"MONEDA S.A. ADMINISTRADORA GENERAL DE FONDOS"
+    },
+    {
+      "index":388,
+      "empresa_a":"76065596",
+      "empresa_b":"76511423",
+      "directores_compartidos":1,
+      "nombres_compartidos":"RICARDO GARCIA HOLTZ",
+      "empresa_a_nombre":"SALMONES CAMANCHACA S.A.",
+      "empresa_b_nombre":"ALEMANA SEGUROS S.A."
+    },
+    {
+      "index":389,
+      "empresa_a":"76065596",
+      "empresa_b":"92544000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"FERNANDO EMILIO RIOSECO ZORN",
+      "empresa_a_nombre":"SALMONES CAMANCHACA S.A.",
+      "empresa_b_nombre":"CINTAC S.A."
+    },
+    {
+      "index":390,
+      "empresa_a":"76065596",
+      "empresa_b":"90209000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"CLAUDIO INGLESI NIETO",
+      "empresa_a_nombre":"SALMONES CAMANCHACA S.A.",
+      "empresa_b_nombre":"COMPAÑIA INDUSTRIAL EL VOLCAN S.A."
+    },
+    {
+      "index":391,
+      "empresa_a":"76034737",
+      "empresa_b":"81290800",
+      "directores_compartidos":1,
+      "nombres_compartidos":"GONZALO MARTINO GONZÁLEZ",
+      "empresa_a_nombre":"SAVE COMPAÑÍA DE SEGUROS DE VIDA S.A.",
+      "empresa_b_nombre":"COMPAÑIA AGROPECUARIA COPEVAL S.A."
+    },
+    {
+      "index":392,
+      "empresa_a":"76034737",
+      "empresa_b":"76981875",
+      "directores_compartidos":1,
+      "nombres_compartidos":"GONZALO MARTINO GONZÁLEZ",
+      "empresa_a_nombre":"SAVE COMPAÑÍA DE SEGUROS DE VIDA S.A.",
+      "empresa_b_nombre":"CONTEMPORA COMPAÑIA DE SEGUROS GENERALES S.A."
+    },
+    {
+      "index":393,
+      "empresa_a":"96766600",
+      "empresa_b":"96852100",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JOSÉ MIGUEL SÁNCHEZ ERLE",
+      "empresa_a_nombre":"SCHWAGER S.A.",
+      "empresa_b_nombre":"QUILICURA S.A."
+    },
+    {
+      "index":394,
+      "empresa_a":"76573480",
+      "empresa_b":"96966250",
+      "directores_compartidos":1,
+      "nombres_compartidos":"FERNANDO MASSÚ TARÉ",
+      "empresa_a_nombre":"SEGUROS CLC S.A.",
+      "empresa_b_nombre":"BTG PACTUAL CHILE S.A. ADMINISTRADORA GENERAL DE FONDOS"
+    },
+    {
+      "index":395,
+      "empresa_a":"76573480",
+      "empresa_b":"92770000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JORGE SELUME ZARTOS",
+      "empresa_a_nombre":"SEGUROS CLC S.A.",
+      "empresa_b_nombre":"EMPRESA CONSTRUCTORA MOLLER Y PEREZ-COTAPOS S.A."
+    },
+    {
+      "index":396,
+      "empresa_a":"76573480",
+      "empresa_b":"96947020",
+      "directores_compartidos":1,
+      "nombres_compartidos":"FERNANDO MASSÚ TARÉ",
+      "empresa_a_nombre":"SEGUROS CLC S.A.",
+      "empresa_b_nombre":"EMPRESAS HITES S.A."
+    },
+    {
+      "index":397,
+      "empresa_a":"76573480",
+      "empresa_b":"94627000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"FERNANDO MASSÚ TARÉ",
+      "empresa_a_nombre":"SEGUROS CLC S.A.",
+      "empresa_b_nombre":"PARQUE ARAUCO S.A."
+    },
+    {
+      "index":398,
+      "empresa_a":"76012676",
+      "empresa_b":"92770000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"ALEJANDRO DANUS CHIRIGHIN",
+      "empresa_a_nombre":"SMU S.A.",
+      "empresa_b_nombre":"EMPRESA CONSTRUCTORA MOLLER Y PEREZ-COTAPOS S.A."
+    },
+    {
+      "index":399,
+      "empresa_a":"76012676",
+      "empresa_b":"92580000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"ENRIQUE GUNDERMANN WYLIE",
+      "empresa_a_nombre":"SMU S.A.",
+      "empresa_b_nombre":"EMPRESA NACIONAL DE TELECOMUNICACIONES S.A."
+    },
+    {
+      "index":400,
+      "empresa_a":"76012676",
+      "empresa_b":"76536353",
+      "directores_compartidos":1,
+      "nombres_compartidos":"MARIA TERESA VIAL ALAMOS",
+      "empresa_a_nombre":"SMU S.A.",
+      "empresa_b_nombre":"ENEL CHILE S.A."
+    },
+    {
+      "index":401,
+      "empresa_a":"76012676",
+      "empresa_b":"76672100",
+      "directores_compartidos":1,
+      "nombres_compartidos":"ABEL BOUCHON SILVA",
+      "empresa_a_nombre":"SMU S.A.",
+      "empresa_b_nombre":"MULTIEXPORT FOODS S.A."
+    },
+    {
+      "index":402,
+      "empresa_a":"90831000",
+      "empresa_b":"96656410",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JUAN CARLOS EYZAGUIRRE ECHENIQUE",
+      "empresa_a_nombre":"SOCIEDAD AGRICOLA LA ROSA SOFRUCO S.A.",
+      "empresa_b_nombre":"BICE VIDA COMPAÑIA DE SEGUROS S.A."
+    },
+    {
+      "index":403,
+      "empresa_a":"90831000",
+      "empresa_b":"96602640",
+      "directores_compartidos":1,
+      "nombres_compartidos":"LUIS CHADWICK VERGARA",
+      "empresa_a_nombre":"SOCIEDAD AGRICOLA LA ROSA SOFRUCO S.A.",
+      "empresa_b_nombre":"PUERTO VENTANAS S.A."
+    },
+    {
+      "index":404,
+      "empresa_a":"92412000",
+      "empresa_b":"96684990",
+      "directores_compartidos":1,
+      "nombres_compartidos":"PABLO GUERRERO VALENZUELA",
+      "empresa_a_nombre":"SOCIEDAD ANONIMA DE DEPORTES CACHAGUA",
+      "empresa_b_nombre":"MONEDA S.A. ADMINISTRADORA GENERAL DE FONDOS"
+    },
+    {
+      "index":405,
+      "empresa_a":"91119000",
+      "empresa_b":"96989050",
+      "directores_compartidos":1,
+      "nombres_compartidos":"LUIS MIGUEL DE PABLO RUIZ",
+      "empresa_a_nombre":"SOCIEDAD ANONIMA ESTADIO ESPAÑOL",
+      "empresa_b_nombre":"SOCIEDAD CONCESIONARIA AUTOPISTA INTERPORTUARIA S.A."
+    },
+    {
+      "index":406,
+      "empresa_a":"86547900",
+      "empresa_b":"90160000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"CRISTÓBAL EYZAGUIRRE BAEZA",
+      "empresa_a_nombre":"SOCIEDAD ANONIMA VIÑA SANTA RITA",
+      "empresa_b_nombre":"COMPAÑIA SUD AMERICANA DE VAPORES S.A."
+    },
+    {
+      "index":407,
+      "empresa_a":"86547900",
+      "empresa_b":"86963200",
+      "directores_compartidos":1,
+      "nombres_compartidos":"SEBASTIAN SWETT OPAZO",
+      "empresa_a_nombre":"SOCIEDAD ANONIMA VIÑA SANTA RITA",
+      "empresa_b_nombre":"FORUS S.A."
+    },
+    {
+      "index":408,
+      "empresa_a":"86547900",
+      "empresa_b":"94082000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"BALTAZAR SÁNCHEZ GUZMÁN",
+      "empresa_a_nombre":"SOCIEDAD ANONIMA VIÑA SANTA RITA",
+      "empresa_b_nombre":"INVERSIONES SIEMEL S.A."
+    },
+    {
+      "index":409,
+      "empresa_a":"86547900",
+      "empresa_b":"96852100",
+      "directores_compartidos":1,
+      "nombres_compartidos":"BALTAZAR SÁNCHEZ GUZMÁN",
+      "empresa_a_nombre":"SOCIEDAD ANONIMA VIÑA SANTA RITA",
+      "empresa_b_nombre":"QUILICURA S.A."
+    },
+    {
+      "index":410,
+      "empresa_a":"91262000",
+      "empresa_b":"99569020",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JORGE SABAG SABAG",
+      "empresa_a_nombre":"SOCIEDAD DE DEPORTES PALESTINA S.A.",
+      "empresa_b_nombre":"CLUB DEPORTIVO PALESTINO SADP"
+    },
+    {
+      "index":411,
+      "empresa_a":"96538080",
+      "empresa_b":"96971830",
+      "directores_compartidos":1,
+      "nombres_compartidos":"GONZALO SANHUEZA DUEÑAS",
+      "empresa_a_nombre":"SOCIEDAD DE INVERSIONES CAMPOS CHILENOS S.A.",
+      "empresa_b_nombre":"EF SECURITIZADORA S.A."
+    },
+    {
+      "index":412,
+      "empresa_a":"96511530",
+      "empresa_b":"96512190",
+      "directores_compartidos":1,
+      "nombres_compartidos":"RAFAEL GUILISASTI GANA",
+      "empresa_a_nombre":"SOCIEDAD DE INVERSIONES PAMPA CALICHERA S.A.",
+      "empresa_b_nombre":"FRUTICOLA VICONTO S.A."
+    },
+    {
+      "index":413,
+      "empresa_a":"96511530",
+      "empresa_b":"96512200",
+      "directores_compartidos":1,
+      "nombres_compartidos":"RAFAEL GUILISASTI GANA",
+      "empresa_a_nombre":"SOCIEDAD DE INVERSIONES PAMPA CALICHERA S.A.",
+      "empresa_b_nombre":"VIÑEDOS EMILIANA S.A."
+    },
+    {
+      "index":414,
+      "empresa_a":"76196718",
+      "empresa_b":"96767630",
+      "directores_compartidos":1,
+      "nombres_compartidos":"PABLO JOSÉ GRANIFO LAVIN",
+      "empresa_a_nombre":"SOCIEDAD MATRIZ SAAM S.A.",
+      "empresa_b_nombre":"BANCHILE ADMINISTRADORA GENERAL DE FONDOS S.A."
+    },
+    {
+      "index":415,
+      "empresa_a":"76196718",
+      "empresa_b":"97004000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"PABLO JOSÉ GRANIFO LAVIN",
+      "empresa_a_nombre":"SOCIEDAD MATRIZ SAAM S.A.",
+      "empresa_b_nombre":"BANCO DE CHILE"
+    },
+    {
+      "index":416,
+      "empresa_a":"76196718",
+      "empresa_b":"86963200",
+      "directores_compartidos":1,
+      "nombres_compartidos":"FRANCISCO RAMON GUTIERREZ PHILIPPI",
+      "empresa_a_nombre":"SOCIEDAD MATRIZ SAAM S.A.",
+      "empresa_b_nombre":"FORUS S.A."
+    },
+    {
+      "index":417,
+      "empresa_a":"76196718",
+      "empresa_b":"91041000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"PABLO JOSÉ GRANIFO LAVIN",
+      "empresa_a_nombre":"SOCIEDAD MATRIZ SAAM S.A.",
+      "empresa_b_nombre":"VIÑA SAN PEDRO TARAPACA S.A."
+    },
+    {
+      "index":418,
+      "empresa_a":"96561560",
+      "empresa_b":"96882560",
+      "directores_compartidos":1,
+      "nombres_compartidos":"EDUARDO FERNÁNDEZ MAC-AULIFFE",
+      "empresa_a_nombre":"SOCIEDAD PUNTA DEL COBRE S.A.",
+      "empresa_b_nombre":"BANVIDA S.A."
+    },
+    {
+      "index":419,
+      "empresa_a":"96561560",
+      "empresa_b":"96872980",
+      "directores_compartidos":1,
+      "nombres_compartidos":"PEDRO JOSÉ HURTADO VICUÑA",
+      "empresa_a_nombre":"SOCIEDAD PUNTA DEL COBRE S.A.",
+      "empresa_b_nombre":"INVERNOVA S.A."
+    },
+    {
+      "index":420,
+      "empresa_a":"96561560",
+      "empresa_b":"96684990",
+      "directores_compartidos":1,
+      "nombres_compartidos":"PABLO JAVIER ECHEVERRÍA BENÍTEZ",
+      "empresa_a_nombre":"SOCIEDAD PUNTA DEL COBRE S.A.",
+      "empresa_b_nombre":"MONEDA S.A. ADMINISTRADORA GENERAL DE FONDOS"
+    },
+    {
+      "index":421,
+      "empresa_a":"93007000",
+      "empresa_b":"96684580",
+      "directores_compartidos":1,
+      "nombres_compartidos":"GEORGES ANTOINE DE BOURGUIGNON ARNDT",
+      "empresa_a_nombre":"SOCIEDAD QUIMICA Y MINERA DE CHILE S.A.",
+      "empresa_b_nombre":"FERROCARRIL DEL PACIFICO S.A."
+    },
+    {
+      "index":422,
+      "empresa_a":"93007000",
+      "empresa_b":"96708470",
+      "directores_compartidos":1,
+      "nombres_compartidos":"PATRICIO ALBERTO CONTESSE FICA",
+      "empresa_a_nombre":"SOCIEDAD QUIMICA Y MINERA DE CHILE S.A.",
+      "empresa_b_nombre":"INVERCAP S.A."
+    },
+    {
+      "index":423,
+      "empresa_a":"77611649",
+      "empresa_b":"93281000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JORGE ADOLFO LESSER GARCIA-HUIDOBRO",
+      "empresa_a_nombre":"SOCIEDAD TRANSMISORA METROPOLITANA S.A.",
+      "empresa_b_nombre":"COCA COLA EMBONOR S.A."
+    },
+    {
+      "index":424,
+      "empresa_a":"77611649",
+      "empresa_b":"92580000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"LUZ GRANIER BULNES",
+      "empresa_a_nombre":"SOCIEDAD TRANSMISORA METROPOLITANA S.A.",
+      "empresa_b_nombre":"EMPRESA NACIONAL DE TELECOMUNICACIONES S.A."
+    },
+    {
+      "index":425,
+      "empresa_a":"77611649",
+      "empresa_b":"99279000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JORGE ADOLFO LESSER GARCIA-HUIDOBRO",
+      "empresa_a_nombre":"SOCIEDAD TRANSMISORA METROPOLITANA S.A.",
+      "empresa_b_nombre":"EUROAMERICA SEGUROS DE VIDA S.A."
+    },
+    {
+      "index":426,
+      "empresa_a":"94840000",
+      "empresa_b":"96970380",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JAIME MALUK VALENCIA",
+      "empresa_a_nombre":"SOCOVESA S.A.",
+      "empresa_b_nombre":"ENJOY S.A."
+    },
+    {
+      "index":427,
+      "empresa_a":"76094234",
+      "empresa_b":"96933030",
+      "directores_compartidos":1,
+      "nombres_compartidos":"CARLOS MOLINA ZALDÍVAR",
+      "empresa_a_nombre":"SOLUNION CHILE SEGUROS DE CREDITO S.A.",
+      "empresa_b_nombre":"MAPFRE COMPA#IA DE SEGUROS DE VIDA DE CHILE S.A."
+    },
+    {
+      "index":428,
+      "empresa_a":"76094234",
+      "empresa_b":"96508210",
+      "directores_compartidos":1,
+      "nombres_compartidos":"CARLOS MOLINA ZALDÍVAR",
+      "empresa_a_nombre":"SOLUNION CHILE SEGUROS DE CREDITO S.A.",
+      "empresa_b_nombre":"MAPFRE COMPA#IA DE SEGUROS GENERALES DE CHILE S.A."
+    },
+    {
+      "index":429,
+      "empresa_a":"83628100",
+      "empresa_b":"96703230",
+      "directores_compartidos":1,
+      "nombres_compartidos":"ALBERTO EGUIGUREN CORREA",
+      "empresa_a_nombre":"SONDA S.A.",
+      "empresa_b_nombre":"AGUAS DECIMA S.A."
+    },
+    {
+      "index":430,
+      "empresa_a":"83628100",
+      "empresa_b":"85741000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"CATALINA BEATRIZ MERTZ KAISER",
+      "empresa_a_nombre":"SONDA S.A.",
+      "empresa_b_nombre":"BICECORP S.A."
+    },
+    {
+      "index":431,
+      "empresa_a":"83628100",
+      "empresa_b":"92544000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JACQUELINE ALEJANDRA SAQUEL MEDIANO",
+      "empresa_a_nombre":"SONDA S.A.",
+      "empresa_b_nombre":"CINTAC S.A."
+    },
+    {
+      "index":432,
+      "empresa_a":"83628100",
+      "empresa_b":"91144000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JACQUELINE ALEJANDRA SAQUEL MEDIANO",
+      "empresa_a_nombre":"SONDA S.A.",
+      "empresa_b_nombre":"EMBOTELLADORA ANDINA S.A."
+    },
+    {
+      "index":433,
+      "empresa_a":"83628100",
+      "empresa_b":"96947020",
+      "directores_compartidos":1,
+      "nombres_compartidos":"ENRIQUE BONE SOTO",
+      "empresa_a_nombre":"SONDA S.A.",
+      "empresa_b_nombre":"EMPRESAS HITES S.A."
+    },
+    {
+      "index":434,
+      "empresa_a":"83628100",
+      "empresa_b":"86547900",
+      "directores_compartidos":1,
+      "nombres_compartidos":"ANDRÉS NAVARRO BETTELEY",
+      "empresa_a_nombre":"SONDA S.A.",
+      "empresa_b_nombre":"SOCIEDAD ANONIMA VIÑA SANTA RITA"
+    },
+    {
+      "index":435,
+      "empresa_a":"92108000",
+      "empresa_b":"98000100",
+      "directores_compartidos":1,
+      "nombres_compartidos":"CARLOS BUDGE CARVALLO",
+      "empresa_a_nombre":"SOPROCAL CALERIAS E INDUSTRIAS S.A.",
+      "empresa_b_nombre":"ADMINISTRADORA DE FONDOS DE PENSIONES HABITAT S.A."
+    },
+    {
+      "index":436,
+      "empresa_a":"76102955",
+      "empresa_b":"76833300",
+      "directores_compartidos":1,
+      "nombres_compartidos":"SUSANA JIMENEZ SCHUSTER",
+      "empresa_a_nombre":"SOPROLE INVERSIONES S.A.",
+      "empresa_b_nombre":"ESSBIO S.A."
+    },
+    {
+      "index":437,
+      "empresa_a":"96576660",
+      "empresa_b":"96579800",
+      "directores_compartidos":1,
+      "nombres_compartidos":"ALEJANDRO MONTERO PURVIANCE",
+      "empresa_a_nombre":"TOESCA S.A. ADMINISTRADORA GENERAL DE FONDOS",
+      "empresa_b_nombre":"SURALIS S.A."
+    },
+    {
+      "index":438,
+      "empresa_a":"76555400",
+      "empresa_b":"95134000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"RADOMIRO BLAS TOMIC ERRAZURIZ",
+      "empresa_a_nombre":"TRANSELEC S.A.",
+      "empresa_b_nombre":"GRUPO EMPRESAS NAVIERAS S.A."
+    },
+    {
+      "index":439,
+      "empresa_a":"96790570",
+      "empresa_b":"99579730",
+      "directores_compartidos":1,
+      "nombres_compartidos":"LAURENCE GOLBORNE RIVEROS",
+      "empresa_a_nombre":"UNION EL GOLF S.A.",
+      "empresa_b_nombre":"RIPLEY CORP S.A."
+    },
+    {
+      "index":440,
+      "empresa_a":"76930595",
+      "empresa_b":"99569020",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JORGE UAUY SALVADOR",
+      "empresa_a_nombre":"VANTRUST CAPITAL ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresa_b_nombre":"CLUB DEPORTIVO PALESTINO SADP"
+    },
+    {
+      "index":441,
+      "empresa_a":"76429904",
+      "empresa_b":"96574040",
+      "directores_compartidos":1,
+      "nombres_compartidos":"SANTIAGO JOSÉ VALDÉS GUTIÉRREZ",
+      "empresa_a_nombre":"VENTURANCE S.A. ADMINISTRADORA GENERAL DE FONDOS",
+      "empresa_b_nombre":"SOCIEDAD DE INVERSIONES NORTE SUR S.A."
+    },
+    {
+      "index":442,
+      "empresa_a":"90227000",
+      "empresa_b":"93711000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JANET AWAD PEREZ",
+      "empresa_a_nombre":"VIÑA CONCHA Y TORO S.A.",
+      "empresa_b_nombre":"CAMANCHACA S.A."
+    },
+    {
+      "index":443,
+      "empresa_a":"90227000",
+      "empresa_b":"96529340",
+      "directores_compartidos":1,
+      "nombres_compartidos":"RAFAEL GUILISASTI GANA",
+      "empresa_a_nombre":"VIÑA CONCHA Y TORO S.A.",
+      "empresa_b_nombre":"NORTE GRANDE S.A."
+    },
+    {
+      "index":444,
+      "empresa_a":"90227000",
+      "empresa_b":"96532830",
+      "directores_compartidos":1,
+      "nombres_compartidos":"RAFAEL GUILISASTI GANA",
+      "empresa_a_nombre":"VIÑA CONCHA Y TORO S.A.",
+      "empresa_b_nombre":"SOCIEDAD DE INVERSIONES ORO BLANCO S.A."
+    },
+    {
+      "index":445,
+      "empresa_a":"90227000",
+      "empresa_b":"96511530",
+      "directores_compartidos":1,
+      "nombres_compartidos":"RAFAEL GUILISASTI GANA",
+      "empresa_a_nombre":"VIÑA CONCHA Y TORO S.A.",
+      "empresa_b_nombre":"SOCIEDAD DE INVERSIONES PAMPA CALICHERA S.A."
+    },
+    {
+      "index":446,
+      "empresa_a":"89150900",
+      "empresa_b":"96640360",
+      "directores_compartidos":1,
+      "nombres_compartidos":"LUIS RAFAEL GREZ JORDAN",
+      "empresa_a_nombre":"VIÑA LOS VASCOS S.A.",
+      "empresa_b_nombre":"QUEMCHI S.A."
+    },
+    {
+      "index":447,
+      "empresa_a":"89150900",
+      "empresa_b":"96574040",
+      "directores_compartidos":1,
+      "nombres_compartidos":"ANDRES SANTA CRUZ LOPEZ",
+      "empresa_a_nombre":"VIÑA LOS VASCOS S.A.",
+      "empresa_b_nombre":"SOCIEDAD DE INVERSIONES NORTE SUR S.A."
+    },
+    {
+      "index":448,
+      "empresa_a":"91041000",
+      "empresa_b":"97004000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"PABLO JOSÉ GRANIFO LAVIN",
+      "empresa_a_nombre":"VIÑA SAN PEDRO TARAPACA S.A.",
+      "empresa_b_nombre":"BANCO DE CHILE"
+    },
+    {
+      "index":449,
+      "empresa_a":"91041000",
+      "empresa_b":"91705000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"PABLO JOSÉ GRANIFO LAVIN",
+      "empresa_a_nombre":"VIÑA SAN PEDRO TARAPACA S.A.",
+      "empresa_b_nombre":"QUIÑENCO S.A."
+    },
+    {
+      "index":450,
+      "empresa_a":"96512200",
+      "empresa_b":"96529340",
+      "directores_compartidos":1,
+      "nombres_compartidos":"RAFAEL GUILISASTI GANA",
+      "empresa_a_nombre":"VIÑEDOS EMILIANA S.A.",
+      "empresa_b_nombre":"NORTE GRANDE S.A."
+    },
+    {
+      "index":451,
+      "empresa_a":"96512200",
+      "empresa_b":"96532830",
+      "directores_compartidos":1,
+      "nombres_compartidos":"RAFAEL GUILISASTI GANA",
+      "empresa_a_nombre":"VIÑEDOS EMILIANA S.A.",
+      "empresa_b_nombre":"SOCIEDAD DE INVERSIONES ORO BLANCO S.A."
+    },
+    {
+      "index":452,
+      "empresa_a":"76493189",
+      "empresa_b":"90160000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JOSÉ FERNANDO DE GREGORIO REBECO",
+      "empresa_a_nombre":"VOLCOMCAPITAL ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresa_b_nombre":"COMPAÑIA SUD AMERICANA DE VAPORES S.A."
+    },
+    {
+      "index":453,
+      "empresa_a":"76493189",
+      "empresa_b":"99279000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"JOSÉ FERNANDO DE GREGORIO REBECO",
+      "empresa_a_nombre":"VOLCOMCAPITAL ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresa_b_nombre":"EUROAMERICA SEGUROS DE VIDA S.A."
+    },
+    {
+      "index":454,
+      "empresa_a":"76455830",
+      "empresa_b":"90222000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"PABLO HERNÁN TURNER GONZÁLEZ",
+      "empresa_a_nombre":"WATT´S S.A.",
+      "empresa_b_nombre":"EMPRESAS CMPC S.A."
+    },
+    {
+      "index":455,
+      "empresa_a":"76455830",
+      "empresa_b":"77726203",
+      "directores_compartidos":1,
+      "nombres_compartidos":"FERNANDO JOSÉ LARRAIN CRUZAT",
+      "empresa_a_nombre":"WATT´S S.A.",
+      "empresa_b_nombre":"HOLDING BURSATIL REGIONAL S.A."
+    },
+    {
+      "index":456,
+      "empresa_a":"76455830",
+      "empresa_b":"96684990",
+      "directores_compartidos":1,
+      "nombres_compartidos":"PABLO HERNÁN TURNER GONZÁLEZ",
+      "empresa_a_nombre":"WATT´S S.A.",
+      "empresa_b_nombre":"MONEDA S.A. ADMINISTRADORA GENERAL DE FONDOS"
+    },
+    {
+      "index":457,
+      "empresa_a":"70285500",
+      "empresa_b":"76536353",
+      "directores_compartidos":1,
+      "nombres_compartidos":"GINA OCQUETEAU TACCHINI",
+      "empresa_a_nombre":"ZONA FRANCA DE IQUIQUE S.A.",
+      "empresa_b_nombre":"ENEL CHILE S.A."
+    },
+    {
+      "index":458,
+      "empresa_a":"70285500",
+      "empresa_b":"93007000",
+      "directores_compartidos":1,
+      "nombres_compartidos":"GINA OCQUETEAU TACCHINI",
+      "empresa_a_nombre":"ZONA FRANCA DE IQUIQUE S.A.",
+      "empresa_b_nombre":"SOCIEDAD QUIMICA Y MINERA DE CHILE S.A."
+    }
+  ]
+}

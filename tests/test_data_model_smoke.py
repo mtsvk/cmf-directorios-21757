@@ -6,7 +6,7 @@ import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-from data_model import load_model
+from scripts.private_model import load_model
 
 
 def test_network_and_missing_state():

@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from data_model import discover_run_dir, load_model
+from scripts.private_model import discover_run_dir, load_model
 
 
 def write_table(conn: sqlite3.Connection, name: str, df: pd.DataFrame) -> None:
@@ -66,10 +66,10 @@ def build(run_dir: Path, output: Path) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description="Construye la base relacional de Directorios CMF.")
     parser.add_argument("--run-dir", help="Carpeta corrida_*; por defecto usa la más reciente.")
-    parser.add_argument("--output", default="data/directorios_cmf.sqlite", help="Ruta del SQLite de salida.")
+    parser.add_argument("--output", default="private_data/directorios_cmf.sqlite", help="Ruta del SQLite privado de salida.")
     args = parser.parse_args()
 
-    run_dir = Path(args.run_dir) if args.run_dir else discover_run_dir(Path.cwd())
+    run_dir = Path(args.run_dir) if args.run_dir else discover_run_dir(ROOT / "private_data")
     if run_dir is None:
         raise SystemExit("No se encontró una corrida con los archivos requeridos.")
     build(run_dir.resolve(), Path(args.output).resolve())

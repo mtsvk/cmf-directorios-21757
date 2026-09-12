@@ -13,7 +13,7 @@ import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
 
-from data_model import company_rut_display, discover_run_dir, load_model, normalize_name
+from data_model import company_rut_display, load_model, normalize_name
 
 
 st.set_page_config(
@@ -28,6 +28,7 @@ CSS = """
 <style>
 .block-container {padding-top: 2rem; max-width: 1500px;}
 [data-testid="stMetric"] {background: rgba(127,127,127,.06); border: 1px solid rgba(127,127,127,.12); padding: .65rem .8rem; border-radius: .7rem;}
+[data-testid="stMetricLabel"] p {white-space: normal; overflow: visible;}
 .small-note {font-size: .88rem; opacity: .76;}
 .hero {padding: .25rem 0 .75rem 0;}
 .hero h1 {margin-bottom: .2rem;}
@@ -39,15 +40,14 @@ st.markdown(CSS, unsafe_allow_html=True)
 
 def cli_run_dir() -> str:
     parser = argparse.ArgumentParser(add_help=False)
-    parser.add_argument("--run-dir")
+    parser.add_argument("--public-dir", "--run-dir", dest="public_dir")
     try:
         args, _ = parser.parse_known_args(sys.argv[1:])
-        if args.run_dir:
-            return args.run_dir
+        if args.public_dir:
+            return args.public_dir
     except Exception:
         pass
-    found = discover_run_dir(Path(__file__).resolve().parent)
-    return str(found) if found else ""
+    return str(Path(__file__).resolve().parent / "data" / "public")
 
 
 @st.cache_data(show_spinner=False)
@@ -77,7 +77,7 @@ def dataframe(df: pd.DataFrame, *, height: int | None = None) -> None:
         "hide_index": True,
     }
     if height is not None:
-        kwargs["height"] = height
+        kwargs["height"] = min(height, 38 + 35 * max(1, len(df)))
     df = df.copy()
     for column in ("Fecha de nombramiento", "Fecha junta/elección"):
         if column in df:
@@ -261,6 +261,7 @@ if page == "Inicio":
         dataframe(top_people[["Persona", "Directorios"]], height=470)
 
     st.caption(NETWORK_NOTE)
+    st.caption("Entidades conectadas: otras entidades con al menos una persona compartida. Cada persona cuenta una vez por directorio.")
 
 
 elif page == "Empresas":
@@ -325,6 +326,9 @@ elif page == "Directores":
         st.info("No hay coincidencias.")
     else:
         labels = {r.persona_id: f"{r.nombre} — {int(r.empresas)} directorio(s)" for r in shortlist.itertuples()}
+        homonyms = set(shortlist.loc[shortlist["nombre"].map(normalize_name).duplicated(keep=False), "persona_id"])
+        for person_id in homonyms:
+            labels[person_id] += " · referencia " + person_id[2:14]
         choice = st.selectbox("Selecciona una persona", list(labels), format_func=labels.get)
         person = shortlist[shortlist["persona_id"].eq(choice)].iloc[0]
         memberships = current[current["persona_id"].eq(person["persona_id"])].copy()
@@ -458,6 +462,12 @@ else:
     st.markdown(
         "La falta de información de un directorio no significa que carezca de integrantes. "
         "Las fichas enlazan a la fuente cuando está disponible."
+    )
+    st.markdown(
+        "La identidad se vincula entre entidades cuando existe un identificador verificable en la fuente. "
+        "Los registros extranjeros sin identificador individual se mantienen separados hasta contar con evidencia; "
+        "el total de personas puede sobreestimar personas únicas y las conexiones pueden estar subestimadas. "
+        "Las coincidencias de nombre no bastan para unir registros."
     )
 
 st.divider()

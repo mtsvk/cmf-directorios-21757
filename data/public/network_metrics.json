@@ -1,0 +1,2531 @@
+{
+  "schema":{
+    "fields":[
+      {
+        "name":"index",
+        "type":"integer"
+      },
+      {
+        "name":"rut_empresa",
+        "type":"string"
+      },
+      {
+        "name":"razon_social",
+        "type":"string"
+      },
+      {
+        "name":"empresas_conectadas",
+        "type":"integer"
+      },
+      {
+        "name":"suma_directores_compartidos",
+        "type":"integer"
+      }
+    ],
+    "primaryKey":[
+      "index"
+    ],
+    "pandas_version":"1.4.0"
+  },
+  "data":[
+    {
+      "index":0,
+      "rut_empresa":"94270000",
+      "razon_social":"ALMENDRAL S.A.",
+      "empresas_conectadas":15,
+      "suma_directores_compartidos":15
+    },
+    {
+      "index":1,
+      "rut_empresa":"91144000",
+      "razon_social":"EMBOTELLADORA ANDINA S.A.",
+      "empresas_conectadas":14,
+      "suma_directores_compartidos":14
+    },
+    {
+      "index":2,
+      "rut_empresa":"92580000",
+      "razon_social":"EMPRESA NACIONAL DE TELECOMUNICACIONES S.A.",
+      "empresas_conectadas":13,
+      "suma_directores_compartidos":14
+    },
+    {
+      "index":3,
+      "rut_empresa":"90160000",
+      "razon_social":"COMPAÑIA SUD AMERICANA DE VAPORES S.A.",
+      "empresas_conectadas":12,
+      "suma_directores_compartidos":15
+    },
+    {
+      "index":4,
+      "rut_empresa":"90331000",
+      "razon_social":"CRISTALERIAS DE CHILE S.A.",
+      "empresas_conectadas":12,
+      "suma_directores_compartidos":19
+    },
+    {
+      "index":5,
+      "rut_empresa":"96566900",
+      "razon_social":"NAVARINO S.A.",
+      "empresas_conectadas":12,
+      "suma_directores_compartidos":18
+    },
+    {
+      "index":6,
+      "rut_empresa":"90320000",
+      "razon_social":"COMPAÑIA ELECTRO METALURGICA S.A.",
+      "empresas_conectadas":11,
+      "suma_directores_compartidos":20
+    },
+    {
+      "index":7,
+      "rut_empresa":"83628100",
+      "razon_social":"SONDA S.A.",
+      "empresas_conectadas":11,
+      "suma_directores_compartidos":11
+    },
+    {
+      "index":8,
+      "rut_empresa":"90222000",
+      "razon_social":"EMPRESAS CMPC S.A.",
+      "empresas_conectadas":10,
+      "suma_directores_compartidos":15
+    },
+    {
+      "index":9,
+      "rut_empresa":"94082000",
+      "razon_social":"INVERSIONES SIEMEL S.A.",
+      "empresas_conectadas":10,
+      "suma_directores_compartidos":16
+    },
+    {
+      "index":10,
+      "rut_empresa":"96885880",
+      "razon_social":"SALFACORP S.A.",
+      "empresas_conectadas":10,
+      "suma_directores_compartidos":11
+    },
+    {
+      "index":11,
+      "rut_empresa":"86547900",
+      "razon_social":"SOCIEDAD ANONIMA VIÑA SANTA RITA",
+      "empresas_conectadas":10,
+      "suma_directores_compartidos":19
+    },
+    {
+      "index":12,
+      "rut_empresa":"96579280",
+      "razon_social":"CN LIFE, COMPAÑIA DE SEGUROS DE VIDA S.A.",
+      "empresas_conectadas":9,
+      "suma_directores_compartidos":28
+    },
+    {
+      "index":13,
+      "rut_empresa":"99012000",
+      "razon_social":"COMPAÑIA DE SEGUROS DE VIDA CONSORCIO NACIONAL DE SEGUROS S.A.",
+      "empresas_conectadas":9,
+      "suma_directores_compartidos":28
+    },
+    {
+      "index":14,
+      "rut_empresa":"96654180",
+      "razon_social":"COMPAÑIA DE SEGUROS GENERALES CONSORCIO NACIONAL DE SEGUROS S.A.",
+      "empresas_conectadas":9,
+      "suma_directores_compartidos":28
+    },
+    {
+      "index":15,
+      "rut_empresa":"91553000",
+      "razon_social":"FORESTAL CONSTRUCTORA Y COMERCIAL DEL PACIFICO SUR S.A.",
+      "empresas_conectadas":9,
+      "suma_directores_compartidos":16
+    },
+    {
+      "index":16,
+      "rut_empresa":"90412000",
+      "razon_social":"MINERA VALPARAISO S.A.",
+      "empresas_conectadas":9,
+      "suma_directores_compartidos":16
+    },
+    {
+      "index":17,
+      "rut_empresa":"96640360",
+      "razon_social":"QUEMCHI S.A.",
+      "empresas_conectadas":9,
+      "suma_directores_compartidos":16
+    },
+    {
+      "index":18,
+      "rut_empresa":"97023000",
+      "razon_social":"BANCO ITAÚ CHILE",
+      "empresas_conectadas":8,
+      "suma_directores_compartidos":10
+    },
+    {
+      "index":19,
+      "rut_empresa":"85741000",
+      "razon_social":"BICECORP S.A.",
+      "empresas_conectadas":8,
+      "suma_directores_compartidos":15
+    },
+    {
+      "index":20,
+      "rut_empresa":"96966250",
+      "razon_social":"BTG PACTUAL CHILE S.A. ADMINISTRADORA GENERAL DE FONDOS",
+      "empresas_conectadas":8,
+      "suma_directores_compartidos":8
+    },
+    {
+      "index":21,
+      "rut_empresa":"96505760",
+      "razon_social":"COLBUN S.A.",
+      "empresas_conectadas":8,
+      "suma_directores_compartidos":11
+    },
+    {
+      "index":22,
+      "rut_empresa":"90413000",
+      "razon_social":"COMPAÑIA CERVECERIAS UNIDAS S.A.",
+      "empresas_conectadas":8,
+      "suma_directores_compartidos":14
+    },
+    {
+      "index":23,
+      "rut_empresa":"77198108",
+      "razon_social":"DCV ASESORIAS Y SERVICIOS S.A.",
+      "empresas_conectadas":8,
+      "suma_directores_compartidos":19
+    },
+    {
+      "index":24,
+      "rut_empresa":"96666140",
+      "razon_social":"DEPOSITO CENTRAL DE VALORES S.A. DEPOSITO DE VALORES",
+      "empresas_conectadas":8,
+      "suma_directores_compartidos":19
+    },
+    {
+      "index":25,
+      "rut_empresa":"94660000",
+      "razon_social":"MARITIMA DE INVERSIONES S.A.",
+      "empresas_conectadas":8,
+      "suma_directores_compartidos":15
+    },
+    {
+      "index":26,
+      "rut_empresa":"94627000",
+      "razon_social":"PARQUE ARAUCO S.A.",
+      "empresas_conectadas":8,
+      "suma_directores_compartidos":8
+    },
+    {
+      "index":27,
+      "rut_empresa":"96852100",
+      "razon_social":"QUILICURA S.A.",
+      "empresas_conectadas":8,
+      "suma_directores_compartidos":9
+    },
+    {
+      "index":28,
+      "rut_empresa":"76196718",
+      "razon_social":"SOCIEDAD MATRIZ SAAM S.A.",
+      "empresas_conectadas":8,
+      "suma_directores_compartidos":13
+    },
+    {
+      "index":29,
+      "rut_empresa":"96882560",
+      "razon_social":"BANVIDA S.A.",
+      "empresas_conectadas":7,
+      "suma_directores_compartidos":7
+    },
+    {
+      "index":30,
+      "rut_empresa":"96656410",
+      "razon_social":"BICE VIDA COMPAÑIA DE SEGUROS S.A.",
+      "empresas_conectadas":7,
+      "suma_directores_compartidos":14
+    },
+    {
+      "index":31,
+      "rut_empresa":"93711000",
+      "razon_social":"CAMANCHACA S.A.",
+      "empresas_conectadas":7,
+      "suma_directores_compartidos":8
+    },
+    {
+      "index":32,
+      "rut_empresa":"93834000",
+      "razon_social":"CENCOSUD S.A.",
+      "empresas_conectadas":7,
+      "suma_directores_compartidos":8
+    },
+    {
+      "index":33,
+      "rut_empresa":"93281000",
+      "razon_social":"COCA COLA EMBONOR S.A.",
+      "empresas_conectadas":7,
+      "suma_directores_compartidos":7
+    },
+    {
+      "index":34,
+      "rut_empresa":"96947020",
+      "razon_social":"EMPRESAS HITES S.A.",
+      "empresas_conectadas":7,
+      "suma_directores_compartidos":7
+    },
+    {
+      "index":35,
+      "rut_empresa":"76833300",
+      "razon_social":"ESSBIO S.A.",
+      "empresas_conectadas":7,
+      "suma_directores_compartidos":13
+    },
+    {
+      "index":36,
+      "rut_empresa":"76000739",
+      "razon_social":"ESVAL S.A.",
+      "empresas_conectadas":7,
+      "suma_directores_compartidos":13
+    },
+    {
+      "index":37,
+      "rut_empresa":"96512190",
+      "razon_social":"FRUTICOLA VICONTO S.A.",
+      "empresas_conectadas":7,
+      "suma_directores_compartidos":11
+    },
+    {
+      "index":38,
+      "rut_empresa":"77726203",
+      "razon_social":"HOLDING BURSATIL REGIONAL S.A.",
+      "empresas_conectadas":7,
+      "suma_directores_compartidos":11
+    },
+    {
+      "index":39,
+      "rut_empresa":"99040000",
+      "razon_social":"INVERSIONES HISPANIA S.A.",
+      "empresas_conectadas":7,
+      "suma_directores_compartidos":10
+    },
+    {
+      "index":40,
+      "rut_empresa":"96684990",
+      "razon_social":"MONEDA S.A. ADMINISTRADORA GENERAL DE FONDOS",
+      "empresas_conectadas":7,
+      "suma_directores_compartidos":7
+    },
+    {
+      "index":41,
+      "rut_empresa":"91705000",
+      "razon_social":"QUIÑENCO S.A.",
+      "empresas_conectadas":7,
+      "suma_directores_compartidos":11
+    },
+    {
+      "index":42,
+      "rut_empresa":"99598300",
+      "razon_social":"SIGDO KOPPERS S.A.",
+      "empresas_conectadas":7,
+      "suma_directores_compartidos":10
+    },
+    {
+      "index":43,
+      "rut_empresa":"96532830",
+      "razon_social":"SOCIEDAD DE INVERSIONES ORO BLANCO S.A.",
+      "empresas_conectadas":7,
+      "suma_directores_compartidos":16
+    },
+    {
+      "index":44,
+      "rut_empresa":"96561560",
+      "razon_social":"SOCIEDAD PUNTA DEL COBRE S.A.",
+      "empresas_conectadas":7,
+      "suma_directores_compartidos":11
+    },
+    {
+      "index":45,
+      "rut_empresa":"93007000",
+      "razon_social":"SOCIEDAD QUIMICA Y MINERA DE CHILE S.A.",
+      "empresas_conectadas":7,
+      "suma_directores_compartidos":7
+    },
+    {
+      "index":46,
+      "rut_empresa":"90227000",
+      "razon_social":"VIÑA CONCHA Y TORO S.A.",
+      "empresas_conectadas":7,
+      "suma_directores_compartidos":10
+    },
+    {
+      "index":47,
+      "rut_empresa":"91041000",
+      "razon_social":"VIÑA SAN PEDRO TARAPACA S.A.",
+      "empresas_conectadas":7,
+      "suma_directores_compartidos":9
+    },
+    {
+      "index":48,
+      "rut_empresa":"76215637",
+      "razon_social":"AGUAS ARAUCANIA S.A.",
+      "empresas_conectadas":6,
+      "suma_directores_compartidos":14
+    },
+    {
+      "index":49,
+      "rut_empresa":"96703230",
+      "razon_social":"AGUAS DECIMA S.A.",
+      "empresas_conectadas":6,
+      "suma_directores_compartidos":14
+    },
+    {
+      "index":50,
+      "rut_empresa":"76215634",
+      "razon_social":"AGUAS DEL ALTIPLANO S.A.",
+      "empresas_conectadas":6,
+      "suma_directores_compartidos":14
+    },
+    {
+      "index":51,
+      "rut_empresa":"76215628",
+      "razon_social":"AGUAS MAGALLANES S.A.",
+      "empresas_conectadas":6,
+      "suma_directores_compartidos":14
+    },
+    {
+      "index":52,
+      "rut_empresa":"96767630",
+      "razon_social":"BANCHILE ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresas_conectadas":6,
+      "suma_directores_compartidos":8
+    },
+    {
+      "index":53,
+      "rut_empresa":"97004000",
+      "razon_social":"BANCO DE CHILE",
+      "empresas_conectadas":6,
+      "suma_directores_compartidos":6
+    },
+    {
+      "index":54,
+      "rut_empresa":"90249000",
+      "razon_social":"BOLSA DE COMERCIO DE SANTIAGO, BOLSA DE VALORES",
+      "empresas_conectadas":6,
+      "suma_directores_compartidos":14
+    },
+    {
+      "index":55,
+      "rut_empresa":"96551730",
+      "razon_social":"BOLSA ELECTRONICA DE CHILE, BOLSA DE VALORES",
+      "empresas_conectadas":6,
+      "suma_directores_compartidos":7
+    },
+    {
+      "index":56,
+      "rut_empresa":"91297000",
+      "razon_social":"CAP S.A.",
+      "empresas_conectadas":6,
+      "suma_directores_compartidos":8
+    },
+    {
+      "index":57,
+      "rut_empresa":"96572920",
+      "razon_social":"CCLV, CONTRAPARTE CENTRAL S.A.",
+      "empresas_conectadas":6,
+      "suma_directores_compartidos":14
+    },
+    {
+      "index":58,
+      "rut_empresa":"92544000",
+      "razon_social":"CINTAC S.A.",
+      "empresas_conectadas":6,
+      "suma_directores_compartidos":6
+    },
+    {
+      "index":59,
+      "rut_empresa":"93930000",
+      "razon_social":"CLINICA LAS CONDES S.A.",
+      "empresas_conectadas":6,
+      "suma_directores_compartidos":10
+    },
+    {
+      "index":60,
+      "rut_empresa":"99279000",
+      "razon_social":"EUROAMERICA SEGUROS DE VIDA S.A.",
+      "empresas_conectadas":6,
+      "suma_directores_compartidos":6
+    },
+    {
+      "index":61,
+      "rut_empresa":"95134000",
+      "razon_social":"GRUPO EMPRESAS NAVIERAS S.A.",
+      "empresas_conectadas":6,
+      "suma_directores_compartidos":9
+    },
+    {
+      "index":62,
+      "rut_empresa":"96872980",
+      "razon_social":"INVERNOVA S.A.",
+      "empresas_conectadas":6,
+      "suma_directores_compartidos":9
+    },
+    {
+      "index":63,
+      "rut_empresa":"77274820",
+      "razon_social":"INVERSIONES AGUAS METROPOLITANAS S.A.",
+      "empresas_conectadas":6,
+      "suma_directores_compartidos":6
+    },
+    {
+      "index":64,
+      "rut_empresa":"96529340",
+      "razon_social":"NORTE GRANDE S.A.",
+      "empresas_conectadas":6,
+      "suma_directores_compartidos":17
+    },
+    {
+      "index":65,
+      "rut_empresa":"76850128",
+      "razon_social":"NUEVA ATACAMA S.A.",
+      "empresas_conectadas":6,
+      "suma_directores_compartidos":14
+    },
+    {
+      "index":66,
+      "rut_empresa":"76165311",
+      "razon_social":"POTASIOS DE CHILE S.A.",
+      "empresas_conectadas":6,
+      "suma_directores_compartidos":11
+    },
+    {
+      "index":67,
+      "rut_empresa":"76573480",
+      "razon_social":"SEGUROS CLC S.A.",
+      "empresas_conectadas":6,
+      "suma_directores_compartidos":10
+    },
+    {
+      "index":68,
+      "rut_empresa":"96511530",
+      "razon_social":"SOCIEDAD DE INVERSIONES PAMPA CALICHERA S.A.",
+      "empresas_conectadas":6,
+      "suma_directores_compartidos":17
+    },
+    {
+      "index":69,
+      "rut_empresa":"89150900",
+      "razon_social":"VIÑA LOS VASCOS S.A.",
+      "empresas_conectadas":6,
+      "suma_directores_compartidos":8
+    },
+    {
+      "index":70,
+      "rut_empresa":"96512200",
+      "razon_social":"VIÑEDOS EMILIANA S.A.",
+      "empresas_conectadas":6,
+      "suma_directores_compartidos":9
+    },
+    {
+      "index":71,
+      "rut_empresa":"96874030",
+      "razon_social":"ABC S.A.",
+      "empresas_conectadas":5,
+      "suma_directores_compartidos":10
+    },
+    {
+      "index":72,
+      "rut_empresa":"61808000",
+      "razon_social":"AGUAS ANDINAS S.A.",
+      "empresas_conectadas":5,
+      "suma_directores_compartidos":5
+    },
+    {
+      "index":73,
+      "rut_empresa":"96684580",
+      "razon_social":"FERROCARRIL DEL PACIFICO S.A.",
+      "empresas_conectadas":5,
+      "suma_directores_compartidos":6
+    },
+    {
+      "index":74,
+      "rut_empresa":"86963200",
+      "razon_social":"FORUS S.A.",
+      "empresas_conectadas":5,
+      "suma_directores_compartidos":7
+    },
+    {
+      "index":75,
+      "rut_empresa":"93737000",
+      "razon_social":"GTD MANQUEHUE S.A.",
+      "empresas_conectadas":5,
+      "suma_directores_compartidos":5
+    },
+    {
+      "index":76,
+      "rut_empresa":"96708470",
+      "razon_social":"INVERCAP S.A.",
+      "empresas_conectadas":5,
+      "suma_directores_compartidos":7
+    },
+    {
+      "index":77,
+      "rut_empresa":"91643000",
+      "razon_social":"INVERSIONES NUTRAVALOR S.A.",
+      "empresas_conectadas":5,
+      "suma_directores_compartidos":8
+    },
+    {
+      "index":78,
+      "rut_empresa":"93628000",
+      "razon_social":"MOLIBDENOS Y METALES S. A.",
+      "empresas_conectadas":5,
+      "suma_directores_compartidos":5
+    },
+    {
+      "index":79,
+      "rut_empresa":"96602640",
+      "razon_social":"PUERTO VENTANAS S.A.",
+      "empresas_conectadas":5,
+      "suma_directores_compartidos":8
+    },
+    {
+      "index":80,
+      "rut_empresa":"76065596",
+      "razon_social":"SALMONES CAMANCHACA S.A.",
+      "empresas_conectadas":5,
+      "suma_directores_compartidos":7
+    },
+    {
+      "index":81,
+      "rut_empresa":"77611649",
+      "razon_social":"SOCIEDAD TRANSMISORA METROPOLITANA S.A.",
+      "empresas_conectadas":5,
+      "suma_directores_compartidos":7
+    },
+    {
+      "index":82,
+      "rut_empresa":"76265736",
+      "razon_social":"ADMINISTRADORA DE FONDOS DE PENSIONES PROVIDA S.A.",
+      "empresas_conectadas":4,
+      "suma_directores_compartidos":4
+    },
+    {
+      "index":83,
+      "rut_empresa":"91337000",
+      "razon_social":"CEMENTO POLPAICO S.A.",
+      "empresas_conectadas":4,
+      "suma_directores_compartidos":7
+    },
+    {
+      "index":84,
+      "rut_empresa":"90209000",
+      "razon_social":"COMPAÑIA INDUSTRIAL EL VOLCAN S.A.",
+      "empresas_conectadas":4,
+      "suma_directores_compartidos":4
+    },
+    {
+      "index":85,
+      "rut_empresa":"76072469",
+      "razon_social":"CRUZADOS S.A.D.P.",
+      "empresas_conectadas":4,
+      "suma_directores_compartidos":4
+    },
+    {
+      "index":86,
+      "rut_empresa":"96522900",
+      "razon_social":"CRÉDITOS, ORGANIZACIÓN Y FINANZAS S.A.",
+      "empresas_conectadas":4,
+      "suma_directores_compartidos":9
+    },
+    {
+      "index":87,
+      "rut_empresa":"92770000",
+      "razon_social":"EMPRESA CONSTRUCTORA MOLLER Y PEREZ-COTAPOS S.A.",
+      "empresas_conectadas":4,
+      "suma_directores_compartidos":4
+    },
+    {
+      "index":88,
+      "rut_empresa":"86247400",
+      "razon_social":"EMPRESAS AQUACHILE S.A.",
+      "empresas_conectadas":4,
+      "suma_directores_compartidos":4
+    },
+    {
+      "index":89,
+      "rut_empresa":"90690000",
+      "razon_social":"EMPRESAS COPEC S.A.",
+      "empresas_conectadas":4,
+      "suma_directores_compartidos":11
+    },
+    {
+      "index":90,
+      "rut_empresa":"90310000",
+      "razon_social":"EMPRESAS GASCO S.A.",
+      "empresas_conectadas":4,
+      "suma_directores_compartidos":6
+    },
+    {
+      "index":91,
+      "rut_empresa":"96928510",
+      "razon_social":"EMPRESAS LIPIGAS S.A.",
+      "empresas_conectadas":4,
+      "suma_directores_compartidos":4
+    },
+    {
+      "index":92,
+      "rut_empresa":"88006900",
+      "razon_social":"ENGIE ENERGIA CHILE S.A.",
+      "empresas_conectadas":4,
+      "suma_directores_compartidos":4
+    },
+    {
+      "index":93,
+      "rut_empresa":"96970380",
+      "razon_social":"ENJOY S.A.",
+      "empresas_conectadas":4,
+      "suma_directores_compartidos":4
+    },
+    {
+      "index":94,
+      "rut_empresa":"96569460",
+      "razon_social":"INVERSIONES COVADONGA S.A.",
+      "empresas_conectadas":4,
+      "suma_directores_compartidos":15
+    },
+    {
+      "index":95,
+      "rut_empresa":"99010000",
+      "razon_social":"INVERSIONES UNESPA S.A.",
+      "empresas_conectadas":4,
+      "suma_directores_compartidos":14
+    },
+    {
+      "index":96,
+      "rut_empresa":"96513200",
+      "razon_social":"INVERSIONES UNION ESPAÑOLA S.A.",
+      "empresas_conectadas":4,
+      "suma_directores_compartidos":15
+    },
+    {
+      "index":97,
+      "rut_empresa":"96802690",
+      "razon_social":"MASISA S.A.",
+      "empresas_conectadas":4,
+      "suma_directores_compartidos":4
+    },
+    {
+      "index":98,
+      "rut_empresa":"76109779",
+      "razon_social":"MELON S.A.",
+      "empresas_conectadas":4,
+      "suma_directores_compartidos":4
+    },
+    {
+      "index":99,
+      "rut_empresa":"76488180",
+      "razon_social":"PAZ CORP S.A.",
+      "empresas_conectadas":4,
+      "suma_directores_compartidos":4
+    },
+    {
+      "index":100,
+      "rut_empresa":"96766600",
+      "razon_social":"SCHWAGER S.A.",
+      "empresas_conectadas":4,
+      "suma_directores_compartidos":4
+    },
+    {
+      "index":101,
+      "rut_empresa":"76012676",
+      "razon_social":"SMU S.A.",
+      "empresas_conectadas":4,
+      "suma_directores_compartidos":4
+    },
+    {
+      "index":102,
+      "rut_empresa":"90831000",
+      "razon_social":"SOCIEDAD AGRICOLA LA ROSA SOFRUCO S.A.",
+      "empresas_conectadas":4,
+      "suma_directores_compartidos":4
+    },
+    {
+      "index":103,
+      "rut_empresa":"76455830",
+      "razon_social":"WATT´S S.A.",
+      "empresas_conectadas":4,
+      "suma_directores_compartidos":4
+    },
+    {
+      "index":104,
+      "rut_empresa":"77513781",
+      "razon_social":"ADMINISTRADORA AMERICANA DE INVERSIONES S.A.",
+      "empresas_conectadas":3,
+      "suma_directores_compartidos":6
+    },
+    {
+      "index":105,
+      "rut_empresa":"96556310",
+      "razon_social":"ANTARCHILE S.A.",
+      "empresas_conectadas":3,
+      "suma_directores_compartidos":9
+    },
+    {
+      "index":106,
+      "rut_empresa":"76172904",
+      "razon_social":"ASSET ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresas_conectadas":3,
+      "suma_directores_compartidos":3
+    },
+    {
+      "index":107,
+      "rut_empresa":"76632384",
+      "razon_social":"AUGUSTAR SEGUROS DE VIDA S.A.",
+      "empresas_conectadas":3,
+      "suma_directores_compartidos":3
+    },
+    {
+      "index":108,
+      "rut_empresa":"92434000",
+      "razon_social":"BESALCO S.A.",
+      "empresas_conectadas":3,
+      "suma_directores_compartidos":3
+    },
+    {
+      "index":109,
+      "rut_empresa":"80860400",
+      "razon_social":"BLUMAR S.A.",
+      "empresas_conectadas":3,
+      "suma_directores_compartidos":3
+    },
+    {
+      "index":110,
+      "rut_empresa":"99569020",
+      "razon_social":"CLUB DEPORTIVO PALESTINO SADP",
+      "empresas_conectadas":3,
+      "suma_directores_compartidos":3
+    },
+    {
+      "index":111,
+      "rut_empresa":"76317889",
+      "razon_social":"COMDER, CONTRAPARTE CENTRAL S.A.",
+      "empresas_conectadas":3,
+      "suma_directores_compartidos":3
+    },
+    {
+      "index":112,
+      "rut_empresa":"81290800",
+      "razon_social":"COMPAÑIA AGROPECUARIA COPEVAL S.A.",
+      "empresas_conectadas":3,
+      "suma_directores_compartidos":3
+    },
+    {
+      "index":113,
+      "rut_empresa":"93727000",
+      "razon_social":"COMPAÑIA DE INVERSIONES LA ESPAÑOLA S.A.",
+      "empresas_conectadas":3,
+      "suma_directores_compartidos":6
+    },
+    {
+      "index":114,
+      "rut_empresa":"93830000",
+      "razon_social":"COMPAÑIAS CIC S.A.",
+      "empresas_conectadas":3,
+      "suma_directores_compartidos":5
+    },
+    {
+      "index":115,
+      "rut_empresa":"76981875",
+      "razon_social":"CONTEMPORA COMPAÑIA DE SEGUROS GENERALES S.A.",
+      "empresas_conectadas":3,
+      "suma_directores_compartidos":3
+    },
+    {
+      "index":116,
+      "rut_empresa":"76005049",
+      "razon_social":"ECHEVERRIA, IZQUIERDO S.A.",
+      "empresas_conectadas":3,
+      "suma_directores_compartidos":3
+    },
+    {
+      "index":117,
+      "rut_empresa":"90266000",
+      "razon_social":"ENAEX S.A.",
+      "empresas_conectadas":3,
+      "suma_directores_compartidos":5
+    },
+    {
+      "index":118,
+      "rut_empresa":"76536353",
+      "razon_social":"ENEL CHILE S.A.",
+      "empresas_conectadas":3,
+      "suma_directores_compartidos":3
+    },
+    {
+      "index":119,
+      "rut_empresa":"90749000",
+      "razon_social":"FALABELLA S.A.",
+      "empresas_conectadas":3,
+      "suma_directores_compartidos":3
+    },
+    {
+      "index":120,
+      "rut_empresa":"77729737",
+      "razon_social":"IGC S.A.",
+      "empresas_conectadas":3,
+      "suma_directores_compartidos":5
+    },
+    {
+      "index":121,
+      "rut_empresa":"89862200",
+      "razon_social":"LATAM AIRLINES GROUP S.A.",
+      "empresas_conectadas":3,
+      "suma_directores_compartidos":4
+    },
+    {
+      "index":122,
+      "rut_empresa":"96933030",
+      "razon_social":"MAPFRE COMPA#IA DE SEGUROS DE VIDA DE CHILE S.A.",
+      "empresas_conectadas":3,
+      "suma_directores_compartidos":7
+    },
+    {
+      "index":123,
+      "rut_empresa":"96508210",
+      "razon_social":"MAPFRE COMPA#IA DE SEGUROS GENERALES DE CHILE S.A.",
+      "empresas_conectadas":3,
+      "suma_directores_compartidos":7
+    },
+    {
+      "index":124,
+      "rut_empresa":"96723320",
+      "razon_social":"PORTUARIA CABO FROWARD S.A.",
+      "empresas_conectadas":3,
+      "suma_directores_compartidos":6
+    },
+    {
+      "index":125,
+      "rut_empresa":"90743000",
+      "razon_social":"PROMOTORA CMR FALABELLA S.A.",
+      "empresas_conectadas":3,
+      "suma_directores_compartidos":3
+    },
+    {
+      "index":126,
+      "rut_empresa":"94716000",
+      "razon_social":"RENTA NACIONAL COMPA#IA DE SEGUROS DE VIDA S.A.",
+      "empresas_conectadas":3,
+      "suma_directores_compartidos":6
+    },
+    {
+      "index":127,
+      "rut_empresa":"94510000",
+      "razon_social":"RENTA NACIONAL COMPA#IA DE SEGUROS GENERALES S.A.",
+      "empresas_conectadas":3,
+      "suma_directores_compartidos":6
+    },
+    {
+      "index":128,
+      "rut_empresa":"99301000",
+      "razon_social":"SEGUROS VIDA SECURITY PREVISION S.A.",
+      "empresas_conectadas":3,
+      "suma_directores_compartidos":3
+    },
+    {
+      "index":129,
+      "rut_empresa":"96574040",
+      "razon_social":"SOCIEDAD DE INVERSIONES NORTE SUR S.A.",
+      "empresas_conectadas":3,
+      "suma_directores_compartidos":3
+    },
+    {
+      "index":130,
+      "rut_empresa":"76102955",
+      "razon_social":"SOPROLE INVERSIONES S.A.",
+      "empresas_conectadas":3,
+      "suma_directores_compartidos":5
+    },
+    {
+      "index":131,
+      "rut_empresa":"98000100",
+      "razon_social":"ADMINISTRADORA DE FONDOS DE PENSIONES HABITAT S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":2
+    },
+    {
+      "index":132,
+      "rut_empresa":"76511423",
+      "razon_social":"ALEMANA SEGUROS S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":2
+    },
+    {
+      "index":133,
+      "rut_empresa":"76598625",
+      "razon_social":"ASEGURADORA PORVENIR S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":2
+    },
+    {
+      "index":134,
+      "rut_empresa":"97011000",
+      "razon_social":"BANCO INTERNACIONAL",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":2
+    },
+    {
+      "index":135,
+      "rut_empresa":"99147000",
+      "razon_social":"BCI SEGUROS GENERALES S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":10
+    },
+    {
+      "index":136,
+      "rut_empresa":"96573600",
+      "razon_social":"BCI SEGUROS VIDA S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":11
+    },
+    {
+      "index":137,
+      "rut_empresa":"96837630",
+      "razon_social":"BNP PARIBAS CARDIF SEGUROS DE VIDA S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":8
+    },
+    {
+      "index":138,
+      "rut_empresa":"96837640",
+      "razon_social":"BNP PARIBAS CARDIF SEGUROS GENERALES S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":8
+    },
+    {
+      "index":139,
+      "rut_empresa":"76435792",
+      "razon_social":"CAPITAL ADVISORS ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":2
+    },
+    {
+      "index":140,
+      "rut_empresa":"76143636",
+      "razon_social":"CAROZZI S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":3
+    },
+    {
+      "index":141,
+      "rut_empresa":"76433310",
+      "razon_social":"CENCOSUD SHOPPING S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":3
+    },
+    {
+      "index":142,
+      "rut_empresa":"96690790",
+      "razon_social":"CMB-PRIME ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":2
+    },
+    {
+      "index":143,
+      "rut_empresa":"76408757",
+      "razon_social":"COLMENA COMPAÑIA DE SEGUROS DE VIDA S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":2
+    },
+    {
+      "index":144,
+      "rut_empresa":"90081000",
+      "razon_social":"COMPAÑIA CHILENA DE FOSFOROS S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":2
+    },
+    {
+      "index":145,
+      "rut_empresa":"96571890",
+      "razon_social":"COMPAÑIA DE SEGUROS CONFUTURO S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":2
+    },
+    {
+      "index":146,
+      "rut_empresa":"91344000",
+      "razon_social":"COMPAÑIA ELECTRICA DEL LITORAL S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":9
+    },
+    {
+      "index":147,
+      "rut_empresa":"96971830",
+      "razon_social":"EF SECURITIZADORA S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":2
+    },
+    {
+      "index":148,
+      "rut_empresa":"96817230",
+      "razon_social":"ELECTRICA PUNTILLA S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":2
+    },
+    {
+      "index":149,
+      "rut_empresa":"91550000",
+      "razon_social":"EMPRESAS IANSA S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":2
+    },
+    {
+      "index":150,
+      "rut_empresa":"96766110",
+      "razon_social":"ENERGIA DE CASABLANCA S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":8
+    },
+    {
+      "index":151,
+      "rut_empresa":"76309510",
+      "razon_social":"ENERGIA LATINA S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":2
+    },
+    {
+      "index":152,
+      "rut_empresa":"76507811",
+      "razon_social":"FALCOM ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":2
+    },
+    {
+      "index":153,
+      "rut_empresa":"96621750",
+      "razon_social":"HIPERMARC S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":2
+    },
+    {
+      "index":154,
+      "rut_empresa":"96753330",
+      "razon_social":"INDEPENDENCIA ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":5
+    },
+    {
+      "index":155,
+      "rut_empresa":"76800115",
+      "razon_social":"INDEPENDENCIA INTERNACIONAL ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":5
+    },
+    {
+      "index":156,
+      "rut_empresa":"96542300",
+      "razon_social":"INVERSIONES TRICAHUE S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":2
+    },
+    {
+      "index":157,
+      "rut_empresa":"77470446",
+      "razon_social":"LITORAL TRANSMISION S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":9
+    },
+    {
+      "index":158,
+      "rut_empresa":"76672100",
+      "razon_social":"MULTIEXPORT FOODS S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":2
+    },
+    {
+      "index":159,
+      "rut_empresa":"96563820",
+      "razon_social":"REBRISA S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":2
+    },
+    {
+      "index":160,
+      "rut_empresa":"99579730",
+      "razon_social":"RIPLEY CORP S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":2
+    },
+    {
+      "index":161,
+      "rut_empresa":"76034737",
+      "razon_social":"SAVE COMPAÑÍA DE SEGUROS DE VIDA S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":2
+    },
+    {
+      "index":162,
+      "rut_empresa":"96989050",
+      "razon_social":"SOCIEDAD CONCESIONARIA AUTOPISTA INTERPORTUARIA S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":2
+    },
+    {
+      "index":163,
+      "rut_empresa":"96538080",
+      "razon_social":"SOCIEDAD DE INVERSIONES CAMPOS CHILENOS S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":2
+    },
+    {
+      "index":164,
+      "rut_empresa":"94840000",
+      "razon_social":"SOCOVESA S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":2
+    },
+    {
+      "index":165,
+      "rut_empresa":"76094234",
+      "razon_social":"SOLUNION CHILE SEGUROS DE CREDITO S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":2
+    },
+    {
+      "index":166,
+      "rut_empresa":"96579800",
+      "razon_social":"SURALIS S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":2
+    },
+    {
+      "index":167,
+      "rut_empresa":"96790570",
+      "razon_social":"UNION EL GOLF S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":2
+    },
+    {
+      "index":168,
+      "rut_empresa":"76493189",
+      "razon_social":"VOLCOMCAPITAL ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":2
+    },
+    {
+      "index":169,
+      "rut_empresa":"76061223",
+      "razon_social":"ZENIT SEGUROS GENERALES S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":11
+    },
+    {
+      "index":170,
+      "rut_empresa":"70285500",
+      "razon_social":"ZONA FRANCA DE IQUIQUE S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":2
+    },
+    {
+      "index":171,
+      "rut_empresa":"77750920",
+      "razon_social":"ZURICH CHILE ASSET MANAGEMENT ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":4
+    },
+    {
+      "index":172,
+      "rut_empresa":"99185000",
+      "razon_social":"ZURICH CHILE SEGUROS DE VIDA S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":4
+    },
+    {
+      "index":173,
+      "rut_empresa":"99037000",
+      "razon_social":"ZURICH CHILE SEGUROS GENERALES S.A.",
+      "empresas_conectadas":2,
+      "suma_directores_compartidos":4
+    },
+    {
+      "index":174,
+      "rut_empresa":"76418751",
+      "razon_social":"4 LIFE SEGUROS DE VIDA S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":1
+    },
+    {
+      "index":175,
+      "rut_empresa":"76036521",
+      "razon_social":"ADMINISTRADORA GENERAL DE FONDOS SURA S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":1
+    },
+    {
+      "index":176,
+      "rut_empresa":"76503273",
+      "razon_social":"AMERIS CAPITAL ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":1
+    },
+    {
+      "index":177,
+      "rut_empresa":"96530900",
+      "razon_social":"BCI ASSET MANAGEMENT ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":1
+    },
+    {
+      "index":178,
+      "rut_empresa":"99589230",
+      "razon_social":"BLANCO Y NEGRO S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":1
+    },
+    {
+      "index":179,
+      "rut_empresa":"99575550",
+      "razon_social":"BOLSA DE PRODUC. DE CHILE, BOLSA DE PROD. AGROPECUARIOS S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":2
+    },
+    {
+      "index":180,
+      "rut_empresa":"76477116",
+      "razon_social":"CF SEGUROS DE VIDA S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":1
+    },
+    {
+      "index":181,
+      "rut_empresa":"77465741",
+      "razon_social":"CGE TRANSMISION S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":2
+    },
+    {
+      "index":182,
+      "rut_empresa":"99225000",
+      "razon_social":"CHUBB SEGUROS CHILE S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":2
+    },
+    {
+      "index":183,
+      "rut_empresa":"99588060",
+      "razon_social":"CHUBB SEGUROS DE VIDA CHILE S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":2
+    },
+    {
+      "index":184,
+      "rut_empresa":"96601710",
+      "razon_social":"CIMENTA S.A. ADMINISTRADORA GENERAL DE FONDOS",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":1
+    },
+    {
+      "index":185,
+      "rut_empresa":"82912300",
+      "razon_social":"CLUB HIPICO DE PUNTA ARENAS S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":1
+    },
+    {
+      "index":186,
+      "rut_empresa":"96573590",
+      "razon_social":"COMPAÑIA DE SEGUROS DE CREDITO CONTINENTAL S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":2
+    },
+    {
+      "index":187,
+      "rut_empresa":"76039758",
+      "razon_social":"COMPAÑIA DE SEGUROS GENERALES CONTINENTAL S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":2
+    },
+    {
+      "index":188,
+      "rut_empresa":"76411321",
+      "razon_social":"COMPAÑIA GENERAL DE ELECTRICIDAD S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":2
+    },
+    {
+      "index":189,
+      "rut_empresa":"88221200",
+      "razon_social":"EMPRESA ELECTRICA DE MAGALLANES S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":1
+    },
+    {
+      "index":190,
+      "rut_empresa":"94271000",
+      "razon_social":"ENEL AMERICAS S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":1
+    },
+    {
+      "index":191,
+      "rut_empresa":"92411000",
+      "razon_social":"ESTADIO CROATA S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":6
+    },
+    {
+      "index":192,
+      "rut_empresa":"77303281",
+      "razon_social":"GASCO INVERSIONES S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":3
+    },
+    {
+      "index":193,
+      "rut_empresa":"91694000",
+      "razon_social":"INMOBILIARIA ESTADIO COLO COLO S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":1
+    },
+    {
+      "index":194,
+      "rut_empresa":"88745400",
+      "razon_social":"INMOBILIARIA MANQUEHUE S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":1
+    },
+    {
+      "index":195,
+      "rut_empresa":"93470000",
+      "razon_social":"INMOBILIARIA YUGOSLAVA SOCIEDAD ANONIMA",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":6
+    },
+    {
+      "index":196,
+      "rut_empresa":"92051000",
+      "razon_social":"INSTITUTO DE DIAGNOSTICO S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":1
+    },
+    {
+      "index":197,
+      "rut_empresa":"94139000",
+      "razon_social":"INVERSIONES LA CONSTRUCCION S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":1
+    },
+    {
+      "index":198,
+      "rut_empresa":"76503272",
+      "razon_social":"LAB CAPITAL ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":1
+    },
+    {
+      "index":199,
+      "rut_empresa":"99289000",
+      "razon_social":"METLIFE CHILE SEGUROS DE VIDA S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":5
+    },
+    {
+      "index":200,
+      "rut_empresa":"76328793",
+      "razon_social":"METLIFE CHILE SEGUROS GENERALES S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":5
+    },
+    {
+      "index":201,
+      "rut_empresa":"70015730",
+      "razon_social":"MUTUAL DE SEGUROS DE CHILE",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":1
+    },
+    {
+      "index":202,
+      "rut_empresa":"76042965",
+      "razon_social":"ORION SEGUROS GENERALES S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":1
+    },
+    {
+      "index":203,
+      "rut_empresa":"96632170",
+      "razon_social":"PENTA LAS AMERICAS ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":1
+    },
+    {
+      "index":204,
+      "rut_empresa":"96812960",
+      "razon_social":"PENTA VIDA COMPA#IA DE SEGUROS DE VIDA S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":1
+    },
+    {
+      "index":205,
+      "rut_empresa":"76202136",
+      "razon_social":"PICTON ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":1
+    },
+    {
+      "index":206,
+      "rut_empresa":"76017019",
+      "razon_social":"PLAZA S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":1
+    },
+    {
+      "index":207,
+      "rut_empresa":"91999000",
+      "razon_social":"PRINCIPAL ASSET MANAGEMENT ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":1
+    },
+    {
+      "index":208,
+      "rut_empresa":"96588080",
+      "razon_social":"PRINCIPAL COMPAÑIA DE SEGUROS DE VIDA CHILE S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":1
+    },
+    {
+      "index":209,
+      "rut_empresa":"77244875",
+      "razon_social":"PRUDENTIAL ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":4
+    },
+    {
+      "index":210,
+      "rut_empresa":"96667040",
+      "razon_social":"SANTANDER ASSET MANAGEMENT S.A. ADMINISTRADORA GENERAL DE FONDOS",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":1
+    },
+    {
+      "index":211,
+      "rut_empresa":"96972780",
+      "razon_social":"SECURITIZADORA SUDAMERICANA S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":2
+    },
+    {
+      "index":212,
+      "rut_empresa":"96549050",
+      "razon_social":"SEGUROS DE VIDA SURA S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":1
+    },
+    {
+      "index":213,
+      "rut_empresa":"76263414",
+      "razon_social":"SEGUROS DE VIDA SURAMERICANA S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":4
+    },
+    {
+      "index":214,
+      "rut_empresa":"99017000",
+      "razon_social":"SEGUROS GENERALES SURAMERICANA S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":4
+    },
+    {
+      "index":215,
+      "rut_empresa":"92412000",
+      "razon_social":"SOCIEDAD ANONIMA DE DEPORTES CACHAGUA",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":1
+    },
+    {
+      "index":216,
+      "rut_empresa":"91387000",
+      "razon_social":"SOCIEDAD ANONIMA DE DEPORTES MANQUEHUE",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":1
+    },
+    {
+      "index":217,
+      "rut_empresa":"91119000",
+      "razon_social":"SOCIEDAD ANONIMA ESTADIO ESPAÑOL",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":1
+    },
+    {
+      "index":218,
+      "rut_empresa":"91262000",
+      "razon_social":"SOCIEDAD DE DEPORTES PALESTINA S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":1
+    },
+    {
+      "index":219,
+      "rut_empresa":"90256000",
+      "razon_social":"SOCIEDAD HIPODROMO CHILE S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":1
+    },
+    {
+      "index":220,
+      "rut_empresa":"92108000",
+      "razon_social":"SOPROCAL CALERIAS E INDUSTRIAS S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":1
+    },
+    {
+      "index":221,
+      "rut_empresa":"76320186",
+      "razon_social":"TECNO FAST S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":1
+    },
+    {
+      "index":222,
+      "rut_empresa":"96576660",
+      "razon_social":"TOESCA S.A. ADMINISTRADORA GENERAL DE FONDOS",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":1
+    },
+    {
+      "index":223,
+      "rut_empresa":"96765170",
+      "razon_social":"TRANSA SECURITIZADORA S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":2
+    },
+    {
+      "index":224,
+      "rut_empresa":"76555400",
+      "razon_social":"TRANSELEC S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":1
+    },
+    {
+      "index":225,
+      "rut_empresa":"90414000",
+      "razon_social":"VALPARAISO SPORTING CLUB S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":2
+    },
+    {
+      "index":226,
+      "rut_empresa":"76930595",
+      "razon_social":"VANTRUST CAPITAL ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":1
+    },
+    {
+      "index":227,
+      "rut_empresa":"76429904",
+      "razon_social":"VENTURANCE S.A. ADMINISTRADORA GENERAL DE FONDOS",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":1
+    },
+    {
+      "index":228,
+      "rut_empresa":"96804330",
+      "razon_social":"VINCI COMPASS S.A. ADMINISTRADORA GENERAL DE FONDOS",
+      "empresas_conectadas":1,
+      "suma_directores_compartidos":1
+    },
+    {
+      "index":229,
+      "rut_empresa":"98000000",
+      "razon_social":"ADMINISTRADORA DE FONDOS DE PENSIONES CAPITAL S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":230,
+      "rut_empresa":"76240079",
+      "razon_social":"ADMINISTRADORA DE FONDOS DE PENSIONES CUPRUM S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":231,
+      "rut_empresa":"76762250",
+      "razon_social":"ADMINISTRADORA DE FONDOS DE PENSIONES MODELO S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":232,
+      "rut_empresa":"98001200",
+      "razon_social":"ADMINISTRADORA DE FONDOS DE PENSIONES PLANVITAL S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":233,
+      "rut_empresa":"77677546",
+      "razon_social":"AMERIS SECURITIZADORA S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":234,
+      "rut_empresa":"91400000",
+      "razon_social":"ANDACOR S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":235,
+      "rut_empresa":"76212519",
+      "razon_social":"ASSURANT CHILE COMPAÑIA DE SEGUROS GENERALES S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":236,
+      "rut_empresa":"91126000",
+      "razon_social":"AUTOMOVILISMO Y TURISMO S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":237,
+      "rut_empresa":"77324967",
+      "razon_social":"AVANTE ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":238,
+      "rut_empresa":"76363534",
+      "razon_social":"AVLA SEGUROS DE CREDITO Y GARANTIA S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":239,
+      "rut_empresa":"76838140",
+      "razon_social":"AZUL AZUL S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":240,
+      "rut_empresa":"76625125",
+      "razon_social":"BAASKIT PAGOS S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":241,
+      "rut_empresa":"97080000",
+      "razon_social":"BANCO BICE",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":242,
+      "rut_empresa":"76362099",
+      "razon_social":"BANCO BTG PACTUAL CHILE",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":243,
+      "rut_empresa":"99500410",
+      "razon_social":"BANCO CONSORCIO",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":244,
+      "rut_empresa":"97006000",
+      "razon_social":"BANCO DE CREDITO E INVERSIONES",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":245,
+      "rut_empresa":"96509660",
+      "razon_social":"BANCO FALABELLA",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":246,
+      "rut_empresa":"76930984",
+      "razon_social":"BANCO INTERNACIONAL ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":247,
+      "rut_empresa":"97947000",
+      "razon_social":"BANCO RIPLEY",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":248,
+      "rut_empresa":"97036000",
+      "razon_social":"BANCO SANTANDER-CHILE",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":249,
+      "rut_empresa":"96836390",
+      "razon_social":"BANCOESTADO S.A. ADMINISTRADORA GENERAL DE FONDOS",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":250,
+      "rut_empresa":"96948880",
+      "razon_social":"BCI SECURITIZADORA S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":251,
+      "rut_empresa":"76282191",
+      "razon_social":"BUPA COMPAÑIA DE SEGUROS DE VIDA S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":252,
+      "rut_empresa":"91853000",
+      "razon_social":"CAMPOS DEPORTIVOS LLACOLEN S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":253,
+      "rut_empresa":"91755000",
+      "razon_social":"CEMENTOS BIO BIO S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":254,
+      "rut_empresa":"76015592",
+      "razon_social":"CESCE CHILE ASEGURADORA S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":255,
+      "rut_empresa":"96727610",
+      "razon_social":"CLUB DE GOLF HUINGANAL SOCIEDAD ANONIMA",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":256,
+      "rut_empresa":"71518000",
+      "razon_social":"CLUB DE POLO Y EQUITACION SAN CRISTOBAL S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":257,
+      "rut_empresa":"90088000",
+      "razon_social":"CLUB HIPICO DE CONCEPCION S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":258,
+      "rut_empresa":"90212000",
+      "razon_social":"CLUB HIPICO DE SANTIAGO S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":259,
+      "rut_empresa":"96686870",
+      "razon_social":"COAGRA S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":260,
+      "rut_empresa":"95358000",
+      "razon_social":"COLEGIO CRAIGHOUSE S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":261,
+      "rut_empresa":"96831690",
+      "razon_social":"COMPA#IA DE SEGUROS DE CREDITOS COFACE CHILE S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":262,
+      "rut_empresa":"99003000",
+      "razon_social":"COMPAÑIA DE SEGUROS DE VIDA CAMARA S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":263,
+      "rut_empresa":"77509915",
+      "razon_social":"COMPAÑÍA EMISORA DE MEDIOS DE PAGO DIGITALES S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":264,
+      "rut_empresa":"77312496",
+      "razon_social":"DIGITAL PAYMENTS PREPAGO S.A",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":265,
+      "rut_empresa":"77205281",
+      "razon_social":"DIVINA PASTORA SEGUROS DE VIDA S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":266,
+      "rut_empresa":"96761990",
+      "razon_social":"DUNCAN FOX S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":267,
+      "rut_empresa":"96846610",
+      "razon_social":"EMPRESA DE SERVICIOS SANITARIOS LAGO PEÑUELAS S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":268,
+      "rut_empresa":"61219000",
+      "razon_social":"EMPRESA DE TRANSPORTE DE PASAJEROS METRO S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":269,
+      "rut_empresa":"96504980",
+      "razon_social":"EMPRESA ELECTRICA PEHUENCHE S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":270,
+      "rut_empresa":"76266594",
+      "razon_social":"EMPRESAS TRICOT S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":271,
+      "rut_empresa":"96800570",
+      "razon_social":"ENEL DISTRIBUCION CHILE S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":272,
+      "rut_empresa":"91081000",
+      "razon_social":"ENEL GENERACION CHILE S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":273,
+      "rut_empresa":"77591207",
+      "razon_social":"EVEREST COMPAÑIA DE SEGUROS GENERALES CHILE S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":274,
+      "rut_empresa":"91237000",
+      "razon_social":"FERIA DE OSORNO S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":275,
+      "rut_empresa":"77096952",
+      "razon_social":"FID CHILE SEGUROS GENERALES S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":276,
+      "rut_empresa":"76336511",
+      "razon_social":"FINASSET ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":277,
+      "rut_empresa":"76810627",
+      "razon_social":"FINTUAL ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":278,
+      "rut_empresa":"77535416",
+      "razon_social":"FINTUAL PREPAGO S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":279,
+      "rut_empresa":"96712290",
+      "razon_social":"FISO S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":280,
+      "rut_empresa":"77096794",
+      "razon_social":"GLOBAL CARD S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":281,
+      "rut_empresa":"99504480",
+      "razon_social":"HACIENDA CHICUREO CLUB S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":282,
+      "rut_empresa":"99061000",
+      "razon_social":"HDI SEGUROS S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":283,
+      "rut_empresa":"76213329",
+      "razon_social":"HELP SEGUROS DE VIDA S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":284,
+      "rut_empresa":"92317000",
+      "razon_social":"HIPODROMO DE ARICA S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":285,
+      "rut_empresa":"76034728",
+      "razon_social":"HMC S.A. ADMINISTRADORA GENERAL DE FONDOS",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":286,
+      "rut_empresa":"97951000",
+      "razon_social":"HSBC BANK (CHILE)",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":287,
+      "rut_empresa":"96626570",
+      "razon_social":"INCOFIN S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":288,
+      "rut_empresa":"76016541",
+      "razon_social":"INGEVEC S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":289,
+      "rut_empresa":"82038300",
+      "razon_social":"INMOBILIARIA CENTRAL DE ESTACIONAMIENTOS AGUSTINAS S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":290,
+      "rut_empresa":"92287000",
+      "razon_social":"INMOBILIARIA CLUB CONCEPCION S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":291,
+      "rut_empresa":"91044000",
+      "razon_social":"INMOBILIARIA ITALIANA S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":292,
+      "rut_empresa":"99551480",
+      "razon_social":"INMOBILIARIA SAN PATRICIO S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":293,
+      "rut_empresa":"91350000",
+      "razon_social":"INMOBILIARIA SANTIAGO WANDERERS S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":294,
+      "rut_empresa":"76265724",
+      "razon_social":"INVERSIONES LP S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":295,
+      "rut_empresa":"85325100",
+      "razon_social":"INVERSIONES Y TARJETAS S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":296,
+      "rut_empresa":"76551925",
+      "razon_social":"INVINSA ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":297,
+      "rut_empresa":"91482000",
+      "razon_social":"IPAL S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":298,
+      "rut_empresa":"99546900",
+      "razon_social":"ISWITCH S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":299,
+      "rut_empresa":"96980650",
+      "razon_social":"ITAU ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":300,
+      "rut_empresa":"77597984",
+      "razon_social":"KUSHKI OPERADORA S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":301,
+      "rut_empresa":"78027718",
+      "razon_social":"LIBERTY MUTUAL SURETY SEGUROS CHILE S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":302,
+      "rut_empresa":"96505550",
+      "razon_social":"LIGA DE DEPORTES LA REINA S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":303,
+      "rut_empresa":"76963034",
+      "razon_social":"LINK CAPITAL PARTNERS ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":304,
+      "rut_empresa":"76701517",
+      "razon_social":"MASTERCARD ADMINISTRADORA CHILE S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":305,
+      "rut_empresa":"96623540",
+      "razon_social":"MATIC KARD S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":306,
+      "rut_empresa":"99543100",
+      "razon_social":"MBI ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":307,
+      "rut_empresa":"77214066",
+      "razon_social":"MERCADO PAGO EMISORA S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":308,
+      "rut_empresa":"76516950",
+      "razon_social":"MERCADO PAGO OPERADORA S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":309,
+      "rut_empresa":"77057498",
+      "razon_social":"METRO EMISORA DE MEDIOS DE PAGO S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":310,
+      "rut_empresa":"99025000",
+      "razon_social":"MUTUALIDAD DEL EJERCITO Y AVIACION",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":311,
+      "rut_empresa":"76609803",
+      "razon_social":"NATURGY CHILE GAS NATURAL S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":312,
+      "rut_empresa":"76122579",
+      "razon_social":"NEORENTAS S.A. ADMINISTRADORA GENERAL DE FONDOS",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":313,
+      "rut_empresa":"83017600",
+      "razon_social":"NIBSA S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":314,
+      "rut_empresa":"76810563",
+      "razon_social":"ORSAN SEGUROS DE CREDITO Y GARANTIA S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":315,
+      "rut_empresa":"80326500",
+      "razon_social":"OXIQUIM S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":316,
+      "rut_empresa":"77190661",
+      "razon_social":"PAGOS Y SERVICIOS S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":317,
+      "rut_empresa":"77691219",
+      "razon_social":"PREX CHILE S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":318,
+      "rut_empresa":"78340993",
+      "razon_social":"PRINCIPAL SEGUROS DE VIDA S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":319,
+      "rut_empresa":"76743492",
+      "razon_social":"REALE CHILE SEGUROS GENERALES S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":320,
+      "rut_empresa":"91873000",
+      "razon_social":"SADIA S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":321,
+      "rut_empresa":"96785590",
+      "razon_social":"SANTANDER S.A. SOCIEDAD SECURITIZADORA",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":322,
+      "rut_empresa":"96634320",
+      "razon_social":"SCOTIA ADMINISTRADORA GENERAL DE FONDOS CHILE S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":323,
+      "rut_empresa":"97018000",
+      "razon_social":"SCOTIABANK CHILE",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":324,
+      "rut_empresa":"96819300",
+      "razon_social":"SECURITIZADORA BICE S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":325,
+      "rut_empresa":"96847360",
+      "razon_social":"SECURITIZADORA SECURITY S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":326,
+      "rut_empresa":"76632553",
+      "razon_social":"SEGUROS DE VIDA Y SALUD UC CHRISTUS S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":327,
+      "rut_empresa":"76173632",
+      "razon_social":"SENSOR CAPITAL S.A. ADMINISTRADORA GENERAL DE FONDOS",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":328,
+      "rut_empresa":"90146000",
+      "razon_social":"SERVICIOS FINANCIEROS PROGRESO S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":329,
+      "rut_empresa":"76917333",
+      "razon_social":"SINGULAR ASSET MANAGEMENT ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":330,
+      "rut_empresa":"96603740",
+      "razon_social":"SOCIEDAD DE ARTESANOS SANTA LUCIA S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":331,
+      "rut_empresa":"96618100",
+      "razon_social":"SOCIEDAD EDUCATIVA LEONARDO DA VINCI S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":332,
+      "rut_empresa":"76965737",
+      "razon_social":"SOCIEDAD EMISORA DE TARJETAS LOS HÉROES S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":333,
+      "rut_empresa":"95816000",
+      "razon_social":"SOCIEDAD INMOBILIARIA VIÑA DEL MAR S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":334,
+      "rut_empresa":"77190692",
+      "razon_social":"SOCIEDAD OPERADORA DE TARJETAS DE PAGO SANTANDER GETNET CHILE S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":335,
+      "rut_empresa":"95276000",
+      "razon_social":"SOCIEDAD RECREATIVA Y DEPORTIVA UNIVERSIDAD DE CONCEPCION S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":336,
+      "rut_empresa":"79768170",
+      "razon_social":"SOQUIMICH COMERCIAL S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":337,
+      "rut_empresa":"99288000",
+      "razon_social":"SOUTHBRIDGE COMPAÑIA DE SEGUROS GENERALES S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":338,
+      "rut_empresa":"77057272",
+      "razon_social":"SOYFOCUS ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":339,
+      "rut_empresa":"96942660",
+      "razon_social":"STADIO ITALIANO DI CONCEPCION S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":340,
+      "rut_empresa":"76620932",
+      "razon_social":"STARR INTERNATIONAL SEGUROS GENERALES S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":341,
+      "rut_empresa":"76912075",
+      "razon_social":"SUDMÉDICA S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":342,
+      "rut_empresa":"77528384",
+      "razon_social":"SUMUP CHILE BLUE S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":343,
+      "rut_empresa":"77101928",
+      "razon_social":"SUMUP CHILE PAYMENTS S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":344,
+      "rut_empresa":"77844703",
+      "razon_social":"TANNER BANCO DIGITAL",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":345,
+      "rut_empresa":"90635000",
+      "razon_social":"TELEFONICA CHILE S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":346,
+      "rut_empresa":"76632789",
+      "razon_social":"TENPO BANK CHILE",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":347,
+      "rut_empresa":"76967692",
+      "razon_social":"TENPO PAYMENTS S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":348,
+      "rut_empresa":"96842380",
+      "razon_social":"TRICARD S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":349,
+      "rut_empresa":"76086272",
+      "razon_social":"UNICARD S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":350,
+      "rut_empresa":"91196000",
+      "razon_social":"UNION INMOBILIARIA S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":351,
+      "rut_empresa":"76173258",
+      "razon_social":"UNNIO SEGUROS GENERALES S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":352,
+      "rut_empresa":"77312531",
+      "razon_social":"VISA CHILE SOCIEDAD ADMINISTRADORA DE CAMARA DE COMPENSACION DE PAGOS DE BAJO VALOR S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":353,
+      "rut_empresa":"76965774",
+      "razon_social":"VOLCOM SECURITIZADORA S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":354,
+      "rut_empresa":"76579033",
+      "razon_social":"XLC ADMINISTRADORA GENERAL DE FONDOS S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":355,
+      "rut_empresa":"96819630",
+      "razon_social":"ZURICH SANTANDER SEGUROS DE VIDA CHILE S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    },
+    {
+      "index":356,
+      "rut_empresa":"76590840",
+      "razon_social":"ZURICH SANTANDER SEGUROS GENERALES CHILE S.A.",
+      "empresas_conectadas":0,
+      "suma_directores_compartidos":0
+    }
+  ]
+}

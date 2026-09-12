@@ -16,7 +16,7 @@ PAGES = ["Inicio", "Empresas", "Directores", "Red de directorios", "Diversidad",
 
 @pytest.fixture(scope="module")
 def model():
-    return load_model(ROOT / "corrida_20260911_v3_2")
+    return load_model(ROOT / "data/public")
 
 
 def test_utf8_repository():
@@ -46,7 +46,10 @@ def test_public_pages(page, model):
     visible += " ".join(str(el.options) for kind in ("selectbox", "multiselect") for el in app.get(kind))
     visible += " ".join(str(el.proto) for el in app.get("plotly_chart"))
     assert not re.search(r"snapshot|quality.flags|private.identity|\bCSV\b|SQLite|pipeline|SIN_COMPOSICION|POST_LEY|debug", visible, re.I)
-    private = model["private_people"]["_person_key"]
+    private = []
+    source = ROOT / "private_data/corrida_20260911_v3_2/03_directores_con_sexo.csv"
+    if source.exists():
+        private = read_csv(source)["identidad_director"]
     for key in private:
         if key.startswith("RUT:"):
             rut = key[4:]
@@ -105,7 +108,10 @@ def test_sqlite_builder(tmp_path, model):
     from scripts.build_database import build
 
     output = tmp_path / "directorios.sqlite"
-    build(ROOT / "corrida_20260911_v3_2", output)
+    source = ROOT / "private_data/corrida_20260911_v3_2"
+    if not source.exists():
+        pytest.skip("Validación local opcional: fuentes privadas no disponibles")
+    build(source, output)
     with sqlite3.connect(output) as conn:
         assert conn.execute("PRAGMA integrity_check").fetchone()[0] == "ok"
         assert conn.execute("SELECT COUNT(*) FROM personas").fetchone()[0] == len(model["people"])
